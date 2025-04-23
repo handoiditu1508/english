@@ -26,6 +26,10 @@ import { SidebarTab } from "./SidebarItem";
 const sidebarTabs: SidebarTab[][] = [
   [
     {
+      title: "Result Clause",
+      to: "/result-clause",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
