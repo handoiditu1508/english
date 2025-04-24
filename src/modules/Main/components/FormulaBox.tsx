@@ -1,9 +1,9 @@
 import { Box, styled } from "@mui/material";
 
 const FormulaBox = styled(Box)(({ theme }) => ({
-  display: "flex",
-  justifyContent: "center",
-  padding: theme.spacing(2),
+  paddingTop: theme.spacing(2),
+  paddingBottom: theme.spacing(2),
+  textAlign: "center",
   border: theme.shape.largeBorder,
 }));
 
