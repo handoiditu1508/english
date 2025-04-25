@@ -47,6 +47,7 @@ function ExampleTabs({ englishExample, vietnameseExample }: ExampleTabsProps) {
         aria-labelledby={englishTabId}
         sx={{
           padding: 2,
+          ...theme.typography.body1,
         }}
       >
         {tabValue === 0 && englishExample}
@@ -58,6 +59,7 @@ function ExampleTabs({ englishExample, vietnameseExample }: ExampleTabsProps) {
         aria-labelledby={vietnameseTabId}
         sx={{
           padding: 2,
+          ...theme.typography.body1,
         }}
       >
         {tabValue === 1 && vietnameseExample}

@@ -5,6 +5,7 @@ const FormulaBox = styled(Box)(({ theme }) => ({
   paddingBottom: theme.spacing(2),
   textAlign: "center",
   border: theme.shape.largeBorder,
+  ...theme.typography.body1,
 }));
 
 export default FormulaBox;
