@@ -1,0 +1,93 @@
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
+import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
+import { Box, Divider, Typography, useTheme } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import FormulaBox from "../components/FormulaBox";
+import HighlightSpan from "../components/HighlightSpan";
+import SubTitle from "../components/SubTitle";
+import Title from "../components/Title";
+
+function SimplePastPage() {
+  const theme = useTheme();
+  const { t } = useTranslation();
+
+  return (
+    <Box sx={{ padding: 1, ...theme.typography.body1 }}>
+      <Title>Simple Past Tense</Title>
+      <Typography>Simple past describes:</Typography>
+      <ul>
+        <li>An action that started and finished in the past.</li>
+        <li>A series of completed actions in the past.</li>
+        <li>An action that happened regularly in the past.</li>
+      </ul>
+      <SubTitle>{t("Structure")}</SubTitle>
+      <FormulaBox>
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <AddCircleOutlineIcon
+            color="primary"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            S + V<HighlightSpan><sub>ed/2</sub></HighlightSpan>
+          </Typography>
+        </Box>
+        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <RemoveCircleOutlineIcon
+            color="primary"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            S + <HighlightSpan>didn't</HighlightSpan> + V
+          </Typography>
+        </Box>
+        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <HelpOutlineIcon
+            color="primary"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            <HighlightSpan>Did</HighlightSpan> + S + V + ... ?
+          </Typography>
+        </Box>
+      </FormulaBox>
+    </Box>
+  );
+}
+
+export default SimplePastPage;

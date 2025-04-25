@@ -30,6 +30,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/result-clause",
     },
     {
+      title: "Simple Past",
+      to: "/simple-past",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
