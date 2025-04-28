@@ -34,6 +34,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/simple-past",
     },
     {
+      title: "Past Continuous",
+      to: "/past-continuous",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
