@@ -38,6 +38,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/past-continuous",
     },
     {
+      title: "Present Perfect",
+      to: "/present-perfect",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
