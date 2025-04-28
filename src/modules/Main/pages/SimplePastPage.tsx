@@ -15,12 +15,15 @@ function SimplePastPage() {
   return (
     <Box sx={{ padding: 1, ...theme.typography.body1 }}>
       <Title>Simple Past Tense</Title>
+
+      <SubTitle>{t("Concept")}</SubTitle>
       <Typography>Simple past describes:</Typography>
       <ul>
         <li>An action that started and finished in the past.</li>
         <li>A series of completed actions in the past.</li>
         <li>An action that happened regularly in the past.</li>
       </ul>
+
       <SubTitle>{t("Structure")}</SubTitle>
       <FormulaBox>
         <Box sx={{
@@ -30,7 +33,7 @@ function SimplePastPage() {
           paddingX: 2,
         }}>
           <AddCircleOutlineIcon
-            color="primary"
+            color="success"
             fontSize="large"
             sx={{
               flexGrow: 0,
@@ -40,7 +43,7 @@ function SimplePastPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + V<HighlightSpan><sub>ed/2</sub></HighlightSpan>
+            S + <HighlightSpan>V<sub>ed/2</sub></HighlightSpan> + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -51,7 +54,7 @@ function SimplePastPage() {
           paddingX: 2,
         }}>
           <RemoveCircleOutlineIcon
-            color="primary"
+            color="error"
             fontSize="large"
             sx={{
               flexGrow: 0,
@@ -61,7 +64,7 @@ function SimplePastPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>didn't</HighlightSpan> + V
+            S + <HighlightSpan>didn't</HighlightSpan> + V + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -72,7 +75,7 @@ function SimplePastPage() {
           paddingX: 2,
         }}>
           <HelpOutlineIcon
-            color="primary"
+            color="info"
             fontSize="large"
             sx={{
               flexGrow: 0,
@@ -86,6 +89,9 @@ function SimplePastPage() {
           </Typography>
         </Box>
       </FormulaBox>
+
+      <SubTitle>{t("Signs to recognize")}</SubTitle>
+      <Typography>ago, last, yesterday, in ..., ...</Typography>
     </Box>
   );
 }

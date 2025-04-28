@@ -12,12 +12,14 @@ function ResultClausePage() {
   return (
     <Box sx={{ padding: 1 }}>
       <Title>{t("Result Clause")}</Title>
+
       <SubTitle>{t("Structure")}</SubTitle>
       <FormulaBox>
         <p>S + V + <HighlightSpan>so + adj + that</HighlightSpan> + S + V</p>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
         <p>S + V + <HighlightSpan>such (a/an) + adj + N + that</HighlightSpan> + S + V</p>
       </FormulaBox>
+
       <SubTitle>{t("Examples")}</SubTitle>
       <ExampleTabs
         englishExample={
