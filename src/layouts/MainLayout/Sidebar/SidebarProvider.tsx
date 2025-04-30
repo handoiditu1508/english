@@ -54,6 +54,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/past-perfect",
     },
     {
+      title: "Simple Future",
+      to: "/simple-future",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
