@@ -8,20 +8,20 @@ import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
-function SimplePastPage() {
+function SimplePresentPage() {
   const theme = useTheme();
   const { t } = useTranslation();
 
   return (
     <Box sx={{ padding: 1, ...theme.typography.body1 }}>
-      <Title>Simple Past Tense</Title>
+      <Title>Simple Present Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Simple past describes:</Typography>
+      <Typography>Simple present describes:</Typography>
       <ul>
-        <li>An action that started and finished in the past.</li>
-        <li>A series of completed actions in the past.</li>
-        <li>An action that happened regularly in the past.</li>
+        <li>An action that happens regularly.</li>
+        <li>A general truth.</li>
+        <li>An event that is part of a timetable/schedule.</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -43,7 +43,7 @@ function SimplePastPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>V<sub>ed/2</sub></HighlightSpan> + ...
+            S + <HighlightSpan>V<sub>s/es</sub></HighlightSpan> + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -64,7 +64,7 @@ function SimplePastPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>did</HighlightSpan> + not + V + ...
+            S + <HighlightSpan>do/does</HighlightSpan> + not + V + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -85,21 +85,15 @@ function SimplePastPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            <HighlightSpan>did</HighlightSpan> + S + V + ... ?
+            <HighlightSpan>do/does</HighlightSpan> + S + V + ... ?
           </Typography>
         </Box>
       </FormulaBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>Adverbs of frequency: alway, usually, sometime, often, rarely, seldom, ...</Typography>
-      {/*
-      example:
-      the sun rises in the East.
-      I often go to school by bike.
-      I have English class on Tuesday.
-       */}
+      <Typography>ago, last, yesterday, in ..., ...</Typography>
     </Box>
   );
 }
 
-export default SimplePastPage;
+export default SimplePresentPage;
