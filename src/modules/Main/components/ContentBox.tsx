@@ -1,6 +1,6 @@
 import { Box, styled } from "@mui/material";
 
-const FormulaBox = styled(Box)(({ theme }) => ({
+const ContentBox = styled(Box)(({ theme }) => ({
   paddingTop: theme.spacing(2),
   paddingBottom: theme.spacing(2),
   textAlign: "center",
@@ -8,4 +8,4 @@ const FormulaBox = styled(Box)(({ theme }) => ({
   ...theme.typography.body1,
 }));
 
-export default FormulaBox;
+export default ContentBox;

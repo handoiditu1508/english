@@ -1,7 +1,7 @@
 import { BreakpointsContext } from "@/contexts/breakpoints";
 import { Box, Divider, Grid2, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
-import FormulaBox from "../../components/FormulaBox";
+import ContentBox from "../../components/ContentBox";
 import SubTitle from "../../components/SubTitle";
 import Title from "../../components/Title";
 import { PassiveVoiceExample, TensePassiveVoiceExample } from "./model";
@@ -100,7 +100,7 @@ function PassiveVoicePage() {
           ? (
             <Stack spacing={1}>
               {tenseExamples.map((example, index) => (
-                <FormulaBox key={index} sx={{ paddingBottom: 0 }}>
+                <ContentBox key={index} sx={{ paddingBottom: 0 }}>
                   <Typography color="primary" fontWeight={500}>{example.tense}</Typography>
                   <Divider variant="fullWidth" sx={{ marginTop: 2 }} />
                   <Table size="small" sx={{ th: { color: theme.palette.primary.main } }}>
@@ -119,7 +119,7 @@ function PassiveVoicePage() {
                       </TableRow>
                     </TableBody>
                   </Table>
-                </FormulaBox>
+                </ContentBox>
               ))}
             </Stack>
           )
@@ -155,15 +155,15 @@ function PassiveVoicePage() {
               md: 6,
               xl: 4,
             }}>
-            <FormulaBox sx={{ height: "100%", boxSizing: "border-box" }}>
+            <ContentBox sx={{ height: "100%", boxSizing: "border-box" }}>
               <Typography color="primary" fontWeight={500}>{example.activeForm}</Typography>
               <Divider variant="fullWidth" sx={{ marginY: 2 }} />
-              <ul>
+              <Box component="ul" textAlign="initial">
                 {example.passiveForms.map((passiveForm, index) => (
                   <li key={index}>{passiveForm}</li>
                 ))}
-              </ul>
-            </FormulaBox>
+              </Box>
+            </ContentBox>
           </Grid2>
         ))}
       </Grid2>

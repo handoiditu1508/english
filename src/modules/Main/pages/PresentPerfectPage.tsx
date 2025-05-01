@@ -3,7 +3,7 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 import { Box, Divider, Typography, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import FormulaBox from "../components/FormulaBox";
+import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
@@ -25,7 +25,7 @@ function PresentPerfectPage() {
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
-      <FormulaBox>
+      <ContentBox>
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -88,7 +88,7 @@ function PresentPerfectPage() {
             <HighlightSpan>has/have</HighlightSpan> + S + <HighlightSpan>V<sub>3/ed</sub></HighlightSpan> + ... ?
           </Typography>
         </Box>
-      </FormulaBox>
+      </ContentBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <Typography>for + (a period of time), since + (a moment in time), recently, yet, just, already, up to now, so far, in the last (quantity) years, ...</Typography>
