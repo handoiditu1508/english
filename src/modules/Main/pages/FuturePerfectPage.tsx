@@ -91,10 +91,15 @@ function FuturePerfectPage() {
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <Typography>by the time, by the end of, by next week/month/year, ...</Typography>
-      {/*
-      example:
-      they will have built the bridge by the end of this year.
-       */}
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ContentBox sx={{
+        textAlign: "initial",
+      }}>
+        <ol>
+          <li>They <HighlightSpan>will have built</HighlightSpan> the bridge by the end of this year.</li>
+        </ol>
+      </ContentBox>
     </Box>
   );
 }

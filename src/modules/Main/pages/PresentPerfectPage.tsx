@@ -92,6 +92,22 @@ function PresentPerfectPage() {
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <Typography>for + (a period of time), since + (a moment in time), recently, yet, just, already, up to now, so far, in the last (quantity) years, ...</Typography>
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ContentBox sx={{
+        textAlign: "initial",
+      }}>
+        <ol>
+          <li>I <HighlightSpan>have eaten</HighlightSpan> breakfast.</li>
+          <li>She <HighlightSpan>has lived</HighlightSpan> in Paris for 5 years.</li>
+          <li>They <HighlightSpan>have</HighlightSpan> just <HighlightSpan>finished</HighlightSpan> their homework.</li>
+          <li>We <HighlightSpan>have</HighlightSpan> already <HighlightSpan>seen</HighlightSpan> that movie.</li>
+          <li>He <HighlightSpan>has</HighlightSpan> never <HighlightSpan>been</HighlightSpan> to London.</li>
+          <li><HighlightSpan>Have</HighlightSpan> you ever <HighlightSpan>tried</HighlightSpan> sushi?</li>
+          <li>She <HighlightSpan>has</HighlightSpan>n't <HighlightSpan>called</HighlightSpan> me yet.</li>
+          <li>They <HighlightSpan>have</HighlightSpan> not <HighlightSpan>visited</HighlightSpan> us since last year.</li>
+        </ol>
+      </ContentBox>
     </Box>
   );
 }

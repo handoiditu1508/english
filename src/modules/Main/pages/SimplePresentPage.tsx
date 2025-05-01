@@ -92,6 +92,35 @@ function SimplePresentPage() {
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <Typography>ago, last, yesterday, in (a year in the past), ...</Typography>
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ContentBox sx={{
+        textAlign: "initial",
+      }}>
+        <ol>
+          <li>
+            The sun <HighlightSpan>rises</HighlightSpan> in the East.
+            <ul>
+              <li>The sun <HighlightSpan>does</HighlightSpan> not rise in the East.</li>
+              <li><HighlightSpan>Does</HighlightSpan> the sun rise in the East?</li>
+            </ul>
+          </li>
+          <li>
+            I often <HighlightSpan>go</HighlightSpan> to school by bike.
+            <ul>
+              <li>I <HighlightSpan>do</HighlightSpan> not go to school by bike.</li>
+              <li><HighlightSpan>Do</HighlightSpan> I go to school by bike?</li>
+            </ul>
+          </li>
+          <li>
+            I <HighlightSpan>have</HighlightSpan> English class on Tuesday.
+            <ul>
+              <li>I <HighlightSpan>do</HighlightSpan> not have English class on Tuesday.</li>
+              <li><HighlightSpan>Do</HighlightSpan> I have English class on Tuesday?</li>
+            </ul>
+          </li>
+        </ol>
+      </ContentBox>
     </Box>
   );
 }

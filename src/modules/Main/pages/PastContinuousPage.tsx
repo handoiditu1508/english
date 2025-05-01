@@ -92,6 +92,35 @@ function PastContinuousPage() {
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <Typography>while, at the time, at this time, but, ...</Typography>
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ContentBox sx={{
+        textAlign: "initial",
+      }}>
+        <ol>
+          <li>
+            I was reading a book. The phone rang.
+            <ul>
+              <li>I <HighlightSpan>was reading</HighlightSpan> a book when the phone rang.</li>
+              <li>The phone rang while I <HighlightSpan>was reading</HighlightSpan> a book.</li>
+            </ul>
+          </li>
+          <li>
+            She was cooking dinner. The doorbell rang.
+            <ul>
+              <li>She <HighlightSpan>was cooking</HighlightSpan> dinner when the doorbell rang.</li>
+              <li>The doorbell rang while she <HighlightSpan>was cooking</HighlightSpan> dinner.</li>
+            </ul>
+          </li>
+          <li>
+            They were playing football. It started to rain.
+            <ul>
+              <li>They <HighlightSpan>were playing</HighlightSpan> football when it started to rain.</li>
+              <li>It started to rain while they <HighlightSpan>were playing</HighlightSpan> football.</li>
+            </ul>
+          </li>
+        </ol>
+      </ContentBox>
     </Box>
   );
 }
