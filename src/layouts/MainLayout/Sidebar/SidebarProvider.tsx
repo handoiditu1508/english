@@ -62,6 +62,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/future-continuous",
     },
     {
+      title: "Future Perfect",
+      to: "/future-perfect",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
