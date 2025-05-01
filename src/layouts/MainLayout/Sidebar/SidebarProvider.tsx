@@ -70,6 +70,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/present-perfect-continuous",
     },
     {
+      title: "Passive Voice",
+      to: "/passive-voice",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
