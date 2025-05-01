@@ -8,20 +8,19 @@ import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
-function SimplePresentPage() {
+function PresentPerfectContinuosPage() {
   const theme = useTheme();
   const { t } = useTranslation();
 
   return (
     <Box sx={{ padding: 1, ...theme.typography.body1 }}>
-      <Title>Simple Present Tense</Title>
+      <Title>Present Perfect Continuos Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Simple present describes:</Typography>
+      <Typography>Present perfect continuos describes:</Typography>
       <ul>
-        <li>An action that happens regularly.</li>
-        <li>A general truth.</li>
-        <li>An event that is part of a timetable/schedule.</li>
+        <li>An action that started in the past and is still continuing.</li>
+        <li>An action that started in the past and has just finished.</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -43,7 +42,7 @@ function SimplePresentPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>V<sub>s/es</sub></HighlightSpan> + ...
+            S + <HighlightSpan>has/have been</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -64,7 +63,7 @@ function SimplePresentPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>do/does</HighlightSpan> + not + V + ...
+            S + <HighlightSpan>has/have</HighlightSpan> + not + <HighlightSpan>been</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
         <Divider variant="fullWidth" sx={{ marginY: 2 }} />
@@ -85,15 +84,21 @@ function SimplePresentPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            <HighlightSpan>do/does</HighlightSpan> + S + V + ... ?
+            <HighlightSpan>has/have</HighlightSpan> + S + <HighlightSpan>been</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ... ?
           </Typography>
         </Box>
       </FormulaBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>ago, last, yesterday, in (a year in the past), ...</Typography>
+      <Typography>for (a length of time), since (a starting point), lately, recently, all day, all week, ...</Typography>
+      {/*
+      example:
+      They have been living here since 2010.
+      I'm tired because I have been running.
+      I’ve been reading for two hours.
+       */}
     </Box>
   );
 }
 
-export default SimplePresentPage;
+export default PresentPerfectContinuosPage;

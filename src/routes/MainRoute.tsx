@@ -6,13 +6,14 @@ const HomePage = React.lazy(() => import("@/modules/Main/pages/HomePage"));
 const ResultClausePage = React.lazy(() => import("@/modules/Main/pages/ResultClausePage"));
 const SimplePastPage = React.lazy(() => import("@/modules/Main/pages/SimplePastPage"));
 const PastContinuousPage = React.lazy(() => import("@/modules/Main/pages/PastContinuousPage"));
-const PresentPerfectPage = React.lazy(() => import("@/modules/Main/pages/PresentPerfect"));
+const PresentPerfectPage = React.lazy(() => import("@/modules/Main/pages/PresentPerfectPage"));
 const SimplePresentPage = React.lazy(() => import("@/modules/Main/pages/SimplePresentPage"));
 const PresentContinuousPage = React.lazy(() => import("@/modules/Main/pages/PresentContinuousPage"));
 const PastPerfectPage = React.lazy(() => import("@/modules/Main/pages/PastPerfectPage"));
 const SimpleFuturePage = React.lazy(() => import("@/modules/Main/pages/SimpleFuturePage"));
 const FutureContinuousPage = React.lazy(() => import("@/modules/Main/pages/FutureContinuousPage"));
 const FuturePerfectPage = React.lazy(() => import("@/modules/Main/pages/FuturePerfectPage"));
+const PresentPerfectContinuousPage = React.lazy(() => import("@/modules/Main/pages/PresentPerfectContinuosPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -27,6 +28,7 @@ const MainRoute = (
     <Route path="simple-future" element={<SimpleFuturePage />} />
     <Route path="future-continuous" element={<FutureContinuousPage />} />
     <Route path="future-perfect" element={<FuturePerfectPage />} />
+    <Route path="present-perfect-continuous" element={<PresentPerfectContinuousPage />} />
   </Route>
 );
 

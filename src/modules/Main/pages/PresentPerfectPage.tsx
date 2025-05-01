@@ -8,7 +8,7 @@ import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
-function SimplePastPage() {
+function PresentPerfectPage() {
   const theme = useTheme();
   const { t } = useTranslation();
 
@@ -91,9 +91,9 @@ function SimplePastPage() {
       </FormulaBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>{"for + {a period of time}, since + {a moment in time}, recently, yet, just, already, up to now, so far, in the last ... years, ..."}</Typography>
+      <Typography>for + (a period of time), since + (a moment in time), recently, yet, just, already, up to now, so far, in the last (quantity) years, ...</Typography>
     </Box>
   );
 }
 
-export default SimplePastPage;
+export default PresentPerfectPage;
