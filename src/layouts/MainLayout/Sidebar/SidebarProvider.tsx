@@ -74,6 +74,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/passive-voice",
     },
     {
+      title: "Reported Speech",
+      to: "/reported-speech",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,

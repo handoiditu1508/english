@@ -1,1 +1,21 @@
 enjoy + Ving
+
+
+-s, -ch, -sh, -x /iz/
+-p, -t, -k, -f /s/
+the rest /z/
+
+-t, -d, adj /id/
+-x, -p, -k, -/f/, -ss, -sh, -ch /t/
+the rest /d/
+
+
+(A) I like swimming
+(B) Me, too
+    So do I
+    I do, too
+
+(A) I don't like swimming
+(B) Me, neither
+    Neither do I
+    I don't, either
