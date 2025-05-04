@@ -78,6 +78,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/reported-speech",
     },
     {
+      title: "Conditional Sentences",
+      to: "/conditional-sentences",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,

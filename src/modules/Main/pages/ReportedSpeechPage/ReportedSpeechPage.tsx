@@ -20,10 +20,12 @@ function ReportedSpeechPage() {
       <TableContainer>
         <Table
           size="small"
-          sx={{ minWidth: 600,
+          sx={{
+            minWidth: 600,
             th: {
               color: theme.palette.primary.main,
-            } }}>
+            },
+          }}>
           <TableHead>
             <TableRow>
               <TableCell align="center">Direct Speech</TableCell>
