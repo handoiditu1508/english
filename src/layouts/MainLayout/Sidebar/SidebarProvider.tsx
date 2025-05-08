@@ -82,6 +82,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/conditional-sentences",
     },
     {
+      title: "Relative Clauses",
+      to: "/relative-clauses",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
