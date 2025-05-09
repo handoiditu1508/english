@@ -2,6 +2,8 @@ import { BreakpointsContext } from "@/contexts/breakpoints";
 import { Box, Divider, Grid2, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
 import ContentBox from "../../components/ContentBox";
+import HighlightCode from "../../components/HighlightCode";
+import HighlightSpan from "../../components/HighlightSpan";
 import SubTitle from "../../components/SubTitle";
 import Title from "../../components/Title";
 import { otherExamples, tenseExamples } from "./constants";
@@ -87,6 +89,24 @@ function PassiveVoicePage() {
           </Grid2>
         ))}
       </Grid2>
+
+      <SubTitle>Modal verbs in passive voice</SubTitle>
+      <ContentBox sx={{ textAlign: "initial" }}>
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>can/could/may/might/will</HighlightCode> + V<sub>bare</sub> + O</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>can/could/may/might/will</HighlightCode> be + V<sub>3/ed</sub> (by S)</li>
+        </ul>
+        <Divider sx={{ marginY: 2 }} />
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V + O</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>am/is/are</HighlightCode> going to be V<sub>3/ed</sub> (by S)</li>
+        </ul>
+        <Divider sx={{ marginY: 2 }} />
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V + O</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
+        </ul>
+      </ContentBox>
     </Box>
   );
 }
