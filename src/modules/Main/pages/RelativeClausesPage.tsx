@@ -1,4 +1,4 @@
-import { Box, Divider, useTheme } from "@mui/material";
+import { Box, Divider } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightCode from "../components/HighlightCode";
@@ -8,7 +8,6 @@ import SubTitle2 from "../components/SubTitle2";
 import Title from "../components/Title";
 
 function RelativeClausesPage() {
-  const theme = useTheme();
   const { t } = useTranslation();
 
   return (

@@ -18,6 +18,7 @@ const PassiveVoicePage = React.lazy(() => import("@/modules/Main/pages/PassiveVo
 const ReportedSpeechPage = React.lazy(() => import("@/modules/Main/pages/ReportedSpeechPage"));
 const ConditionalSentencesPage = React.lazy(() => import("@/modules/Main/pages/ConditionalSentencesPage"));
 const RelativeClausesPage = React.lazy(() => import("@/modules/Main/pages/RelativeClausesPage"));
+const ModalVerbsPage = React.lazy(() => import("@/modules/Main/pages/ModalVerbsPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -37,6 +38,7 @@ const MainRoute = (
     <Route path="reported-speech" element={<ReportedSpeechPage />} />
     <Route path="conditional-sentences" element={<ConditionalSentencesPage />} />
     <Route path="relative-clauses" element={<RelativeClausesPage />} />
+    <Route path="modal-verbs" element={<ModalVerbsPage />} />
   </Route>
 );
 

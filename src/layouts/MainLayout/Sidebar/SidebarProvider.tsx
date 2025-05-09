@@ -86,6 +86,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/relative-clauses",
     },
     {
+      title: "Modal Verbs",
+      to: "/modal-verbs",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
