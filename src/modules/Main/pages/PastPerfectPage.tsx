@@ -94,17 +94,13 @@ function PastPerfectPage() {
       <Typography>by the time, by this time, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>I <HighlightSpan>had finished</HighlightSpan> my homework before I went to bed last night.</li>
-          <li>She <HighlightSpan>had</HighlightSpan> already <HighlightSpan>left</HighlightSpan> when I arrived at the party.</li>
-          <li>They <HighlightSpan>had lived</HighlightSpan> in Paris for five years before they moved to London.</li>
-          <li>He <HighlightSpan>had</HighlightSpan> never <HighlightSpan>seen</HighlightSpan> the ocean until he went to California.</li>
-          <li>By the time she called, I <HighlightSpan>had</HighlightSpan> already <HighlightSpan>eaten</HighlightSpan> dinner.</li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>I <HighlightSpan>had finished</HighlightSpan> my homework before I went to bed last night.</li>
+        <li>She <HighlightSpan>had</HighlightSpan> already <HighlightSpan>left</HighlightSpan> when I arrived at the party.</li>
+        <li>They <HighlightSpan>had lived</HighlightSpan> in Paris for five years before they moved to London.</li>
+        <li>He <HighlightSpan>had</HighlightSpan> never <HighlightSpan>seen</HighlightSpan> the ocean until he went to California.</li>
+        <li>By the time she called, I <HighlightSpan>had</HighlightSpan> already <HighlightSpan>eaten</HighlightSpan> dinner.</li>
+      </ol>
     </Box>
   );
 }

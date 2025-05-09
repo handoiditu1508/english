@@ -94,33 +94,29 @@ function SimplePastPage() {
       <Typography>Adverbs of frequency: alway, usually, sometime, often, rarely, seldom, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>
-            I <HighlightSpan>went</HighlightSpan> to the store yesterday.
-            <ul>
-              <li>I <HighlightSpan>did</HighlightSpan> not go to the store yesterday.</li>
-              <li><HighlightSpan>Did</HighlightSpan> I go to the store yesterday?</li>
-            </ul>
-          </li>
-          <li>
-            She <HighlightSpan>played</HighlightSpan> soccer last week.
-            <ul>
-              <li>She <HighlightSpan>did</HighlightSpan> not play soccer last week.</li>
-              <li><HighlightSpan>Did</HighlightSpan> she play soccer last week?</li>
-            </ul>
-          </li>
-          <li>
-            They <HighlightSpan>visited</HighlightSpan> their grandparents last summer.
-            <ul>
-              <li>They <HighlightSpan>did</HighlightSpan> not visit their grandparents last summer.</li>
-              <li><HighlightSpan>Did</HighlightSpan> they visit their grandparents last summer?</li>
-            </ul>
-          </li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>
+          I <HighlightSpan>went</HighlightSpan> to the store yesterday.
+          <ul>
+            <li>I <HighlightSpan>did</HighlightSpan> not go to the store yesterday.</li>
+            <li><HighlightSpan>Did</HighlightSpan> I go to the store yesterday?</li>
+          </ul>
+        </li>
+        <li>
+          She <HighlightSpan>played</HighlightSpan> soccer last week.
+          <ul>
+            <li>She <HighlightSpan>did</HighlightSpan> not play soccer last week.</li>
+            <li><HighlightSpan>Did</HighlightSpan> she play soccer last week?</li>
+          </ul>
+        </li>
+        <li>
+          They <HighlightSpan>visited</HighlightSpan> their grandparents last summer.
+          <ul>
+            <li>They <HighlightSpan>did</HighlightSpan> not visit their grandparents last summer.</li>
+            <li><HighlightSpan>Did</HighlightSpan> they visit their grandparents last summer?</li>
+          </ul>
+        </li>
+      </ol>
     </Box>
   );
 }

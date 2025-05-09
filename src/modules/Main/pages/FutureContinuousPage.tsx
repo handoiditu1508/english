@@ -92,15 +92,11 @@ function FutureContinuousPage() {
       <Typography>at this time next month, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>I <HighlightSpan>will be lying</HighlightSpan> on the beach at this time next month.</li>
-          <li>I <HighlightSpan>will</HighlightSpan> not <HighlightSpan>be working</HighlightSpan> tomorrow.</li>
-          <li><HighlightSpan>Will</HighlightSpan> you <HighlightSpan>be studying</HighlightSpan> at 8 PM tonight?</li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>I <HighlightSpan>will be lying</HighlightSpan> on the beach at this time next month.</li>
+        <li>I <HighlightSpan>will</HighlightSpan> not <HighlightSpan>be working</HighlightSpan> tomorrow.</li>
+        <li><HighlightSpan>Will</HighlightSpan> you <HighlightSpan>be studying</HighlightSpan> at 8 PM tonight?</li>
+      </ol>
     </Box>
   );
 }

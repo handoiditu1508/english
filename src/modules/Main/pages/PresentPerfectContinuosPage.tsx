@@ -93,15 +93,11 @@ function PresentPerfectContinuosPage() {
       <Typography>for (a length of time), since (a starting point), lately, recently, all day, all week, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>They <HighlightSpan>have been living</HighlightSpan> here since 2010.</li>
-          <li>I'm tired because I <HighlightSpan>have been running</HighlightSpan>.</li>
-          <li>I'<HighlightSpan>ve been reading</HighlightSpan> for two hours.</li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>They <HighlightSpan>have been living</HighlightSpan> here since 2010.</li>
+        <li>I'm tired because I <HighlightSpan>have been running</HighlightSpan>.</li>
+        <li>I'<HighlightSpan>ve been reading</HighlightSpan> for two hours.</li>
+      </ol>
     </Box>
   );
 }

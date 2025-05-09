@@ -93,16 +93,12 @@ function SimpleFuturePage() {
       <Typography>tomorrow, next week, in a few days, soon, later, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>I <HighlightSpan>will</HighlightSpan> go to the beach tomorrow.</li>
-          <li>I <HighlightSpan>will</HighlightSpan> go with you.</li>
-          <li>I <HighlightSpan>will</HighlightSpan> not go to the beach tomorrow.</li>
-          <li><HighlightSpan>Will</HighlightSpan> I go to the beach tomorrow?</li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>I <HighlightSpan>will</HighlightSpan> go to the beach tomorrow.</li>
+        <li>I <HighlightSpan>will</HighlightSpan> go with you.</li>
+        <li>I <HighlightSpan>will</HighlightSpan> not go to the beach tomorrow.</li>
+        <li><HighlightSpan>Will</HighlightSpan> I go to the beach tomorrow?</li>
+      </ol>
     </Box>
   );
 }

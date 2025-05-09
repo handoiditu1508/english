@@ -94,17 +94,13 @@ function PresentContinuousPage() {
       <Typography>(right) now, at the moment, at present, ...</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
-      <ContentBox sx={{
-        textAlign: "initial",
-      }}>
-        <ol>
-          <li>I <HighlightSpan>am studying</HighlightSpan> English now.</li>
-          <li>I always go to school by bus, but today I <HighlightSpan>am driving</HighlightSpan> a car.</li>
-          <li>I <HighlightSpan>am attending</HighlightSpan> a party at 7 pm Saturday.</li>
-          <li>He <HighlightSpan>is playing</HighlightSpan> football now.</li>
-          <li>They <HighlightSpan>are</HighlightSpan> not <HighlightSpan>going</HighlightSpan> to the cinema now.</li>
-        </ol>
-      </ContentBox>
+      <ol>
+        <li>I <HighlightSpan>am studying</HighlightSpan> English now.</li>
+        <li>I always go to school by bus, but today I <HighlightSpan>am driving</HighlightSpan> a car.</li>
+        <li>I <HighlightSpan>am attending</HighlightSpan> a party at 7 pm Saturday.</li>
+        <li>He <HighlightSpan>is playing</HighlightSpan> football now.</li>
+        <li>They <HighlightSpan>are</HighlightSpan> not <HighlightSpan>going</HighlightSpan> to the cinema now.</li>
+      </ol>
     </Box>
   );
 }
