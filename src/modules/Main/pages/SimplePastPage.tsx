@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
+import SubTitle2 from "../components/SubTitle2";
 import Title from "../components/Title";
 
 function SimplePastPage() {
@@ -24,6 +25,74 @@ function SimplePastPage() {
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
+
+      <SubTitle2>To be</SubTitle2>
+      <ContentBox>
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <AddCircleOutlineIcon
+            color="success"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            S + <HighlightSpan>was/were</HighlightSpan> + ...
+          </Typography>
+        </Box>
+        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <RemoveCircleOutlineIcon
+            color="error"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            S + <HighlightSpan>was/were</HighlightSpan> + not + ...
+          </Typography>
+        </Box>
+        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Box sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 2,
+          paddingX: 2,
+        }}>
+          <HelpOutlineIcon
+            color="info"
+            fontSize="large"
+            sx={{
+              flexGrow: 0,
+              flexShrink: 0,
+            }}
+          />
+          <Typography sx={{
+            flex: 1,
+          }}>
+            <HighlightSpan>was/were</HighlightSpan> + S + ... ?
+          </Typography>
+        </Box>
+      </ContentBox>
+
+      <SubTitle2>Verb</SubTitle2>
       <ContentBox>
         <Box sx={{
           display: "flex",
@@ -90,7 +159,14 @@ function SimplePastPage() {
       </ContentBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>Adverbs of frequency: alway, usually, sometime, often, rarely, seldom, ...</Typography>
+      <ul>
+        <li>ago</li>
+        <li>last</li>
+        <li>yesterday</li>
+        <li>in the past</li>
+        <li>in [a year in the past]</li>
+        <li>when I was young</li>
+      </ul>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>
