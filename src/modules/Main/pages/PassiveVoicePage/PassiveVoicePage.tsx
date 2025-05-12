@@ -107,6 +107,23 @@ function PassiveVoicePage() {
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
         </ul>
       </ContentBox>
+
+      <SubTitle>Causative constructions</SubTitle>
+      <ContentBox sx={{ textAlign: "initial" }}>
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [someone] + V<sub>bare</sub> + [something]</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
+          <li><HighlightSpan>Active example</HighlightSpan>: She had the plumber fix the sink.</li>
+          <li><HighlightSpan>Passive example</HighlightSpan>: She had the sink fixed (by the plumber).</li>
+        </ul>
+        <Divider sx={{ marginY: 2 }} />
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [someone] + to V<sub>bare</sub> + [something]</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
+          <li><HighlightSpan>Active example</HighlightSpan>: They got the lawyer to sign the documents.</li>
+          <li><HighlightSpan>Passive example</HighlightSpan>: They got the documents signed (by the lawyer).</li>
+        </ul>
+      </ContentBox>
     </Box>
   );
 }
