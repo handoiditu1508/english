@@ -90,6 +90,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/modal-verbs",
     },
     {
+      title: "Adverbial Clauses of Time",
+      to: "/adv-clauses-of-time",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
