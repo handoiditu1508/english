@@ -94,6 +94,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/adv-clauses-of-time",
     },
     {
+      title: "Subjunctive Mood",
+      to: "/subjunctive-mood",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
