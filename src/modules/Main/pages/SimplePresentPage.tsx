@@ -1,7 +1,7 @@
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-import { Box, Divider, Typography, useTheme } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";
@@ -9,11 +9,10 @@ import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
 function SimplePresentPage() {
-  const theme = useTheme();
   const { t } = useTranslation();
 
   return (
-    <Box sx={{ padding: 1, ...theme.typography.body1 }}>
+    <Box sx={{ padding: 1 }}>
       <Title>Simple Present Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
