@@ -22,6 +22,7 @@ const ModalVerbsPage = React.lazy(() => import("@/modules/Main/pages/ModalVerbsP
 const AdvClausesOfTimePage = React.lazy(() => import("@/modules/Main/pages/AdvClausesOfTimePage"));
 const SubjunctiveMoodPage = React.lazy(() => import("@/modules/Main/pages/SubjunctiveMoodPage"));
 const MakingQuestionsPage = React.lazy(() => import("@/modules/Main/pages/MakingQuestionsPage"));
+const VerbFormsPage = React.lazy(() => import("@/modules/Main/pages/VerbFormsPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -45,6 +46,7 @@ const MainRoute = (
     <Route path="adv-clauses-of-time" element={<AdvClausesOfTimePage />} />
     <Route path="subjunctive-mood" element={<SubjunctiveMoodPage />} />
     <Route path="making-questions" element={<MakingQuestionsPage />} />
+    <Route path="verb-forms" element={<VerbFormsPage />} />
   </Route>
 );
 

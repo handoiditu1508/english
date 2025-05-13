@@ -102,6 +102,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/making-questions",
     },
     {
+      title: "Verb Forms",
+      to: "/verb-forms",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
