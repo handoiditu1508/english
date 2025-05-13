@@ -98,6 +98,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/subjunctive-mood",
     },
     {
+      title: "Making Questions",
+      to: "/making-questions",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
