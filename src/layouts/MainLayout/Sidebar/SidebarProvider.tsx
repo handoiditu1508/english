@@ -110,6 +110,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/the-adj",
     },
     {
+      title: "Used To",
+      to: "/used-to",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,

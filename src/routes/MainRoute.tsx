@@ -24,6 +24,7 @@ const SubjunctiveMoodPage = React.lazy(() => import("@/modules/Main/pages/Subjun
 const MakingQuestionsPage = React.lazy(() => import("@/modules/Main/pages/MakingQuestionsPage"));
 const VerbFormsPage = React.lazy(() => import("@/modules/Main/pages/VerbFormsPage"));
 const TheAdjPage = React.lazy(() => import("@/modules/Main/pages/TheAdjPage"));
+const UsedToPage = React.lazy(() => import("@/modules/Main/pages/UsedToPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -49,6 +50,7 @@ const MainRoute = (
     <Route path="making-questions" element={<MakingQuestionsPage />} />
     <Route path="verb-forms" element={<VerbFormsPage />} />
     <Route path="the-adj" element={<TheAdjPage />} />
+    <Route path="used-to" element={<UsedToPage />} />
   </Route>
 );
 
