@@ -106,6 +106,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/verb-forms",
     },
     {
+      title: "The + Adj",
+      to: "/the-adj",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
