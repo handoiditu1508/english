@@ -22,6 +22,7 @@ function PastPerfectPage() {
         <li>An action that was completed before a specific time in the past.</li>
         <li>An action that was completed before a specific event in the past.</li>
       </ul>
+      <p>The prior action use <HighlightSpan>had + V3</HighlightSpan>, the latter action use <HighlightSpan>V<sub>2</sub> (Simple Past)</HighlightSpan>.</p>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -100,6 +101,40 @@ function PastPerfectPage() {
         <li>He <HighlightSpan>had</HighlightSpan> never <HighlightSpan>seen</HighlightSpan> the ocean until he went to California.</li>
         <li>By the time she called, I <HighlightSpan>had</HighlightSpan> already <HighlightSpan>eaten</HighlightSpan> dinner.</li>
       </ol>
+
+      <SubTitle>Notes</SubTitle>
+
+      <ContentBox sx={{ marginTop: 2, marginBottom: 1 }}>when + [Simple Past], [Simple Past]</ContentBox>
+      <p>When two actions happen one after another or one action leads to another.</p>
+      <p>Example:</p>
+      <ul>
+        <li>When he <HighlightSpan>opened</HighlightSpan> the window, the bird <HighlightSpan>flew</HighlightSpan> out.</li>
+      </ul>
+
+      <ContentBox sx={{ marginTop: 2, marginBottom: 1 }}>[when/as soon as/once] + [Past Perfect], [Simple Past]</ContentBox>
+      <p>When the first action ends, the second action begins.</p>
+      <p>Example:</p>
+      <ul>
+        <li>When he <HighlightSpan>had finished</HighlightSpan> his homework, he <HighlightSpan>went</HighlightSpan> out.</li>
+      </ul>
+
+      <ContentBox sx={{ marginTop: 2, marginBottom: 1 }}>[Past Perfect] before [Simple Past]</ContentBox>
+      <p>Example:</p>
+      <ul>
+        <li>They <HighlightSpan>had been</HighlightSpan> rich before they <HighlightSpan>came</HighlightSpan> here.</li>
+      </ul>
+
+      <ContentBox sx={{ marginTop: 2, marginBottom: 1 }}>[Simple Past] after [Past Perfect]</ContentBox>
+      <p>Example:</p>
+      <ul>
+        <li>They <HighlightSpan>came</HighlightSpan> here after they <HighlightSpan>had been</HighlightSpan> rich.</li>
+      </ul>
+
+      <ContentBox sx={{ marginTop: 2, marginBottom: 1 }}>by the time + [Simple Past], [Past Perfect]</ContentBox>
+      <p>Example:</p>
+      <ul>
+        <li>By the time we <HighlightSpan>got</HighlightSpan> there, the film <HighlightSpan>had started</HighlightSpan>.</li>
+      </ul>
     </Box>
   );
 }
