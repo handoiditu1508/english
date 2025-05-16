@@ -1,6 +1,60 @@
 import { ReportedSpeechConversion } from "./models";
 
-export const reportedSpeechConversions: ReportedSpeechConversion[] = [
+export const introductoryVerbConversions: ReportedSpeechConversion[] = [
+  {
+    directSpeech: "said",
+    indirectSpeech: ["said that", "said to + O", "told + O", "asked + O"],
+  },
+  {
+    directSpeech: "asked",
+    indirectSpeech: ["asked + O"],
+  },
+];
+
+export const pronounConversions: ReportedSpeechConversion[] = [
+  {
+    directSpeech: "I",
+    indirectSpeech: ["he", "she"],
+  },
+  {
+    directSpeech: "me",
+    indirectSpeech: ["him", "her"],
+  },
+  {
+    directSpeech: "my",
+    indirectSpeech: ["his", "her"],
+  },
+  {
+    directSpeech: "mine",
+    indirectSpeech: ["his", "hers"],
+  },
+  {
+    directSpeech: "myself",
+    indirectSpeech: ["himself", "herself"],
+  },
+  {
+    directSpeech: "we",
+    indirectSpeech: ["they"],
+  },
+  {
+    directSpeech: "us",
+    indirectSpeech: ["them"],
+  },
+  {
+    directSpeech: "our",
+    indirectSpeech: ["their"],
+  },
+  {
+    directSpeech: "ours",
+    indirectSpeech: ["theirs"],
+  },
+  {
+    directSpeech: "ourselves",
+    indirectSpeech: ["themselves"],
+  },
+];
+
+export const tenseConversions: ReportedSpeechConversion[] = [
   {
     directSpeech: "Simple present",
     indirectSpeech: ["Simple past"],
@@ -26,8 +80,16 @@ export const reportedSpeechConversions: ReportedSpeechConversion[] = [
     indirectSpeech: ["Past perfect"],
   },
   {
-    directSpeech: "will/can/may",
-    indirectSpeech: ["would/could/might"],
+    directSpeech: "will",
+    indirectSpeech: ["would"],
+  },
+  {
+    directSpeech: "can",
+    indirectSpeech: ["could"],
+  },
+  {
+    directSpeech: "may",
+    indirectSpeech: ["might"],
   },
   {
     directSpeech: "shall",
@@ -50,8 +112,19 @@ export const reportedSpeechConversions: ReportedSpeechConversion[] = [
     indirectSpeech: ["Conditional type 2", "Conditional type 3"],
   },
   {
+    directSpeech: "Conditional type 3",
+    indirectSpeech: ["Conditional type 3"],
+  },
+];
+
+export const otherConversions: ReportedSpeechConversion[] = [
+  {
     directSpeech: "today",
     indirectSpeech: ["that day"],
+  },
+  {
+    directSpeech: "tonight",
+    indirectSpeech: ["that night"],
   },
   {
     directSpeech: "yesterday",
