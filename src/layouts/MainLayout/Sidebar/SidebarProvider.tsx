@@ -118,6 +118,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/which-connector",
     },
     {
+      title: "Transformation",
+      to: "/transformation",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
