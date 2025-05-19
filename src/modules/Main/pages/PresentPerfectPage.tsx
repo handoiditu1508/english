@@ -90,7 +90,19 @@ function PresentPerfectPage() {
       </ContentBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>for + (a period of time), since + (a moment in time), recently, yet, just, already, up to now, so far, in the last (quantity) years, ...</Typography>
+      <ul>
+        <li>for + (a period of time)</li>
+        <li>since + (a moment in time)</li>
+        <li>lately = recently</li>
+        <li>yet</li>
+        <li>just</li>
+        <li>already</li>
+        <li>up to now</li>
+        <li>so far</li>
+        <li>in the last (quantity) years</li>
+        <li>never</li>
+        <li>ever</li>
+      </ul>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>
