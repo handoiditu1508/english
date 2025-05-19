@@ -34,20 +34,22 @@ function ConditionalSentencesPage() {
               <TableCell align="center">If Clause</TableCell>
               <TableCell align="center">Main Clause</TableCell>
               <TableCell align="center">Example</TableCell>
+              <TableCell align="center">Advs</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             <TableRow>
-              <TableCell component="th" scope="row">Real present/future</TableCell>
+              <TableCell component="th" scope="row">Present/future real condition</TableCell>
               <TableCell>
                 Simple present
-                <br />(V<sub>s/es</sub>)
+                <br />(S + V<sub>s/es</sub>)
+                <br />(be: am/is/are)
               </TableCell>
               <TableCell>
                 <ul>
-                  <li>will/can + V<sub>bare</sub></li>
+                  <li>S + will/can + V<sub>bare</sub></li>
                   <li>Simple present (truth)</li>
-                  <li>V<sub>bare</sub> (no Subject)</li>
+                  <li>S + V<sub>bare</sub> (no Subject)</li>
                 </ul>
               </TableCell>
               <TableCell>
@@ -57,57 +59,73 @@ function ConditionalSentencesPage() {
                   <li>If you <HighlightSpan>go</HighlightSpan> out, please <HighlightSpan>close</HighlightSpan> the door.</li>
                 </ul>
               </TableCell>
+              <TableCell>
+                next
+                <br />tomorrow
+              </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell component="th" scope="row">Unreal present</TableCell>
+              <TableCell component="th" scope="row">Present unreal present</TableCell>
               <TableCell>
                 Simple past
-                <br />(V<sub>2/ed</sub>)
+                <br />(S + V<sub>2/ed</sub>)
+                <br />(be: were)
               </TableCell>
-              <TableCell>would/could + V<sub>bare</sub></TableCell>
+              <TableCell>S + would/could + V<sub>bare</sub></TableCell>
               <TableCell>
                 <ul>
                   <li>If she <HighlightSpan>had</HighlightSpan> enough time, she <HighlightSpan>would do</HighlightSpan> that.</li>
                 </ul>
               </TableCell>
+              <TableCell>
+                today
+                <br />now
+              </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell component="th" scope="row">Unreal past</TableCell>
+              <TableCell component="th" scope="row">Past unreal condition</TableCell>
               <TableCell>
                 Past perfect
-                <br />(had + V<sub>3/ed</sub>)
+                <br />(S + had + V<sub>3/ed</sub>)
+                <br />(be: had been)
               </TableCell>
-              <TableCell>would/could + have + V<sub>3/ed</sub></TableCell>
+              <TableCell>S + would/could + have + V<sub>3/ed</sub></TableCell>
               <TableCell>
                 <ul>
                   <li>If he <HighlightSpan>had gone</HighlightSpan> to the meeting yesterday, he <HighlightSpan>would have met</HighlightSpan> her.</li>
                 </ul>
               </TableCell>
+              <TableCell>
+                yesterday
+                <br />last
+              </TableCell>
             </TableRow>
             <TableRow>
               <TableCell component="th" scope="row" rowSpan={2}>Mixed</TableCell>
               <TableCell>
-                V<sub>2/ed</sub>
+                S + V<sub>2/ed</sub>
                 <br />{"(Present => Past)"}
               </TableCell>
-              <TableCell>would/could + have + V<sub>3/ed</sub></TableCell>
+              <TableCell>S + would/could + have + V<sub>3/ed</sub></TableCell>
               <TableCell>
                 <ul>
                   <li>If I <HighlightSpan>was/were</HighlightSpan> you, I <HighlightSpan>would have attended</HighlightSpan> the party <HighlightSpan>last night</HighlightSpan>.</li>
                 </ul>
               </TableCell>
+              <TableCell />
             </TableRow>
             <TableRow>
               <TableCell>
-                had V<sub>3/ed</sub>
+                S + had V<sub>3/ed</sub>
                 <br />{"(Past => Present)"}
               </TableCell>
-              <TableCell>would/could + V<sub>bare</sub></TableCell>
+              <TableCell>S + would/could + V<sub>bare</sub></TableCell>
               <TableCell>
                 <ul>
                   <li>If I <HighlightSpan>hadn't stayed</HighlightSpan> up late lastnight, I <HighlightSpan>wouldn't be</HighlightSpan> tired <HighlightSpan>now</HighlightSpan>.</li>
                 </ul>
               </TableCell>
+              <TableCell />
             </TableRow>
           </TableBody>
         </Table>
@@ -145,6 +163,50 @@ function ConditionalSentencesPage() {
         <AlertTitle>Note</AlertTitle>
         If not = Unless
       </Alert>
+
+      <SubTitle>Transform to if sentence</SubTitle>
+      <ol>
+        <li>Choose the clause behind <HighlightSpan>because</HighlightSpan>
+          , or before <HighlightSpan>so</HighlightSpan>, <HighlightSpan>this is why</HighlightSpan> to be <HighlightSpan>the if clause</HighlightSpan>.
+        </li>
+        <li>
+          Choose conditional sentence type
+          <ul>
+            <li><HighlightSpan>The if clause</HighlightSpan> is a real condition in the present or a possible condition in the future: <HighlightSpan>conditional type 1</HighlightSpan>.</li>
+            <li><HighlightSpan>The if clause</HighlightSpan> is an unreal condition in the present: <HighlightSpan>conditional type 2</HighlightSpan>.</li>
+            <li><HighlightSpan>The if clause</HighlightSpan> is an unreal condition in the past: <HighlightSpan>conditional type 3</HighlightSpan>.</li>
+          </ul>
+        </li>
+        <li>{"Write sentence opposite to the given sentence (affirmative <=> negative)."}</li>
+      </ol>
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ol>
+        <li>
+          She gets bad marks because she is lazy.
+          <ul>
+            <li>If she weren't lazy, she wouldn't get bad marks.</li>
+          </ul>
+        </li>
+        <li>
+          It rained heavily, this is why we came to school late.
+          <ul>
+            <li>If it hadn't rained heavily, we couldn't have came to school late.</li>
+          </ul>
+        </li>
+        <li>
+          Tom was ill, so he didn't go to school yeaterday.
+          <ul>
+            <li>If Tom had not been ill, he would have gone to school yesterday.</li>
+          </ul>
+        </li>
+        <li>
+          You must do your homework or you will be punished.
+          <ul>
+            <li>If you don't do your homework, you will be punished.</li>
+          </ul>
+        </li>
+      </ol>
     </Box>
   );
 }
