@@ -27,6 +27,7 @@ const TheAdjPage = React.lazy(() => import("@/modules/Main/pages/TheAdjPage"));
 const UsedToPage = React.lazy(() => import("@/modules/Main/pages/UsedToPage"));
 const WhichConnectorPage = React.lazy(() => import("@/modules/Main/pages/WhichConnectorPage"));
 const TransformationPage = React.lazy(() => import("@/modules/Main/pages/TransformationPage"));
+const BecauseAlthoughPage = React.lazy(() => import("@/modules/Main/pages/BecauseAlthoughPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -55,6 +56,7 @@ const MainRoute = (
     <Route path="used-to" element={<UsedToPage />} />
     <Route path="which-connector" element={<WhichConnectorPage />} />
     <Route path="transformation" element={<TransformationPage />} />
+    <Route path="because-although" element={<BecauseAlthoughPage />} />
   </Route>
 );
 

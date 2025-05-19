@@ -122,6 +122,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/transformation",
     },
     {
+      title: "Because / Although Clauses",
+      to: "/because-although",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
