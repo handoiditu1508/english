@@ -1,6 +1,8 @@
 import { BreakpointsContext } from "@/contexts/breakpoints";
-import { Box, Divider, Grid2, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography, useTheme } from "@mui/material";
+import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
+import { Alert, AlertTitle, Box, Divider, Grid2, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
+import { useTranslation } from "react-i18next";
 import ContentBox from "../../components/ContentBox";
 import HighlightCode from "../../components/HighlightCode";
 import HighlightSpan from "../../components/HighlightSpan";
@@ -10,11 +12,108 @@ import { otherExamples, tenseExamples } from "./constants";
 
 function PassiveVoicePage() {
   const theme = useTheme();
+  const { t } = useTranslation();
   const { xs } = useContext(BreakpointsContext);
 
   return (
     <Box sx={{ padding: 1 }}>
       <Title>Passive Voice</Title>
+
+      <SubTitle>{t("Structure")}</SubTitle>
+      <ContentBox sx={{ textAlign: "initial" }}>
+        <ul>
+          <li><HighlightSpan>Active</HighlightSpan>: S + V + O + (Adv) + (Adv of time)</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> + (Adv) + (by S) + (Adv of time)</li>
+        </ul>
+      </ContentBox>
+
+      <SubTitle>How to conjugate be</SubTitle>
+      <ol>
+        <li>
+          V<sub>1/s/es</sub> / don't / doesn't
+          <ul>
+            <li>am / is / are</li>
+          </ul>
+        </li>
+        <li>
+          V<sub>2/ed</sub> / didn't
+          <ul>
+            <li>was / were</li>
+          </ul>
+        </li>
+        <li>
+          [am / is / are / was / were] + V<sub>ing</sub>
+          <ul>
+            <li>[am / is / are / was / were] + being</li>
+          </ul>
+        </li>
+        <li>
+          [has / have / had] + V<sub>3/ed</sub>
+          <ul>
+            <li>[has / have / had] + been</li>
+          </ul>
+        </li>
+        <li>
+          can / could / will / would / may / might/ ought to / be going to / have to + V<sub>1</sub>
+          <ul>
+            <li>[can / could / will / would / may / might/ ought to / be going to / have to] + be</li>
+          </ul>
+        </li>
+      </ol>
+
+      <SubTitle>{t("Examples")}</SubTitle>
+      <ol>
+        <li>
+          Mary <HighlightSpan>cleans</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>is cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>cleaned</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>was cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>is cleaning</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>is being cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>had cleaned</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>had been cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>must clean</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>must be cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>has to clean</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>has to be cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+        <li>
+          Mary <HighlightSpan>is going to clean</HighlightSpan> the house.
+          <ul>
+            <li>The house <HighlightSpan>is going to be cleaned</HighlightSpan> by Mary.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
+        <AlertTitle>Note</AlertTitle>
+        <ul>
+          <li>Omit [by him/her/us/them].</li>
+          <li>Keep "by Mary", "by Tom", "by my teacher".</li>
+        </ul>
+      </Alert>
 
       <SubTitle>Tense's passive voice</SubTitle>
       <Box sx={{ marginBottom: 2 }}>
@@ -67,29 +166,6 @@ function PassiveVoicePage() {
           )}
       </Box>
 
-      <SubTitle>Other examples</SubTitle>
-      <Grid2 container spacing={1}>
-        {otherExamples.map((example, index) => (
-          <Grid2
-            key={index}
-            size={{
-              xs: 12,
-              md: 6,
-              xl: 4,
-            }}>
-            <ContentBox sx={{ height: "100%", boxSizing: "border-box" }}>
-              <Typography color="primary" fontWeight={500}>{example.activeForm}</Typography>
-              <Divider variant="fullWidth" sx={{ marginY: 2 }} />
-              <Box component="ul" textAlign="initial">
-                {example.passiveForms.map((passiveForm, index) => (
-                  <li key={index}>{passiveForm}</li>
-                ))}
-              </Box>
-            </ContentBox>
-          </Grid2>
-        ))}
-      </Grid2>
-
       <SubTitle>Modal verbs in passive voice</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
@@ -124,6 +200,29 @@ function PassiveVoicePage() {
           <li><HighlightSpan>Passive example</HighlightSpan>: They got the documents signed (by the lawyer).</li>
         </ul>
       </ContentBox>
+
+      <SubTitle>Other examples</SubTitle>
+      <Grid2 container spacing={1}>
+        {otherExamples.map((example, index) => (
+          <Grid2
+            key={index}
+            size={{
+              xs: 12,
+              md: 6,
+              xl: 4,
+            }}>
+            <ContentBox sx={{ height: "100%", boxSizing: "border-box" }}>
+              <Typography color="primary" fontWeight={500}>{example.activeForm}</Typography>
+              <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+              <Box component="ul" textAlign="initial">
+                {example.passiveForms.map((passiveForm, index) => (
+                  <li key={index}>{passiveForm}</li>
+                ))}
+              </Box>
+            </ContentBox>
+          </Grid2>
+        ))}
+      </Grid2>
     </Box>
   );
 }
