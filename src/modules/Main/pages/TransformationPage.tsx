@@ -157,7 +157,7 @@ function TransformationPage() {
       <SubTitle>Purpose</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
-      <ContentBox sx={{ textAlign: "initial" }}>
+      <ContentBox sx={{ textAlign: "initial", paddingX: 2 }}>
         Why = What ... for
       </ContentBox>
 
@@ -175,8 +175,10 @@ function TransformationPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
-        <li>S + regret<sub>conjugate tenses</sub> + (not) + V<sub>ing</sub></li>
-        <li>S + regret<sub>conjugate tenses</sub> + (that) + S + [V<sub>2/ed</sub>/didn't]</li>
+        <ul>
+          <li>S + regret<sub>conjugate tenses</sub> + (not) + V<sub>ing</sub></li>
+          <li>S + regret<sub>conjugate tenses</sub> + (that) + S + [V<sub>2/ed</sub>/didn't]</li>
+        </ul>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
@@ -199,9 +201,15 @@ function TransformationPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
-        <li>S + prefer + [N/Ving] + to + [N/Ving]</li>
-        <li>S + would rather + V<sub>bare</sub> + than + V<sub>bare</sub></li>
+        <ul>
+          <li>S + prefer + [N/Ving] + to + [N/Ving]</li>
+          <li>S + would rather + V<sub>bare</sub> + than + V<sub>bare</sub></li>
+        </ul>
       </ContentBox>
+      <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
+        <AlertTitle>Note</AlertTitle>
+        Sometimes V<sub>ing</sub> is a noun phrase.
+      </Alert>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
       <ol>
@@ -223,8 +231,10 @@ function TransformationPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
-        <li>S + [often/usually] + V<sub>2/ed</sub></li>
-        <li>S + used to + V<sub>bare</sub></li>
+        <ul>
+          <li>S + [often/usually] + V<sub>2/ed</sub></li>
+          <li>S + used to + V<sub>bare</sub></li>
+        </ul>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
@@ -241,10 +251,12 @@ function TransformationPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
-        <li>It + be<sub>conjugate tenses</sub> + adj + (for O) + to V</li>
-        <li>S + find<sub>conjugate tenses</sub> + it + adj + to V</li>
-        <li>S + be<sub>conjugate tenses</sub> (not) used to + V<sub>ing</sub></li>
-        <li>S + have<sub>conjudgate tenses</sub> (no) difficulty + V<sub>ing</sub></li>
+        <ul>
+          <li>It + be<sub>conjugate tenses</sub> + adj + (for O) + to V</li>
+          <li>S + find<sub>conjugate tenses</sub> + it + adj + to V</li>
+          <li>S + be<sub>conjugate tenses</sub> (not) used to + V<sub>ing</sub></li>
+          <li>S + have<sub>conjudgate tenses</sub> (no) difficulty + V<sub>ing</sub></li>
+        </ul>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
