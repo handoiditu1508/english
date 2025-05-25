@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
+import SubTitle2 from "../components/SubTitle2";
 import Title from "../components/Title";
 
 function PresentContinuousPage() {
@@ -17,11 +18,12 @@ function PresentContinuousPage() {
 
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>Present continuous describes:</Typography>
-      <ul>
+      <ol>
         <li>An action that is happening at the moment of speaking.</li>
-        <li>An action that is happening in the present but is not permanent.</li>
         <li>A plan that is certain to happen in the future.</li>
-      </ul>
+        <li>An action that is repeated many times, causing discomfort to the speaker.</li>
+        <li>An action that is happening in the present but is not permanent.</li>
+      </ol>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -89,16 +91,69 @@ function PresentContinuousPage() {
         </Box>
       </ContentBox>
 
-      <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>(right) now, at the moment, at present, ...</Typography>
+      <SubTitle>1. An action that is happening at the moment of speaking</SubTitle>
 
-      <SubTitle>{t("Examples")}</SubTitle>
+      <SubTitle2>{t("Signs to recognize")}</SubTitle2>
+      <ul>
+        <li>now</li>
+        <li>right now</li>
+        <li>at the moment</li>
+        <li>at present</li>
+        <li>at this time</li>
+        <li>be quite</li>
+        <li>careful</li>
+      </ul>
+
+      <SubTitle2>{t("Examples")}</SubTitle2>
       <ol>
         <li>I <HighlightSpan>am studying</HighlightSpan> English now.</li>
-        <li>I always go to school by bus, but today I <HighlightSpan>am driving</HighlightSpan> a car.</li>
-        <li>I <HighlightSpan>am attending</HighlightSpan> a party at 7 pm Saturday.</li>
         <li>He <HighlightSpan>is playing</HighlightSpan> football now.</li>
         <li>They <HighlightSpan>are</HighlightSpan> not <HighlightSpan>going</HighlightSpan> to the cinema now.</li>
+        <li>What <HighlightSpan>are</HighlightSpan> you <HighlightSpan>doing</HighlightSpan> now?</li>
+        <li>Be quite! The baby <HighlightSpan>is sleeping</HighlightSpan> in the room.</li>
+      </ol>
+
+      <SubTitle>2. A plan that is certain to happen in the future</SubTitle>
+
+      <SubTitle2>{t("Signs to recognize")}</SubTitle2>
+      <ul>
+        <li>arrive</li>
+        <li>come</li>
+        <li>fly</li>
+        <li>go</li>
+        <li>travel</li>
+      </ul>
+
+      <SubTitle2>{t("Examples")}</SubTitle2>
+      <ol>
+        <li>I <HighlightSpan>am attending</HighlightSpan> a party at 7 pm Saturday.</li>
+        <li>I <HighlightSpan>am leaving</HighlightSpan> tomorrow.</li>
+        <li>She <HighlightSpan>is going</HighlightSpan> to Spain next week.</li>
+      </ol>
+
+      <SubTitle>3. An action that is repeated many times, causing discomfort to the speaker</SubTitle>
+
+      <SubTitle2>{t("Signs to recognize")}</SubTitle2>
+      <ul>
+        <li>always</li>
+        <li>all the time</li>
+        <li>forever</li>
+        <li>continually</li>
+        <li>constantly</li>
+      </ul>
+
+      <SubTitle2>{t("Examples")}</SubTitle2>
+      <ol>
+        <li>He <HighlightSpan>is</HighlightSpan> always <HighlightSpan>borrowing</HighlightSpan> our books.</li>
+        <li>You <HighlightSpan>are talking</HighlightSpan> in class all the time.</li>
+      </ol>
+
+      <SubTitle>4. An action that is happening in the present but is not permanent</SubTitle>
+
+      <SubTitle2>{t("Examples")}</SubTitle2>
+      <ol>
+        <li>This month, her parents are on business, so she <HighlightSpan>is staying</HighlightSpan> with her best friend.</li>
+        <li>I always go to school by bus, but today I <HighlightSpan>am driving</HighlightSpan> a car.</li>
       </ol>
     </Box>
   );
