@@ -29,6 +29,7 @@ const WhichConnectorPage = React.lazy(() => import("@/modules/Main/pages/WhichCo
 const TransformationPage = React.lazy(() => import("@/modules/Main/pages/TransformationPage"));
 const BecauseAlthoughPage = React.lazy(() => import("@/modules/Main/pages/BecauseAlthoughPage"));
 const PurposePage = React.lazy(() => import("@/modules/Main/pages/PurposePage"));
+const ArticlesPage = React.lazy(() => import("@/modules/Main/pages/ArticlesPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -59,6 +60,7 @@ const MainRoute = (
     <Route path="transformation" element={<TransformationPage />} />
     <Route path="because-although" element={<BecauseAlthoughPage />} />
     <Route path="purpose" element={<PurposePage />} />
+    <Route path="articles" element={<ArticlesPage />} />
   </Route>
 );
 

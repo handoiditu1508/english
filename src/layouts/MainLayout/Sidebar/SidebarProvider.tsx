@@ -130,6 +130,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/purpose",
     },
     {
+      title: "Articles",
+      to: "/articles",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
