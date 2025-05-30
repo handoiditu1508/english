@@ -138,6 +138,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/it-not-until",
     },
     {
+      title: "Comparison",
+      to: "/comparison",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,

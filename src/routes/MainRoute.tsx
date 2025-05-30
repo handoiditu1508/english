@@ -31,6 +31,7 @@ const BecauseAlthoughPage = React.lazy(() => import("@/modules/Main/pages/Becaus
 const PurposePage = React.lazy(() => import("@/modules/Main/pages/PurposePage"));
 const ArticlesPage = React.lazy(() => import("@/modules/Main/pages/ArticlesPage"));
 const ItNotUntilPage = React.lazy(() => import("@/modules/Main/pages/ItNotUntilPage"));
+const ComparisonPage = React.lazy(() => import("@/modules/Main/pages/ComparisonPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -63,6 +64,7 @@ const MainRoute = (
     <Route path="purpose" element={<PurposePage />} />
     <Route path="articles" element={<ArticlesPage />} />
     <Route path="it-not-until" element={<ItNotUntilPage />} />
+    <Route path="comparison" element={<ComparisonPage />} />
   </Route>
 );
 

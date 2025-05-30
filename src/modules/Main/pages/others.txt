@@ -19,3 +19,10 @@ the rest /d/
 (B) Me, neither
     Neither do I
     I don't, either
+
+
+todo: capitalize Adj and Adv
+todo: check grammar for every page
+todo: complete all txt notes
+todo: check globalization
+todo: ContentBox auto padding and auto negative margin for dividers
