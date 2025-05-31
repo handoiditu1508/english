@@ -252,8 +252,8 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>It + be<sub>conjugate tenses</sub> + adj + (for O) + to V</li>
-          <li>S + find<sub>conjugate tenses</sub> + it + adj + to V</li>
+          <li>It + be<sub>conjugate tenses</sub> + Adj + (for O) + to V</li>
+          <li>S + find<sub>conjugate tenses</sub> + it + Adj + to V</li>
           <li>S + be<sub>conjugate tenses</sub> (not) used to + V<sub>ing</sub></li>
           <li>S + have<sub>conjudgate tenses</sub> (no) difficulty + V<sub>ing</sub></li>
         </ul>

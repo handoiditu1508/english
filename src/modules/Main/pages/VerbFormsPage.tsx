@@ -65,7 +65,7 @@ function VerbFormsPage() {
         <li><HighlightSpan>too ... to</HighlightSpan> - quá ... đến nỗi</li>
         <li><HighlightSpan>enough ... to</HighlightSpan> - đủ ... để</li>
         <li><HighlightSpan>what/how + to V</HighlightSpan></li>
-        <li><HighlightSpan>adj + to V</HighlightSpan></li>
+        <li><HighlightSpan>Adj + to V</HighlightSpan></li>
         <li><HighlightSpan>it take(s) + (O) + to V</HighlightSpan></li>
       </ul>
 

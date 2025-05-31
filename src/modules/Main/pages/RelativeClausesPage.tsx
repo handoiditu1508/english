@@ -79,13 +79,13 @@ function RelativeClausesPage() {
           </ul>
         </li>
         <li>
-          Proper Noun
+          Proper noun
           <ul>
             <li><HighlightSpan>Mary</HighlightSpan>, <HighlightCode>who</HighlightCode> is intelligent, comes from America.</li>
           </ul>
         </li>
         <li>
-          Possessive adj
+          Possessive adjective
           <ul>
             <li>The woman is <HighlightSpan>my aunt</HighlightSpan>, <HighlightCode>whom</HighlightCode> you saw yesterday.</li>
           </ul>

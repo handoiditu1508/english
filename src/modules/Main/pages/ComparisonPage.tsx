@@ -14,19 +14,19 @@ function ComparisonPage() {
     <Box sx={{ padding: 1 }}>
       <Title>Comparison</Title>
 
-      <SubTitle>Short adjs</SubTitle>
+      <SubTitle>Short adjectives</SubTitle>
       <ul>
         <li>tall, short, small, big, ... (monosyllable).</li>
         <li>happy, clever, noble, narrow, quiet, ... (disyllable, end with: y, er, e, ow, et).</li>
       </ul>
 
-      <SubTitle>Long adjs</SubTitle>
+      <SubTitle>Long adjectives</SubTitle>
       <p>beautiful, wonderful, comfortable, careful, expensive, intelligent, ...</p>
 
       <SubTitle>1. Comparison of equality</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
-      <ContentBox>S<sub>1</sub> + V + ... + as + [adj/adv] + as [S<sub>2</sub>/O] + auxiliary</ContentBox>
+      <ContentBox>S<sub>1</sub> + V + ... + as + [Adj/Adv] + as [S<sub>2</sub>/O] + auxiliary</ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
       <ul>
@@ -38,8 +38,8 @@ function ComparisonPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
-        <p>S<sub>1</sub> + V + <HighlightSpan>[short adj] + er</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
-        <p>S<sub>1</sub> + V + <HighlightSpan>more + [long adj]</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
+        <p>S<sub>1</sub> + V + <HighlightSpan>[short Adj] + er</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
+        <p>S<sub>1</sub> + V + <HighlightSpan>more + [long Adj]</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
@@ -53,8 +53,8 @@ function ComparisonPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
-        <p>S + V + <HighlightSpan>the + [short adj] + est</HighlightSpan> + (location)</p>
-        <p>S + V + <HighlightSpan>the most + [long adj]</HighlightSpan> + (location)</p>
+        <p>S + V + <HighlightSpan>the + [short Adj] + est</HighlightSpan> + (location)</p>
+        <p>S + V + <HighlightSpan>the most + [long Adj]</HighlightSpan> + (location)</p>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
@@ -79,10 +79,10 @@ function ComparisonPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
-        <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>[short adj] + er</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
-        <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>more + [long adj]</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
+        <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>[short Adj] + er</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
+        <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>more + [long Adj]</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
         <Divider sx={{ marginY: 2 }} />
-        <p>S<sub>2</sub> + V<sub>not</sub> + as + adj + as + S<sub>1</sub> + auxiliary</p>
+        <p>S<sub>2</sub> + V<sub>not</sub> + as + Adj + as + S<sub>1</sub> + auxiliary</p>
       </ContentBox>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
@@ -105,8 +105,8 @@ function ComparisonPage() {
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
-        <p>S + V + <HighlightSpan>the + [short adj] + est</HighlightSpan> + (location)</p>
-        <p>S + V + <HighlightSpan>the most + [long adj]</HighlightSpan> + (location)</p>
+        <p>S + V + <HighlightSpan>the + [short Adj] + est</HighlightSpan> + (location)</p>
+        <p>S + V + <HighlightSpan>the most + [long Adj]</HighlightSpan> + (location)</p>
         <Divider sx={{ marginY: 2 }} />
         <p><HighlightSpan>No other + N<sub>singular</sub></HighlightSpan> + (location) + V<sub>bare</sub> + as + ... + as + S</p>
         <p><HighlightSpan>Nobody</HighlightSpan> + (location) + V<sub>bare</sub> + as + ... + as + S</p>

@@ -130,7 +130,7 @@ function ArticlesPage() {
         <li>I can't play the violin.</li>
       </ul>
 
-      <SubTitle3>6. The + adj</SubTitle3>
+      <SubTitle3>6. The + Adj</SubTitle3>
       <p>Example: the rich, the poor, the young, the old, the blind, the French, the English, the Chinese, the Japanese.</p>
 
       <SubTitle3>7. The + of + N (noun phrase)</SubTitle3>
