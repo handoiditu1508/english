@@ -33,6 +33,7 @@ const ArticlesPage = React.lazy(() => import("@/modules/Main/pages/ArticlesPage"
 const ItNotUntilPage = React.lazy(() => import("@/modules/Main/pages/ItNotUntilPage"));
 const ComparisonPage = React.lazy(() => import("@/modules/Main/pages/ComparisonPage"));
 const PronunciationPage = React.lazy(() => import("@/modules/Main/pages/PronunciationPage"));
+const AgreementResponsesPage = React.lazy(() => import("@/modules/Main/pages/AgreementResponsesPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -67,6 +68,7 @@ const MainRoute = (
     <Route path="it-not-until" element={<ItNotUntilPage />} />
     <Route path="comparison" element={<ComparisonPage />} />
     <Route path="pronunciation" element={<PronunciationPage />} />
+    <Route path="agreement-responses" element={<AgreementResponsesPage />} />
   </Route>
 );
 

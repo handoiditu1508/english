@@ -146,6 +146,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/pronunciation",
     },
     {
+      title: "Agreement Responses",
+      to: "/agreement-responses",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,
