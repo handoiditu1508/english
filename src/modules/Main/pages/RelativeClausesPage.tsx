@@ -16,23 +16,15 @@ function RelativeClausesPage() {
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
-        Who + V (as the subject of a verb)
-        <Box sx={{ textAlign: "initial" }}>
-          <ul>
-            <li>Can be used in place of whom.</li>
-          </ul>
-        </Box>
+        <p>Who + V (as the subject of a verb)</p>
+        <p>(Can be used in place of whom)</p>
         <Divider sx={{ margin: 2 }} />
         Whom + S (as the object of a verb)
         <Divider sx={{ margin: 2 }} />
         Which (for things)
         <Divider sx={{ margin: 2 }} />
-        That (for people and things)
-        <Box sx={{ textAlign: "initial" }}>
-          <ul>
-            <li>Can be used in place of who, whom, which.</li>
-          </ul>
-        </Box>
+        <p>That (for people and things)</p>
+        <p>(Can be used in place of who, whom, which)</p>
         <Divider sx={{ margin: 2 }} />
         Whose + N (possessive form)
         <Divider sx={{ margin: 2 }} />
@@ -159,6 +151,36 @@ function RelativeClausesPage() {
           My mother is the first one <HighlightSpan>that gets up early</HighlightSpan> in the morning.
           <ul>
             <li>My mother is the first one <HighlightSpan>to get up early</HighlightSpan> in the morning.</li>
+          </ul>
+        </li>
+        <li>
+          She was the first person <HighlightSpan>who arrived</HighlightSpan>.
+          <ul>
+            <li>She was the first person <HighlightSpan>to arrive</HighlightSpan>.</li>
+          </ul>
+        </li>
+        <li>
+          He's the last one <HighlightSpan>who left</HighlightSpan>.
+          <ul>
+            <li>He's the last one <HighlightSpan>to leave</HighlightSpan>.</li>
+          </ul>
+        </li>
+        <li>
+          This is the only student <HighlightSpan>who passed</HighlightSpan> the test.
+          <ul>
+            <li>This is the only student <HighlightSpan>to pass</HighlightSpan> the test.</li>
+          </ul>
+        </li>
+        <li>
+          She is the only person <HighlightSpan>who knows</HighlightSpan> the answer.
+          <ul>
+            <li>She is the only person <HighlightSpan>to know</HighlightSpan> the answer.</li>
+          </ul>
+        </li>
+        <li>
+          This is the best place <HighlightSpan>that we can</HighlightSpan> visit.
+          <ul>
+            <li>This is the best place <HighlightSpan>to visit</HighlightSpan>.</li>
           </ul>
         </li>
       </ol>
