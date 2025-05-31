@@ -13,7 +13,7 @@ function VerbFormsPage() {
       <Title>Verb Forms</Title>
 
       <SubTitle>{t("Structure")} 1</SubTitle>
-      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}>V + (O) + V<sub>bare</sub></ContentBox>
+      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}><HighlightSpan>V</HighlightSpan> + (O) + V<sub>bare</sub></ContentBox>
       <ul>
         <li><HighlightSpan>let</HighlightSpan> - để</li>
         <li><HighlightSpan>make</HighlightSpan> - làm, khiến</li>
@@ -24,7 +24,7 @@ function VerbFormsPage() {
       </ul>
 
       <SubTitle>{t("Structure")} 2</SubTitle>
-      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}>V + V<sub>ing</sub></ContentBox>
+      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}><HighlightSpan>V</HighlightSpan> + V<sub>ing</sub></ContentBox>
       <ul>
         <li><HighlightSpan>enjoy</HighlightSpan> - thích</li>
         <li><HighlightSpan>finish</HighlightSpan> - hoàn thành</li>
@@ -49,7 +49,7 @@ function VerbFormsPage() {
       </ul>
 
       <SubTitle>{t("Structure")} 3</SubTitle>
-      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}>V + (O) + to V</ContentBox>
+      <ContentBox sx={{ paddingX: 2, marginBottom: 1 }}><HighlightSpan>V</HighlightSpan> + (O) + to V</ContentBox>
       <ul>
         <li><HighlightSpan>help</HighlightSpan> - giúp</li>
         <li><HighlightSpan>hope</HighlightSpan> - hi vọng</li>

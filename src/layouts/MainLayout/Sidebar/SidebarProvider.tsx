@@ -142,6 +142,10 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/comparison",
     },
     {
+      title: "Pronunciation",
+      to: "/pronunciation",
+    },
+    {
       title: "Nature",
       to: "/nature",
       icon: <GrassIcon />,

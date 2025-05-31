@@ -1,15 +1,3 @@
-enjoy + Ving
-
-
--s, -ch, -sh, -x /iz/
--p, -t, -k, -f /s/
-the rest /z/
-
--t, -d, adj /id/
--x, -p, -k, -/f/, -ss, -sh, -ch /t/
-the rest /d/
-
-
 (A) I like swimming
 (B) Me, too
     So do I
@@ -26,3 +14,4 @@ todo: check grammar for every page
 todo: complete all txt notes
 todo: check globalization
 todo: ContentBox auto padding and auto negative margin for dividers
+todo: reorder pages
