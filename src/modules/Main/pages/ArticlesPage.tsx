@@ -83,8 +83,8 @@ function ArticlesPage() {
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
         <AlertTitle>Note</AlertTitle>
-        <p>A, an are used with singular and countable nouns only.</p>
-        <p>Not used before plural or uncountable or abstract nouns.</p>
+        <p>"A" and "an" are used only with singular, countable nouns.</p>
+        <p>Not used before plural, uncountable or abstract nouns.</p>
         <p>Uncountable nouns: money, water, sugar, salt, ...</p>
         <p>Abstract nouns: honesty, friendship, happiness, ...</p>
       </Alert>
@@ -98,7 +98,7 @@ function ArticlesPage() {
 
       <SubTitle3>1. Nouns mentioned before</SubTitle3>
       <p>
-        Example: My mother bought be&nbsp;
+        Example: My mother bought&nbsp;
         <HighlightSpan>a</HighlightSpan> white shirt and&nbsp;
         <HighlightSpan>a</HighlightSpan> pink shirt.&nbsp;
         <HighlightSpan>The</HighlightSpan> white shirt is cheap but&nbsp;
@@ -108,7 +108,7 @@ function ArticlesPage() {
       <SubTitle3>2. Nouns that are unique</SubTitle3>
       <p>Example: The sun, the moon, the Earth, the sky, the sea, the Internet, the world, the universe, ...</p>
 
-      <SubTitle3>3. names of oceans, rivers, mountain <HighlightSpan>ranges</HighlightSpan>, countries <HighlightSpan>(plural)</HighlightSpan>, organizations</SubTitle3>
+      <SubTitle3>3. Names of oceans, rivers, mountain <HighlightSpan>ranges</HighlightSpan>, countries <HighlightSpan>(plural)</HighlightSpan>, organizations</SubTitle3>
       Example:
       <ul>
         <li>the Pacific Ocean</li>
@@ -119,7 +119,7 @@ function ArticlesPage() {
         <li>the United Nation<HighlightSpan>s</HighlightSpan></li>
       </ul>
 
-      <SubTitle3>4. Superlative and ordinal numbers</SubTitle3>
+      <SubTitle3>4. Superlatives and ordinal numbers</SubTitle3>
       <p>Example: the happiest boy, the most beautiful, the first, the second, the last, ...</p>
 
       <SubTitle3>5. Speaking generally about playing a musical instrument</SubTitle3>
@@ -130,7 +130,7 @@ function ArticlesPage() {
         <li>I can't play the violin.</li>
       </ul>
 
-      <SubTitle3>6. The + Adj</SubTitle3>
+      <SubTitle3>6. The + adjective</SubTitle3>
       <p>Example: the rich, the poor, the young, the old, the blind, the French, the English, the Chinese, the Japanese.</p>
 
       <SubTitle3>7. The + of + N (noun phrase)</SubTitle3>
@@ -139,48 +139,48 @@ function ArticlesPage() {
         <li>The capital of Vietnam.</li>
       </ul>
 
-      <SubTitle2>Not use "the" when</SubTitle2>
+      <SubTitle2>Do not use <HighlightSpan>the</HighlightSpan> when</SubTitle2>
 
       <SubTitle3>1. Person names, countries, streets, cities, ...</SubTitle3>
       <p>Example: Tom, Mary, China, England, New York, London, Ho Chi Minh, ...</p>
 
-      <SubTitle3>2. Noun with possessive adjective in front</SubTitle3>
+      <SubTitle3>2. Nouns with possessive adjective in front</SubTitle3>
       <p>Example: his car, my phone, her book, ...</p>
 
-      <SubTitle3>3. Sport names</SubTitle3>
+      <SubTitle3>3. Names of sports</SubTitle3>
       <p>Example: football, basketball, tennis, badminton, volleyball, ...</p>
 
       <SubTitle3>4. Abstract nouns when they're not specific</SubTitle3>
       <p>Example: love, happiness, honesty, friendship, ...</p>
-      <p>Example can use <HighlightSpan>the</HighlightSpan>:</p>
+      <p>Examples where you can use <HighlightSpan>the</HighlightSpan>:</p>
       <ol>
         <li>The courage he showed was inspiring.</li>
         <li>We admired the beauty of the sunset.</li>
         <li>She appreciated the advice you gave her.</li>
       </ol>
-      <p>Example can not use <HighlightSpan>the</HighlightSpan>:</p>
+      <p>Examples where you can not use <HighlightSpan>the</HighlightSpan>:</p>
       <ol>
         <li>Courage is important in difficult times.</li>
         <li>Love is a powerful feeling.</li>
         <li>Freedom is a basic human right.</li>
       </ol>
 
-      <SubTitle3>5. Weekdays</SubTitle3>
+      <SubTitle3>5. Days of the week</SubTitle3>
       <p>Example: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.</p>
 
       <SubTitle3>6. Daily meals</SubTitle3>
       <p>Example: breakfast, lunch, dinner, supper, ...</p>
 
       <SubTitle3>7. Uncountable nouns when they're not specific</SubTitle3>
-      <p>Example: water, sugar, salt, money, rice, milk, ...</p>
-      <p>Example can use <HighlightSpan>the</HighlightSpan>:</p>
+      <p>Examples: water, sugar, salt, money, rice, milk, ...</p>
+      <p>Examples where you can use <HighlightSpan>the</HighlightSpan>:</p>
       <ol>
         <li>The water in this bottle is cold.</li>
         <li>The information you gave me was helpful.</li>
         <li>The furniture in the living room is expensive.</li>
         <li>The advice she gave me helped a lot.</li>
       </ol>
-      <p>Example can not use <HighlightSpan>the</HighlightSpan>:</p>
+      <p>Examples where you can not use <HighlightSpan>the</HighlightSpan>:</p>
       <ol>
         <li>Water is essential for life.</li>
         <li>Knowledge is power.</li>

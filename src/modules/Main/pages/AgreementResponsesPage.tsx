@@ -11,7 +11,7 @@ function AgreementResponsesPage() {
       <p>A: I like swimming.</p>
       <p>B:</p>
       <ul>
-        <li>Me, too.</li>
+        <li>Me too.</li>
         <li>So do I.</li>
         <li>I do, too.</li>
       </ul>
@@ -20,7 +20,7 @@ function AgreementResponsesPage() {
       <p>A: I don't like swimming.</p>
       <p>B:</p>
       <ul>
-        <li>Me, neither.</li>
+        <li>Me neither.</li>
         <li>Neither do I.</li>
         <li>I don't either.</li>
       </ul>

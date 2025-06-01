@@ -22,8 +22,8 @@ function PassiveVoicePage() {
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + V + O + (Adv) + (Adv of time)</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> + (Adv) + (by S) + (Adv of time)</li>
+          <li><HighlightSpan>Active</HighlightSpan>: S + V + O + (Adv) + (adverb of time)</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> + (Adv) + (by S) + (adverb of time)</li>
         </ul>
       </ContentBox>
 
@@ -110,12 +110,12 @@ function PassiveVoicePage() {
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
         <AlertTitle>Note</AlertTitle>
         <ul>
-          <li>Omit [by him/her/us/them].</li>
-          <li>Keep "by Mary", "by Tom", "by my teacher".</li>
+          <li>Omit <HighlightSpan>by [him/her/us/them]</HighlightSpan>.</li>
+          <li>Keep "by Mary", "by Tom" or "by my teacher".</li>
         </ul>
       </Alert>
 
-      <SubTitle>Tense's passive voice</SubTitle>
+      <SubTitle>Passive voice for each tense</SubTitle>
       <Box sx={{ marginBottom: 2 }}>
         {xs
           ? (
@@ -174,12 +174,12 @@ function PassiveVoicePage() {
         </ul>
         <Divider />
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V + O</li>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V<sub>bare</sub> + O</li>
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>am/is/are</HighlightCode> going to be V<sub>3/ed</sub> (by S)</li>
         </ul>
         <Divider />
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V + O</li>
+          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V<sub>bare</sub> + O</li>
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
         </ul>
       </ContentBox>

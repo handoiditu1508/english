@@ -15,17 +15,17 @@ function AdvClausesOfTimePage() {
       <SubTitle>Adverbs</SubTitle>
       <ContentBox>
         <Box sx={{ paddingX: 2 }}>
-          when, while, since, after, before, until, by the time, as soon as, ... etc.
+          when, while, since, after, before, until, by the time, as soon as, etc.
         </Box>
         <Divider />
         <Box sx={{ paddingX: 2 }}>
-          as ≈ when/while
+          as ≈ [when/while]
         </Box>
         <Divider />
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <p>As soon as + [Simple Past/Past Perfect], [Simple Past]</p>
-          <p>= No sooner had + [Simple Past] + than + [Simple Past]</p>
-          <p>= Hardly had + [Simple Past] + when + [Simple Past]</p>
+          <p>= No sooner had + [Past Perfect] + than + [Simple Past]</p>
+          <p>= Hardly had + [Past Perfect] + when + [Simple Past]</p>
         </Box>
         <Divider />
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>

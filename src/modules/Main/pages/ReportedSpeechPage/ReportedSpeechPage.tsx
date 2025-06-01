@@ -44,7 +44,7 @@ function ReportedSpeechPage() {
         <li>
           Ms. Han said, "Don't talk in class".
           <ul>
-            <li>Ms. Han told us not to talk in class</li>
+            <li>Ms. Han told us not to talk in class.</li>
           </ul>
         </li>
       </ol>
@@ -52,16 +52,16 @@ function ReportedSpeechPage() {
       <SubTitle>Statement examples</SubTitle>
       <ol>
         <li>
-          They said, "We are studing English now".
+          They said, "We are studying English now".
           <ul>
-            <li>They said (that) they were studing Englist then.</li>
-            <li>They told us (that) they were studing Englist then.</li>
+            <li>They said (that) they were studying English then.</li>
+            <li>They told us (that) they were studying English then.</li>
           </ul>
         </li>
         <li>
           Lan said, "I went to the zoo with my parents yesterday".
           <ul>
-            <li>Lan said (that) she had gone to the zoo with her parent the day before.</li>
+            <li>Lan said (that) she had gone to the zoo with her parents the day before.</li>
           </ul>
         </li>
         <li>
@@ -102,7 +102,7 @@ function ReportedSpeechPage() {
         <li>
           He asked, "What are you doing next Sunday?".
           <ul>
-            <li>He asked me what was I doing the next Sunday.</li>
+            <li>He asked me what I was doing the following Sunday.</li>
           </ul>
         </li>
         <li>
