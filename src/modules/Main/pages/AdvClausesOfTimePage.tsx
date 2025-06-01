@@ -17,22 +17,22 @@ function AdvClausesOfTimePage() {
         <Box sx={{ paddingX: 2 }}>
           when, while, since, after, before, until, by the time, as soon as, ... etc.
         </Box>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{ paddingX: 2 }}>
           as ≈ when/while
         </Box>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <p>As soon as + [Simple Past/Past Perfect], [Simple Past]</p>
           <p>= No sooner had + [Simple Past] + than + [Simple Past]</p>
           <p>= Hardly had + [Simple Past] + when + [Simple Past]</p>
         </Box>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <p>Not until + [time/event] + did + S + V<sub>1</sub></p>
           <p>= It was not until + [time/event] + that + [Simple Past]</p>
         </Box>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         Only + [when/after/by/etc.] + did + S + V<sub>1</sub>
       </ContentBox>
 

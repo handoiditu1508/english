@@ -24,9 +24,9 @@ function ModalVerbsPage() {
         </ul>
       </ContentBox>
 
-      <ContentBox sx={{ marginTop: 2 }}>
+      <ContentBox boxMargin>
         <p>Infer</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>
             <li>
@@ -49,9 +49,9 @@ function ModalVerbsPage() {
         </Box>
       </ContentBox>
 
-      <ContentBox sx={{ marginTop: 2 }}>
+      <ContentBox boxMargin>
         <p>Advise</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>
             <li>

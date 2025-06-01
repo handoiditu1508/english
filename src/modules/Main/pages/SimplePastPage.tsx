@@ -48,7 +48,7 @@ function SimplePastPage() {
             S + <HighlightSpan>was/were</HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -69,7 +69,7 @@ function SimplePastPage() {
             S + <HighlightSpan>was/were</HighlightSpan> + not + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -114,7 +114,7 @@ function SimplePastPage() {
             S + <HighlightSpan>V<sub>ed/2</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -135,7 +135,7 @@ function SimplePastPage() {
             S + <HighlightSpan>did</HighlightSpan> + not + V + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

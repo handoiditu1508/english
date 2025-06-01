@@ -44,7 +44,7 @@ function PresentPerfectContinuosPage() {
             S + <HighlightSpan>has/have been</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -65,7 +65,7 @@ function PresentPerfectContinuosPage() {
             S + <HighlightSpan>has/have</HighlightSpan> + not + <HighlightSpan>been</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

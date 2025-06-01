@@ -1,4 +1,3 @@
 todo: check grammar for every page
 todo: check globalization
-todo: ContentBox auto padding and auto negative margin for dividers
 todo: reorder pages

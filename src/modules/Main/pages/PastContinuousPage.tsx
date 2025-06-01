@@ -45,7 +45,7 @@ function PastContinuousPage() {
             S + <HighlightSpan>was/were</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -66,7 +66,7 @@ function PastContinuousPage() {
             S + <HighlightSpan>was/were</HighlightSpan> + not + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

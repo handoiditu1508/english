@@ -26,7 +26,7 @@ function MakingQuestionsPage() {
       </ul>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
-      <ContentBox sx={{ paddingX: 2 }}>
+      <ContentBox>
         Aux + S + V + ... ?
       </ContentBox>
 
@@ -93,7 +93,7 @@ function MakingQuestionsPage() {
       <SubTitle2>For subject</SubTitle2>
 
       <SubTitle3>{t("Structure")}</SubTitle3>
-      <ContentBox sx={{ paddingX: 2 }}>
+      <ContentBox>
         Question word + V<sub>1/2/3/ed/s/es</sub> + ... ?
       </ContentBox>
 
@@ -122,7 +122,7 @@ function MakingQuestionsPage() {
       <SubTitle2>For predicate</SubTitle2>
 
       <SubTitle3>{t("Structure")}</SubTitle3>
-      <ContentBox sx={{ paddingX: 2 }}>
+      <ContentBox>
         Question word + Aux + S + V<sub>1/2/3/ed/s/es</sub> + ... ?
       </ContentBox>
 

@@ -172,12 +172,12 @@ function PassiveVoicePage() {
           <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>can/could/may/might/will</HighlightCode> + V<sub>bare</sub> + O</li>
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>can/could/may/might/will</HighlightCode> be + V<sub>3/ed</sub> (by S)</li>
         </ul>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <ul>
           <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V + O</li>
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>am/is/are</HighlightCode> going to be V<sub>3/ed</sub> (by S)</li>
         </ul>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <ul>
           <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V + O</li>
           <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
@@ -192,7 +192,7 @@ function PassiveVoicePage() {
           <li><HighlightSpan>Active example</HighlightSpan>: She had the plumber fix the sink.</li>
           <li><HighlightSpan>Passive example</HighlightSpan>: She had the sink fixed (by the plumber).</li>
         </ul>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <ul>
           <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [someone] + to V<sub>bare</sub> + [something]</li>
           <li><HighlightSpan>Passive</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
@@ -213,7 +213,7 @@ function PassiveVoicePage() {
             }}>
             <ContentBox sx={{ height: "100%", boxSizing: "border-box" }}>
               <Typography color="primary" fontWeight={500}>{example.activeForm}</Typography>
-              <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+              <Divider />
               <Box component="ul" textAlign="initial">
                 {example.passiveForms.map((passiveForm, index) => (
                   <li key={index}>{passiveForm}</li>

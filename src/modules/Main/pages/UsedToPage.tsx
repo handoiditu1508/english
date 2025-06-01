@@ -65,7 +65,7 @@ function UsedToPage() {
             S + <HighlightSpan>used to</HighlightSpan> + V<sub>1</sub>
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -86,7 +86,7 @@ function UsedToPage() {
             S + didn't + <HighlightSpan>use to</HighlightSpan> + V<sub>1</sub>
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

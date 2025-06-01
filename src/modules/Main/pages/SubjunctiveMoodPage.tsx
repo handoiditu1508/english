@@ -22,7 +22,7 @@ function SubjunctiveMoodPage() {
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
-      <ContentBox sx={{ paddingX: 2 }}>
+      <ContentBox>
         It is + <HighlightSpan>essential / vital / important / crucial / imperative / suggested</HighlightSpan> + (that) + S + (should) + V<sub>bare</sub>
       </ContentBox>
 

@@ -49,7 +49,7 @@ function SimplePresentPage() {
             S + <HighlightSpan>is/am/are</HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -70,7 +70,7 @@ function SimplePresentPage() {
             S + <HighlightSpan>is/am/are</HighlightSpan> + not + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -115,7 +115,7 @@ function SimplePresentPage() {
             S + <HighlightSpan>V<sub>1/s/es</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -136,7 +136,7 @@ function SimplePresentPage() {
             S + <HighlightSpan>do/does</HighlightSpan> + not + V + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

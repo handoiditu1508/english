@@ -157,7 +157,7 @@ function TransformationPage() {
       <SubTitle>Purpose</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
-      <ContentBox sx={{ textAlign: "initial", paddingX: 2 }}>
+      <ContentBox sx={{ textAlign: "initial" }}>
         Why = What ... for
       </ContentBox>
 

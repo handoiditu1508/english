@@ -16,10 +16,10 @@ function BecauseAlthoughPage() {
       <ContentBox>
         <p>Because / Because of - bởi vì</p>
         <p>Although / Inspite of / Despite - mặc dù</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <p>[Because / Although] + S + V<sub>conjugate tenses</sub> + Adv</p>
         <p>[Because / Although] + S + V<sub>conjugate tenses</sub> + Adj</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <p>[Because of / Inspite of / Despite] + V<sub>ing</sub> (both phrases have the same subject)</p>
         <p>[Because of / Inspite of / Despite] + [the / his / her] + Adj + N</p>
       </ContentBox>

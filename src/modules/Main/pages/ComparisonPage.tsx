@@ -81,7 +81,7 @@ function ComparisonPage() {
       <ContentBox>
         <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>[short Adj] + er</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
         <p>S<sub>1</sub> + V<sub>(affirmative)</sub> + <HighlightSpan>more + [long Adj]</HighlightSpan> + than + [S<sub>2</sub>/O] + auxiliary</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <p>S<sub>2</sub> + V<sub>not</sub> + as + Adj + as + S<sub>1</sub> + auxiliary</p>
       </ContentBox>
 
@@ -107,7 +107,7 @@ function ComparisonPage() {
       <ContentBox>
         <p>S + V + <HighlightSpan>the + [short Adj] + est</HighlightSpan> + (location)</p>
         <p>S + V + <HighlightSpan>the most + [long Adj]</HighlightSpan> + (location)</p>
-        <Divider sx={{ marginY: 2 }} />
+        <Divider />
         <p><HighlightSpan>No other + N<sub>singular</sub></HighlightSpan> + (location) + V<sub>bare</sub> + as + ... + as + S</p>
         <p><HighlightSpan>Nobody</HighlightSpan> + (location) + V<sub>bare</sub> + as + ... + as + S</p>
         <p><HighlightSpan>No one</HighlightSpan> + (location) + V<sub>bare</sub> + as + ... + as + S</p>

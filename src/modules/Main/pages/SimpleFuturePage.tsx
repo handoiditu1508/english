@@ -45,7 +45,7 @@ function SimpleFuturePage() {
             S + <HighlightSpan>will</HighlightSpan> + V + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -66,7 +66,7 @@ function SimpleFuturePage() {
             S + <HighlightSpan>will</HighlightSpan> + not + V + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

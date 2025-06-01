@@ -47,7 +47,7 @@ function PresentContinuousPage() {
             S + <HighlightSpan>am/is/are</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -68,7 +68,7 @@ function PresentContinuousPage() {
             S + <HighlightSpan>am/is/am</HighlightSpan> + not + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

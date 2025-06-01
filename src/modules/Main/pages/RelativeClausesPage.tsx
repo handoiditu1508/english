@@ -18,20 +18,20 @@ function RelativeClausesPage() {
       <ContentBox>
         <p>Who + V (as the subject of a verb)</p>
         <p>(Can be used in place of whom)</p>
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         Whom + S (as the object of a verb)
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         Which (for things)
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         <p>That (for people and things)</p>
         <p>(Can be used in place of who, whom, which)</p>
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         Whose + N (possessive form)
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         Where (for places)
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         When (for time)
-        <Divider sx={{ margin: 2 }} />
+        <Divider />
         Why (for reasons)
       </ContentBox>
 

@@ -43,7 +43,7 @@ function FutureContinuousPage() {
             S + <HighlightSpan>will be</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",
@@ -64,7 +64,7 @@ function FutureContinuousPage() {
             S + <HighlightSpan>will</HighlightSpan> + not + <HighlightSpan>be</HighlightSpan> + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
-        <Divider variant="fullWidth" sx={{ marginY: 2 }} />
+        <Divider />
         <Box sx={{
           display: "flex",
           alignItems: "center",

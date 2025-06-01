@@ -24,7 +24,7 @@ function PurposePage() {
         </Box>
       </ContentBox>
 
-      <ContentBox sx={{ marginTop: 2 }}>
+      <ContentBox boxMargin>
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <ul>
             <li>S + V + <HighlightSpan>[so that / in order that]</HighlightSpan> + S + <HighlightSpan>[will/can]</HighlightSpan> <sup>(other tenses)</sup> + (not) + V<sub>1</sub></li>
