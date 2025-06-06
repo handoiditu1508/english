@@ -161,13 +161,13 @@ function ConditionalSentencesPage() {
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
         <AlertTitle>Note</AlertTitle>
-        If not = Unless
+        "If not" = "Unless"
       </Alert>
 
       <SubTitle>Transform to if sentence</SubTitle>
       <ol>
-        <li>Choose the clause behind <HighlightSpan>because</HighlightSpan>
-          , or before <HighlightSpan>so</HighlightSpan>, <HighlightSpan>this is why</HighlightSpan> to be <HighlightSpan>the if clause</HighlightSpan>.
+        <li>Choose the clause after <HighlightSpan>because</HighlightSpan>
+          , or before <HighlightSpan>so</HighlightSpan> or <HighlightSpan>this is why</HighlightSpan>, to be <HighlightSpan>the if clause</HighlightSpan>.
         </li>
         <li>
           Choose conditional sentence type
@@ -177,7 +177,7 @@ function ConditionalSentencesPage() {
             <li><HighlightSpan>The if clause</HighlightSpan> is an unreal condition in the past: <HighlightSpan>conditional type 3</HighlightSpan>.</li>
           </ul>
         </li>
-        <li>{"Write sentence opposite to the given sentence (affirmative <=> negative)."}</li>
+        <li>{"Write the sentence opposite to the given sentence (affirmative <=> negative)."}</li>
       </ol>
 
       <SubTitle>{t("Examples")}</SubTitle>
@@ -191,11 +191,11 @@ function ConditionalSentencesPage() {
         <li>
           It rained heavily, this is why we came to school late.
           <ul>
-            <li>If it hadn't rained heavily, we couldn't have came to school late.</li>
+            <li>If it hadn't rained heavily, we wouldn't have come to school late.</li>
           </ul>
         </li>
         <li>
-          Tom was ill, so he didn't go to school yeaterday.
+          Tom was ill, so he didn't go to school yesterday.
           <ul>
             <li>If Tom had not been ill, he would have gone to school yesterday.</li>
           </ul>

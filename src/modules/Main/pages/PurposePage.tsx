@@ -17,7 +17,7 @@ function PurposePage() {
       <ContentBox>
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <ul>
-            <li>S + V + <HighlightSpan>to</HighlightSpan> + V<sub>1</sub> <sup>(<HighlightSpan>not to</HighlightSpan> doesn't exist)</sup></li>
+            <li>S + V + <HighlightSpan>to</HighlightSpan> + V<sub>1</sub> <sup>("not to" is not used)</sup></li>
             <li>S + V + <HighlightSpan>in order (not) to</HighlightSpan> + V<sub>1</sub></li>
             <li>S + V + <HighlightSpan>so as (not) to</HighlightSpan> + V<sub>1</sub></li>
           </ul>
@@ -27,8 +27,8 @@ function PurposePage() {
       <ContentBox boxMargin>
         <Box sx={{ paddingX: 2, textAlign: "initial", display: "inline-block" }}>
           <ul>
-            <li>S + V + <HighlightSpan>[so that / in order that]</HighlightSpan> + S + <HighlightSpan>[will/can]</HighlightSpan> <sup>(other tenses)</sup> + (not) + V<sub>1</sub></li>
-            <li>S + V + <HighlightSpan>[so that / in order that]</HighlightSpan> + S + <HighlightSpan>[would/could]</HighlightSpan> <sup>(past tenses)</sup> + (not) + V<sub>1</sub></li>
+            <li>S + V + <HighlightSpan>[so that / in order that]</HighlightSpan> + S + <HighlightSpan>[will/can]</HighlightSpan> <sup>(other tenses)</sup> (+ not) + V<sub>1</sub></li>
+            <li>S + V + <HighlightSpan>[so that / in order that]</HighlightSpan> + S + <HighlightSpan>[would/could]</HighlightSpan> <sup>(past tenses)</sup> (+ not) + V<sub>1</sub></li>
           </ul>
         </Box>
       </ContentBox>

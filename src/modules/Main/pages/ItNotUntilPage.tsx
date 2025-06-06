@@ -30,7 +30,7 @@ function ItNotUntilPage() {
         <li>
           He didn't learn to read until he was 10.
           <ul>
-            <li>It was not until he was 10 that he learnt to read.</li>
+            <li>It was not until he was 10 that he learned to read.</li>
           </ul>
         </li>
         <li>

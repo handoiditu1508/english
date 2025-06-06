@@ -16,11 +16,11 @@ function PresentPerfectPage() {
       <Title>Present Perfect Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Present perfect describes:</Typography>
+      <Typography>The present perfect tense describes:</Typography>
       <ul>
         <li>An action that started in the past and continues to the present.</li>
         <li>An action that happened at an unspecified time in the past.</li>
-        <li>An action just happened.</li>
+        <li>An action that has just happened.</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -91,15 +91,15 @@ function PresentPerfectPage() {
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <ul>
-        <li>for + (a period of time)</li>
-        <li>since + (a moment in time)</li>
+        <li>for + [a period of time]</li>
+        <li>since + [a point in time]</li>
         <li>lately = recently</li>
         <li>yet</li>
         <li>just</li>
         <li>already</li>
         <li>up to now</li>
         <li>so far</li>
-        <li>in the last (quantity) years</li>
+        <li>in the last [number] years</li>
         <li>never</li>
         <li>ever</li>
       </ul>
@@ -112,7 +112,7 @@ function PresentPerfectPage() {
         <li>We <HighlightSpan>have</HighlightSpan> already <HighlightSpan>seen</HighlightSpan> that movie.</li>
         <li>He <HighlightSpan>has</HighlightSpan> never <HighlightSpan>been</HighlightSpan> to London.</li>
         <li><HighlightSpan>Have</HighlightSpan> you ever <HighlightSpan>tried</HighlightSpan> sushi?</li>
-        <li>She <HighlightSpan>has</HighlightSpan>n't <HighlightSpan>called</HighlightSpan> me yet.</li>
+        <li>She <HighlightSpan>hasn't</HighlightSpan> <HighlightSpan>called</HighlightSpan> me yet.</li>
         <li>They <HighlightSpan>have</HighlightSpan> not <HighlightSpan>visited</HighlightSpan> us since last year.</li>
       </ol>
     </Box>

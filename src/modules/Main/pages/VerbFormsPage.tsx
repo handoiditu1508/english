@@ -13,7 +13,7 @@ function VerbFormsPage() {
       <Title>Verb Forms</Title>
 
       <SubTitle>{t("Structure")} 1</SubTitle>
-      <ContentBox boxMargin><HighlightSpan>V</HighlightSpan> + (O) + V<sub>bare</sub></ContentBox>
+      <ContentBox boxMargin><HighlightSpan>V</HighlightSpan> (+ O) + V<sub>bare</sub></ContentBox>
       <ul>
         <li><HighlightSpan>let</HighlightSpan> - để</li>
         <li><HighlightSpan>make</HighlightSpan> - làm, khiến</li>
@@ -49,7 +49,7 @@ function VerbFormsPage() {
       </ul>
 
       <SubTitle>{t("Structure")} 3</SubTitle>
-      <ContentBox boxMargin><HighlightSpan>V</HighlightSpan> + (O) + to V</ContentBox>
+      <ContentBox boxMargin><HighlightSpan>V</HighlightSpan> (+ O) + to V</ContentBox>
       <ul>
         <li><HighlightSpan>help</HighlightSpan> - giúp</li>
         <li><HighlightSpan>hope</HighlightSpan> - hi vọng</li>
@@ -66,7 +66,7 @@ function VerbFormsPage() {
         <li><HighlightSpan>enough ... to</HighlightSpan> - đủ ... để</li>
         <li><HighlightSpan>what/how + to V</HighlightSpan></li>
         <li><HighlightSpan>Adj + to V</HighlightSpan></li>
-        <li><HighlightSpan>it take(s) + (O) + to V</HighlightSpan></li>
+        <li><HighlightSpan>it take(s) (+ O) + to V</HighlightSpan></li>
       </ul>
 
       <SubTitle>{t("Structure")} 4</SubTitle>

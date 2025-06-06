@@ -38,13 +38,13 @@ function RelativeClausesPage() {
       <SubTitle>Must use that:</SubTitle>
       <ol>
         <li>
-          Noun refering to both person and thing
+          Noun referring to both person and thing
           <ul>
             <li>I saw <HighlightSpan>a man</HighlightSpan> and <HighlightSpan>a dog</HighlightSpan> <HighlightCode>that</HighlightCode> walked along the road.</li>
           </ul>
         </li>
         <li>
-          Superlative
+          Superlatives
           <ul>
             <li>She is <HighlightSpan>the most beautiful girl</HighlightSpan> <HighlightCode>that</HighlightCode> I have ever met.</li>
           </ul>
@@ -70,7 +70,7 @@ function RelativeClausesPage() {
         </li>
       </ol>
 
-      <SubTitle>Cannot use that:</SubTitle>
+      <SubTitle>Can not use that:</SubTitle>
       <ol>
         <li>
           After a comma
@@ -79,13 +79,13 @@ function RelativeClausesPage() {
           </ul>
         </li>
         <li>
-          Proper noun
+          Proper nouns
           <ul>
             <li><HighlightSpan>Mary</HighlightSpan>, <HighlightCode>who</HighlightCode> is intelligent, comes from America.</li>
           </ul>
         </li>
         <li>
-          Possessive adjective
+          Possessive adjectives
           <ul>
             <li>The woman is <HighlightSpan>my aunt</HighlightSpan>, <HighlightCode>whom</HighlightCode> you saw yesterday.</li>
           </ul>

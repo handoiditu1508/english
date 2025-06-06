@@ -17,10 +17,10 @@ function SimpleFuturePage() {
       <Title>Simple Future Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Simple future describes:</Typography>
+      <Typography>The simple future tense describes:</Typography>
       <ul>
         <li>An action that will happen in the future.</li>
-        <li>A instant decision.</li>
+        <li>An instant decision.</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -100,7 +100,7 @@ function SimpleFuturePage() {
         <li><HighlightSpan>Will</HighlightSpan> I go to the beach tomorrow?</li>
       </ol>
 
-      <SubTitle>These tenses can be used to describe about future</SubTitle>
+      <SubTitle>These tenses can be used to describe the future</SubTitle>
       <TableContainer>
         <Table
           size="small"
@@ -127,13 +127,13 @@ function SimpleFuturePage() {
           </TableHead>
           <TableRow>
             <TableCell>
-              That boat doesn't strong. It will sink if there is a storm.
+              That boat isn't strong. It will sink if there is a storm.
               <ul>
                 <li>Subjective prediction.</li>
               </ul>
             </TableCell>
             <TableCell>
-              The explosion has maded a hole in the bottom of the boat. It is going to sink.
+              The explosion has made a hole in the bottom of the boat. It is going to sink.
               <ul>
                 <li>Prediction based on evidence that can be seen or heard clearly.</li>
               </ul>
@@ -162,7 +162,7 @@ function SimpleFuturePage() {
             <TableCell>
               It is going to rain tomorrow.
               <ul>
-                <li>Talk about natural events (human can not control).</li>
+                <li>Talk about natural events (humans can not control).</li>
               </ul>
             </TableCell>
             <TableCell>
@@ -180,7 +180,7 @@ function SimpleFuturePage() {
             <TableCell>
               The train leaves at 10pm tomorrow. We land at midnight.
               <ul>
-                <li>Future scheduled events such as timetables, TV shows, ...</li>
+                <li>Future scheduled events such as timetables, TV shows, etc.</li>
               </ul>
             </TableCell>
           </TableRow>

@@ -17,7 +17,7 @@ function SimplePastPage() {
       <Title>Simple Past Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Simple past describes:</Typography>
+      <Typography>The simple past tense describes:</Typography>
       <ul>
         <li>An action that started and finished in the past.</li>
         <li>A series of completed actions in the past.</li>
@@ -161,7 +161,7 @@ function SimplePastPage() {
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <ul>
         <li>ago</li>
-        <li>last</li>
+        <li>last [week/month/year/etc.]</li>
         <li>yesterday</li>
         <li>in the past</li>
         <li>in [a year in the past]</li>

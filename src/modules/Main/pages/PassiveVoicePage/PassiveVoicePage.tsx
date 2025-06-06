@@ -22,8 +22,8 @@ function PassiveVoicePage() {
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + V + O + (Adv) + (adverb of time)</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> + (Adv) + (by S) + (adverb of time)</li>
+          <li><HighlightSpan>Active</HighlightSpan>: S + V + O (+ Adv) (+ adverb of time)</li>
+          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> (+ Adv) (+ by S) (+ adverb of time)</li>
         </ul>
       </ContentBox>
 

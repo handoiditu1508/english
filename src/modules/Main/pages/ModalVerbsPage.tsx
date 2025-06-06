@@ -15,17 +15,17 @@ function ModalVerbsPage() {
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>May/Might</HighlightSpan>: có thể, có lẻ.</li>
-          <li><HighlightSpan>Must + have/has to</HighlightSpan>: phải (bắt buộc).</li>
-          <li><HighlightSpan>Mustn't + have/has to</HighlightSpan>: không được phép (cấm).</li>
-          <li><HighlightSpan>Do/Doesn't + have to</HighlightSpan>: không phải làm gì đó.</li>
+          <li><HighlightSpan>May/Might</HighlightSpan>: có thể, lẽ.</li>
+          <li><HighlightSpan>Must + [have to / has to]</HighlightSpan>: phải (bắt buộc).</li>
+          <li><HighlightSpan>Mustn't</HighlightSpan>: không được phép (cấm).</li>
+          <li><HighlightSpan>[Don't/Doesn't] + have to</HighlightSpan>: không phải làm gì đó.</li>
           <li><HighlightSpan>Needn't + V<sub>bare</sub></HighlightSpan>: không cần thiết làm gì đó.</li>
-          <li><HighlightSpan>Do/Doesn't + need + to V</HighlightSpan>: không cần thiết làm gì đó.</li>
+          <li><HighlightSpan>[Don't/Doesn't] + need + to V</HighlightSpan>: không cần thiết làm gì đó.</li>
         </ul>
       </ContentBox>
 
       <ContentBox boxMargin>
-        <p>Infer</p>
+        <p>Inference</p>
         <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>
@@ -34,7 +34,7 @@ function ModalVerbsPage() {
               <p>Example: Mary is absent today.</p>
               <ul>
                 <li>(50%) She can be ill.</li>
-                <li>(90%) She must go to the beach.</li>
+                <li>(90%) She must have gone to the beach.</li>
               </ul>
             </li>
             <li>
@@ -50,7 +50,7 @@ function ModalVerbsPage() {
       </ContentBox>
 
       <ContentBox boxMargin>
-        <p>Advise</p>
+        <p>Advice</p>
         <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>

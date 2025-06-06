@@ -24,7 +24,7 @@ function PronunciationPage() {
           }}>
           <TableHead>
             <TableRow>
-              <TableCell align="center">Word ends in...</TableCell>
+              <TableCell align="center">Word ends with...</TableCell>
               <TableCell align="center">Sound</TableCell>
               <TableCell align="center">Examples</TableCell>
             </TableRow>
@@ -41,7 +41,7 @@ function PronunciationPage() {
               <TableCell>cups, hits, books, roofs</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Voiced sounds (the rest)</TableCell>
+              <TableCell>Voiced sounds (all other endings)</TableCell>
               <TableCell>/z/</TableCell>
               <TableCell>dogs, plays, pens, loves</TableCell>
             </TableRow>

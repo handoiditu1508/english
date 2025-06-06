@@ -137,7 +137,7 @@ function MakingQuestionsPage() {
         <li>
           My mother <HighlightSpan>usually [1]</HighlightSpan> goes to work <HighlightSpan>by bus [2]</HighlightSpan>.
           <ul>
-            <li><HighlightSpan>[1]</HighlightSpan> How often your mother goes to work by bus?</li>
+            <li><HighlightSpan>[1]</HighlightSpan> How often does your mother go to work by bus?</li>
             <li><HighlightSpan>[2]</HighlightSpan> How does your mother usually go to work?</li>
           </ul>
         </li>

@@ -16,7 +16,7 @@ function FutureContinuousPage() {
       <Title>Future Continuous Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Future continuous describes:</Typography>
+      <Typography>The future continuous tense describes:</Typography>
       <ul>
         <li>An action that will be in progress at a specific time in the future.</li>
       </ul>

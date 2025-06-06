@@ -8,15 +8,15 @@ import HighlightSpan from "../components/HighlightSpan";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
-function PresentPerfectContinuosPage() {
+function PresentPerfectContinuousPage() {
   const { t } = useTranslation();
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Present Perfect Continuos Tense</Title>
+      <Title>Present Perfect Continuous Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Present perfect continuos describes:</Typography>
+      <Typography>Present perfect continuous describes:</Typography>
       <ul>
         <li>An action that started in the past and is still continuing.</li>
         <li>An action that started in the past and has just finished.</li>
@@ -89,7 +89,7 @@ function PresentPerfectContinuosPage() {
       </ContentBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>for (a length of time), since (a starting point), lately, recently, all day, all week, ...</Typography>
+      <Typography>for (a length of time), since (a starting point), lately, recently, all day, all week, etc.</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>
@@ -101,4 +101,4 @@ function PresentPerfectContinuosPage() {
   );
 }
 
-export default PresentPerfectContinuosPage;
+export default PresentPerfectContinuousPage;

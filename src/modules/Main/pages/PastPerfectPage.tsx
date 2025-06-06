@@ -16,13 +16,13 @@ function PastPerfectPage() {
       <Title>Past Perfect Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Past perfect describes:</Typography>
+      <Typography>The past perfect tense describes:</Typography>
       <ul>
         <li>An action that was completed before another action in the past.</li>
         <li>An action that was completed before a specific time in the past.</li>
         <li>An action that was completed before a specific event in the past.</li>
       </ul>
-      <p>The prior action use <HighlightSpan>had + V3</HighlightSpan>, the latter action use <HighlightSpan>V<sub>2</sub> (Simple Past)</HighlightSpan>.</p>
+      <p>The prior action uses <HighlightSpan>had + V3</HighlightSpan>; the latter action uses <HighlightSpan>V<sub>2</sub> (Simple Past)</HighlightSpan>.</p>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -105,13 +105,13 @@ function PastPerfectPage() {
       <SubTitle>Notes</SubTitle>
 
       <ContentBox boxMargin>when + [Simple Past], [Simple Past]</ContentBox>
-      <p>When two actions happen one after another or one action leads to another.</p>
+      <p>When two actions happen one after another, or one action leads to another.</p>
       <p>Example:</p>
       <ul>
         <li>When he <HighlightSpan>opened</HighlightSpan> the window, the bird <HighlightSpan>flew</HighlightSpan> out.</li>
       </ul>
 
-      <ContentBox boxMargin>[when/as soon as/once] + [Past Perfect], [Simple Past]</ContentBox>
+      <ContentBox boxMargin>[when / as soon as / once] + [Past Perfect], [Simple Past]</ContentBox>
       <p>When the first action ends, the second action begins.</p>
       <p>Example:</p>
       <ul>

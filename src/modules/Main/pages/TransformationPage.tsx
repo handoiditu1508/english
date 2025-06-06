@@ -19,10 +19,10 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>It [is / has been] + [period of time] + since + S + (last) + V<sub>2/ed</sub></li>
+          <li>It [is / has been] + [period of time] + since + S (+ last) + V<sub>2/ed</sub></li>
           <li>S + [hasn't / haven't] + V<sub>3/ed</sub> + for + [period of time]</li>
-          <li>S + (last) + V<sub>2/ed</sub> + [period of time] + ago</li>
-          <li>The last time + S + (last) + V<sub>2/ed</sub> was + [period of time] + ago</li>
+          <li>S (+ last) + V<sub>2/ed</sub> + [period of time] + ago</li>
+          <li>The last time + S (+ last) + V<sub>2/ed</sub> was + [period of time] + ago</li>
         </ul>
       </ContentBox>
 
@@ -33,7 +33,7 @@ function TransformationPage() {
           <ul>
             <li>I haven't met Jane for 10 years.</li>
             <li>I last met Jane 10 years ago.</li>
-            <li>The last time I last met Jane was 10 years ago.</li>
+            <li>The last time I met Jane was 10 years ago.</li>
           </ul>
         </li>
         <li>
@@ -41,7 +41,7 @@ function TransformationPage() {
           <ul>
             <li>It has been 2 months since he last played tennis.</li>
             <li>He last played tennis 2 months ago.</li>
-            <li>The last time he last played tennis was 2 months ago.</li>
+            <li>The last time he played tennis was 2 months ago.</li>
           </ul>
         </li>
       </ol>
@@ -109,7 +109,7 @@ function TransformationPage() {
           <li>Let's + V<sub>bare</sub> (both speaker and listener perform)</li>
           <li>Why don't you + V<sub>bare</sub> (only listener perform)</li>
           <li>S + suggest + V<sub>ing</sub> (both speaker and listener perform)</li>
-          <li>S + suggest + (that) + S + (should) + V<sub>bare</sub> (only listener perform)</li>
+          <li>S + suggest (+ that) + S (+ should) + V<sub>bare</sub> (only listener perform)</li>
         </ul>
       </ContentBox>
 
@@ -176,8 +176,8 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>S + regret<sub>conjugate tenses</sub> + (not) + V<sub>ing</sub></li>
-          <li>S + regret<sub>conjugate tenses</sub> + (that) + S + [V<sub>2/ed</sub>/didn't]</li>
+          <li>S + regret<sub>conjugate tenses</sub> (+ not) + V<sub>ing</sub></li>
+          <li>S + regret<sub>conjugate tenses</sub> (+ that) + S + [V<sub>2/ed</sub>/didn't]</li>
         </ul>
       </ContentBox>
 
@@ -202,7 +202,7 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>S + prefer + [N/Ving] + to + [N/Ving]</li>
+          <li>S + prefer(s) + [N/Ving] + to + [N/Ving]</li>
           <li>S + would rather + V<sub>bare</sub> + than + V<sub>bare</sub></li>
         </ul>
       </ContentBox>
@@ -220,7 +220,7 @@ function TransformationPage() {
           </ul>
         </li>
         <li>
-          She prefer singing to dancing.
+          She prefers singing to dancing.
           <ul>
             <li>She'd rather sing than dance.</li>
           </ul>
@@ -252,10 +252,10 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>It + be<sub>conjugate tenses</sub> + Adj + (for O) + to V</li>
+          <li>It + be<sub>conjugate tenses</sub> + Adj (+ for O) + to V</li>
           <li>S + find<sub>conjugate tenses</sub> + it + Adj + to V</li>
           <li>S + be<sub>conjugate tenses</sub> (not) used to + V<sub>ing</sub></li>
-          <li>S + have<sub>conjudgate tenses</sub> (no) difficulty + V<sub>ing</sub></li>
+          <li>S + have<sub>conjugate tenses</sub> (no) difficulty + V<sub>ing</sub></li>
         </ul>
       </ContentBox>
 

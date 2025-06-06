@@ -16,7 +16,7 @@ function FuturePerfectPage() {
       <Title>Future Perfect Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Future perfect describes:</Typography>
+      <Typography>The future perfect tense describes:</Typography>
       <ul>
         <li>An action that will be completed before a specific time in the future.</li>
         <li>An action that will be completed before another action in the future.</li>

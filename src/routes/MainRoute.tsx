@@ -13,7 +13,7 @@ const PastPerfectPage = React.lazy(() => import("@/modules/Main/pages/PastPerfec
 const SimpleFuturePage = React.lazy(() => import("@/modules/Main/pages/SimpleFuturePage"));
 const FutureContinuousPage = React.lazy(() => import("@/modules/Main/pages/FutureContinuousPage"));
 const FuturePerfectPage = React.lazy(() => import("@/modules/Main/pages/FuturePerfectPage"));
-const PresentPerfectContinuousPage = React.lazy(() => import("@/modules/Main/pages/PresentPerfectContinuosPage"));
+const PresentPerfectContinuousPage = React.lazy(() => import("@/modules/Main/pages/PresentPerfectContinuousPage"));
 const PassiveVoicePage = React.lazy(() => import("@/modules/Main/pages/PassiveVoicePage"));
 const ReportedSpeechPage = React.lazy(() => import("@/modules/Main/pages/ReportedSpeechPage"));
 const ConditionalSentencesPage = React.lazy(() => import("@/modules/Main/pages/ConditionalSentencesPage"));

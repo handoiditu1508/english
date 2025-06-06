@@ -36,7 +36,7 @@ function UsedToPage() {
           I use this pen to write this lesson.
           <ul>
             <li>This pen is used <HighlightSpan>to write</HighlightSpan> this lesson.</li>
-            <li>This pen is used <HighlightSpan>for writting</HighlightSpan> this lesson.</li>
+            <li>This pen is used <HighlightSpan>for writing</HighlightSpan> this lesson.</li>
           </ul>
         </li>
       </ol>
@@ -104,7 +104,7 @@ function UsedToPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            did + S + <HighlightSpan>use to</HighlightSpan> + S + V<sub>1</sub> ?
+            did + S + <HighlightSpan>use to</HighlightSpan> + V<sub>1</sub> ?
           </Typography>
         </Box>
       </ContentBox>

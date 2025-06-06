@@ -16,7 +16,7 @@ function PastContinuousPage() {
       <Title>Past Continuous Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Past continuous describes:</Typography>
+      <Typography>The past continuous tense describes:</Typography>
       <ul>
         <li>An action that was in progress at a specific time in the past.</li>
         <li>An action that was interrupted by another action in the past.</li>
@@ -90,7 +90,7 @@ function PastContinuousPage() {
       </ContentBox>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <Typography>while, at the time, at this time, but, ...</Typography>
+      <Typography>while, at the time, at this time, but, etc.</Typography>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>

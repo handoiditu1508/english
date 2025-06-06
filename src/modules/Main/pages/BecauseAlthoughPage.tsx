@@ -15,13 +15,13 @@ function BecauseAlthoughPage() {
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
         <p>Because / Because of - bởi vì</p>
-        <p>Although / Inspite of / Despite - mặc dù</p>
+        <p>Although / In spite of / Despite - mặc dù</p>
         <Divider />
-        <p>[Because / Although] + S + V<sub>conjugate tenses</sub> + Adv</p>
-        <p>[Because / Although] + S + V<sub>conjugate tenses</sub> + Adj</p>
+        <p>[Because / Although] + S + V<sub>conjugated</sub> + Adv</p>
+        <p>[Because / Although] + S + V<sub>conjugated</sub> + Adj</p>
         <Divider />
-        <p>[Because of / Inspite of / Despite] + V<sub>ing</sub> (both phrases have the same subject)</p>
-        <p>[Because of / Inspite of / Despite] + [the / his / her] + Adj + N</p>
+        <p>[Because of / In spite of / Despite] + V<sub>ing</sub> (both phrases have the same subject)</p>
+        <p>[Because of / In spite of / Despite] + [the / his / her] + Adj + N</p>
       </ContentBox>
 
       <SubTitle>{t("Examples")}</SubTitle>
@@ -48,7 +48,7 @@ function BecauseAlthoughPage() {
         <li>
           We did the test well <HighlightSpan>despite</HighlightSpan> its difficulty.
           <ul>
-            <li>He did the test well <HighlightSpan>although</HighlightSpan> it difficult.</li>
+            <li>We did the test well <HighlightSpan>although</HighlightSpan> it difficult.</li>
           </ul>
         </li>
       </ol>

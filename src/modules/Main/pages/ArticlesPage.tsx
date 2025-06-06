@@ -184,7 +184,7 @@ function ArticlesPage() {
       <ol>
         <li>Water is essential for life.</li>
         <li>Knowledge is power.</li>
-        <li>Happiness cannot be bought.</li>
+        <li>Happiness can not be bought.</li>
       </ol>
     </Box>
   );

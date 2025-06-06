@@ -25,7 +25,7 @@ function TheAdjPage() {
         <li><HighlightSpan>The disabled = disabled people</HighlightSpan> - người khuyết tật</li>
         <li><HighlightSpan>The dead = dead people</HighlightSpan> - người chết</li>
         <li><HighlightSpan>The homeless = homeless people</HighlightSpan> - người vô gia cư</li>
-        <li><HighlightSpan>The mental handicapped = mental handicapped people</HighlightSpan> - người chậm phát triển trí tuệ</li>
+        <li><HighlightSpan>The mentally handicapped = mentally handicapped people</HighlightSpan> - người chậm phát triển trí tuệ</li>
       </ul>
     </Box>
   );

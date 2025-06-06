@@ -23,7 +23,7 @@ function SubjunctiveMoodPage() {
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
-        It is + <HighlightSpan>essential / vital / important / crucial / imperative / suggested</HighlightSpan> + (that) + S + (should) + V<sub>bare</sub>
+        It is + <HighlightSpan>essential / vital / important / crucial / imperative / suggested</HighlightSpan> (+ that) + S (+ should) + V<sub>bare</sub>
       </ContentBox>
 
       <SubTitle>{t("Examples")}</SubTitle>

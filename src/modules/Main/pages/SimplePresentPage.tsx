@@ -18,11 +18,11 @@ function SimplePresentPage() {
       <Title>Simple Present Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Simple present describes:</Typography>
+      <Typography>The simple present tense describes:</Typography>
       <ul>
         <li>An action that happens regularly.</li>
         <li>A general truth.</li>
-        <li>An event that is part of a timetable/schedule.</li>
+        <li>An event that is part of a timetable or schedule.</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -160,7 +160,7 @@ function SimplePresentPage() {
       </ContentBox>
 
       <SubTitle>When to use s or es</SubTitle>
-      <p>Use <HighlightSpan>es</HighlightSpan> when verb end with these characters:</p>
+      <p>Use <HighlightSpan>es</HighlightSpan> when the verb end with these characters:</p>
       <ul>
         <li><HighlightSpan>o</HighlightSpan>: {"do => does, go => goes"}</li>
         <li><HighlightSpan>s</HighlightSpan>: {"miss => misses"}</li>
@@ -168,13 +168,13 @@ function SimplePresentPage() {
         <li><HighlightSpan>x</HighlightSpan>: {"fix => fixes"}</li>
         <li><HighlightSpan>sh</HighlightSpan>: {"wash => washes"}</li>
       </ul>
-      <p>Use <HighlightSpan>s</HighlightSpan> when verb does not end with those characters above.</p>
+      <p>Use <HighlightSpan>s</HighlightSpan> when the verb does not end with the characters above.</p>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
       <p>Adverbs of frequency:</p>
       <ul>
-        <li>always = often</li>
-        <li>usually = frequently</li>
+        <li>always</li>
+        <li>often = usually = frequently</li>
         <li>generally = normally = regularly</li>
         <li>sometimes = occasionally</li>
         <li>rarely = seldom</li>
@@ -184,8 +184,8 @@ function SimplePresentPage() {
         <AlertTitle>Notice</AlertTitle>
         Sometime ≠ Sometimes
         <ul>
-          <li>Sometime = one time, unspecified point in time</li>
-          <li>Sometimes = some times, occasionally</li>
+          <li>Sometime = one time, an unspecified point in time</li>
+          <li>Sometimes = occasionally; at some times</li>
         </ul>
       </Alert>
 

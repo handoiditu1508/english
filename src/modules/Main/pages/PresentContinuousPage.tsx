@@ -17,7 +17,7 @@ function PresentContinuousPage() {
       <Title>Present Continuous Tense</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Present continuous describes:</Typography>
+      <Typography>The present continuous tense describes:</Typography>
       <ol>
         <li>An action that is happening at the moment of speaking.</li>
         <li>A plan that is certain to happen in the future.</li>
@@ -65,7 +65,7 @@ function PresentContinuousPage() {
           <Typography sx={{
             flex: 1,
           }}>
-            S + <HighlightSpan>am/is/am</HighlightSpan> + not + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
+            S + <HighlightSpan>am/is/are</HighlightSpan> + not + <HighlightSpan>V<sub>ing</sub></HighlightSpan> + ...
           </Typography>
         </Box>
         <Divider />
@@ -100,7 +100,7 @@ function PresentContinuousPage() {
         <li>at the moment</li>
         <li>at present</li>
         <li>at this time</li>
-        <li>be quite</li>
+        <li>be quiet</li>
         <li>careful</li>
       </ul>
 
@@ -110,7 +110,7 @@ function PresentContinuousPage() {
         <li>He <HighlightSpan>is playing</HighlightSpan> football now.</li>
         <li>They <HighlightSpan>are</HighlightSpan> not <HighlightSpan>going</HighlightSpan> to the cinema now.</li>
         <li>What <HighlightSpan>are</HighlightSpan> you <HighlightSpan>doing</HighlightSpan> now?</li>
-        <li>Be quite! The baby <HighlightSpan>is sleeping</HighlightSpan> in the room.</li>
+        <li>Be quiet! The baby <HighlightSpan>is sleeping</HighlightSpan> in the room.</li>
       </ol>
 
       <SubTitle>2. A plan that is certain to happen in the future</SubTitle>
