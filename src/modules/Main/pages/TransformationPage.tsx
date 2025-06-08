@@ -130,7 +130,7 @@ function TransformationPage() {
       </ol>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         Let's = Let us
       </Alert>
 
@@ -207,7 +207,7 @@ function TransformationPage() {
         </ul>
       </ContentBox>
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         Sometimes V<sub>ing</sub> is a noun phrase.
       </Alert>
 

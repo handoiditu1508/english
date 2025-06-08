@@ -181,7 +181,7 @@ function SimplePresentPage() {
         <li>never</li>
       </ul>
       <Alert severity="info" variant="outlined" icon={<WarningIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Notice</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         Sometime ≠ Sometimes
         <ul>
           <li>Sometime = one time, an unspecified point in time</li>

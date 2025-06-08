@@ -1,4 +1,17 @@
 {
+  "title": {
+    "Passive Voice": "Câu Bị Động",
+    "Simple Present": "Hiện Tại Đơn",
+    "Present Continuous": "Hiện Tại Tiếp Diễn",
+    "Present Perfect": "Hiện Tại Hoàn Thành",
+    "Present Perfect Continuous": "Hiện Tại Hoàn Thành Tiếp Diễn",
+    "Simple Past": "Quá Khứ Đơn",
+    "Past Continuous": "Quá Khứ Tiếp Diễn",
+    "Past Perfect": "Quá Khứ Hoàn Thành",
+    "Simple Future": "Tương Lai Đơn",
+    "Future Continuous": "Tương Lai Tiếp Diễn",
+    "Future Perfect": "Tương Lai Hoàn Thành"
+  },
   "There's nothing here!": "Không có gì ở đây",
   "Privacy Policy": "Chính Sách Bảo Mật",
   "Navigates": "Điều Hướng",
@@ -24,5 +37,9 @@
   "Knight": "Hiệp Sĩ",
   "Structure": "Cấu trúc",
   "Examples": "Ví dụ",
-  "Result Clause": "Mệnh Đề Kết Quả"
+  "Result Clause": "Mệnh Đề Kết Quả",
+  "Active": "Chủ Động",
+  "Passive": "Bị Động",
+  "Note": "Ghi chú",
+  "Tense": "Thì"
 }

@@ -64,7 +64,7 @@ function ComparisonPage() {
       </ul>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         <ul>
           <li>good/well - better - best</li>
           <li>bad/badly - worse - worst</li>

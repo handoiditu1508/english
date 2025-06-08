@@ -75,14 +75,14 @@ function ArticlesPage() {
       </ul>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         <p>Consider consonants or vowels by pronunciation (according to transcription).</p>
         <p>For example, "university" starts with a "yoo" sound, so it is preceded by "a".</p>
         <p>Another example, "hour" starts with a silent "h", so it is preceded by "an".</p>
       </Alert>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         <p>"A" and "an" are used only with singular, countable nouns.</p>
         <p>Not used before plural, uncountable or abstract nouns.</p>
         <p>Uncountable nouns: money, water, sugar, salt, ...</p>

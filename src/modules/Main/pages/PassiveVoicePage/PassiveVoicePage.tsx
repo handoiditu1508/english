@@ -13,21 +13,22 @@ import { otherExamples, tenseExamples } from "./constants";
 function PassiveVoicePage() {
   const theme = useTheme();
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PassiveVoicePage");
   const { xs } = useContext(BreakpointsContext);
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Passive Voice</Title>
+      <Title>{t("title.Passive Voice")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + V + O (+ Adv) (+ adverb of time)</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + be V<sub>3/ed</sub> (+ Adv) (+ by S) (+ adverb of time)</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + V + O (+ Adv) (+ adverb of time)</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: O + be V<sub>3/ed</sub> (+ Adv) (+ by S) (+ adverb of time)</li>
         </ul>
       </ContentBox>
 
-      <SubTitle>How to conjugate be</SubTitle>
+      <SubTitle>{tPage("How to conjugate be")}</SubTitle>
       <ol>
         <li>
           V<sub>1/s/es</sub> / don't / doesn't
@@ -108,33 +109,33 @@ function PassiveVoicePage() {
       </ol>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         <ul>
-          <li>Omit <HighlightSpan>by [him/her/us/them]</HighlightSpan>.</li>
-          <li>Keep "by Mary", "by Tom" or "by my teacher".</li>
+          <li>{tPage("Omit")} <HighlightSpan>by [him/her/us/them]</HighlightSpan>.</li>
+          <li>{tPage("Keep")} "by Mary", "by Tom" or "by my teacher".</li>
         </ul>
       </Alert>
 
-      <SubTitle>Passive voice for each tense</SubTitle>
+      <SubTitle>{tPage("Passive voice for each tense")}</SubTitle>
       <Box sx={{ marginBottom: 2 }}>
         {xs
           ? (
             <Stack spacing={1}>
               {tenseExamples.map((example, index) => (
                 <ContentBox key={index} sx={{ paddingBottom: 0 }}>
-                  <Typography color="primary" fontWeight={500}>{example.tense}</Typography>
+                  <Typography color="primary" fontWeight={500}>{t(`title.${example.tense}`)}</Typography>
                   <Divider variant="fullWidth" sx={{ marginTop: 2 }} />
                   <Table size="small" sx={{ th: { color: theme.palette.primary.main } }}>
                     <TableBody>
                       <TableRow>
                         <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder, fontWeight: 500 }}>
-                          Active Voice
+                          {tPage("Active Voice")}
                         </TableCell>
                         <TableCell align="center">{example.activeForm}</TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder, borderBottom: "none", fontWeight: 500 }}>
-                          Passive Voice
+                          {t("title.Passive Voice")}
                         </TableCell>
                         <TableCell align="center" sx={{ borderBottom: "none" }}>{example.passiveForm}</TableCell>
                       </TableRow>
@@ -148,15 +149,15 @@ function PassiveVoicePage() {
             <Table aria-label="tense example" size="small" sx={{ th: { color: theme.palette.primary.main } }}>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ borderRight: theme.shape.smallBorder }}>Tense</TableCell>
-                  <TableCell align="center">Active Voice</TableCell>
-                  <TableCell align="center">Passive Voice</TableCell>
+                  <TableCell sx={{ borderRight: theme.shape.smallBorder }}>{t("Tense")}</TableCell>
+                  <TableCell align="center">{tPage("Active Voice")}</TableCell>
+                  <TableCell align="center">{t("title.Passive Voice")}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
                 {tenseExamples.map((example, index) => (
                   <TableRow key={index}>
-                    <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder }}>{example.tense}</TableCell>
+                    <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder }}>{t(`title.${example.tense}`)}</TableCell>
                     <TableCell align="center">{example.activeForm}</TableCell>
                     <TableCell align="center">{example.passiveForm}</TableCell>
                   </TableRow>
@@ -166,42 +167,42 @@ function PassiveVoicePage() {
           )}
       </Box>
 
-      <SubTitle>Modal verbs in passive voice</SubTitle>
+      <SubTitle>{tPage("Modal verbs in passive voice")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>can/could/may/might/will</HighlightCode> + V<sub>bare</sub> + O</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>can/could/may/might/will</HighlightCode> be + V<sub>3/ed</sub> (by S)</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + <HighlightCode>can/could/may/might/will</HighlightCode> + V<sub>bare</sub> + O</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: O + <HighlightCode>can/could/may/might/will</HighlightCode> be + V<sub>3/ed</sub> (by S)</li>
         </ul>
         <Divider />
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V<sub>bare</sub> + O</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>am/is/are</HighlightCode> going to be V<sub>3/ed</sub> (by S)</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + <HighlightCode>am/is/are</HighlightCode> going to V<sub>bare</sub> + O</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: O + <HighlightCode>am/is/are</HighlightCode> going to be V<sub>3/ed</sub> (by S)</li>
         </ul>
         <Divider />
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V<sub>bare</sub> + O</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + <HighlightCode>has/have/had/ought</HighlightCode> to V<sub>bare</sub> + O</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
         </ul>
       </ContentBox>
 
-      <SubTitle>Causative constructions</SubTitle>
+      <SubTitle>{tPage("Causative form")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [someone] + V<sub>bare</sub> + [something]</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [someone] + V<sub>bare</sub> + [something]</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: S + <HighlightCode>have/has/had</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
           <li><HighlightSpan>Active example</HighlightSpan>: She had the plumber fix the sink.</li>
           <li><HighlightSpan>Passive example</HighlightSpan>: She had the sink fixed (by the plumber).</li>
         </ul>
         <Divider />
         <ul>
-          <li><HighlightSpan>Active</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [someone] + to V<sub>bare</sub> + [something]</li>
-          <li><HighlightSpan>Passive</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
+          <li><HighlightSpan>{t("Active")}</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [someone] + to V<sub>bare</sub> + [something]</li>
+          <li><HighlightSpan>{t("Passive")}</HighlightSpan>: S + <HighlightCode>get/gets/got</HighlightCode> + [something] + V<sub>3/ed</sub> (by [someone])</li>
           <li><HighlightSpan>Active example</HighlightSpan>: They got the lawyer to sign the documents.</li>
           <li><HighlightSpan>Passive example</HighlightSpan>: They got the documents signed (by the lawyer).</li>
         </ul>
       </ContentBox>
 
-      <SubTitle>Other examples</SubTitle>
+      <SubTitle>{tPage("Other examples")}</SubTitle>
       <Grid2 container spacing={1}>
         {otherExamples.map((example, index) => (
           <Grid2

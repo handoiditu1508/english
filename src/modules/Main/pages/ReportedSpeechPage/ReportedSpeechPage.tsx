@@ -26,7 +26,7 @@ function ReportedSpeechPage() {
       <SubTitle2>Step 3: Back the tense</SubTitle2>
       <ConversionTable conversions={tenseConversions} />
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Notice</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         Do not back the tense when introductory verb is at the present (say).
       </Alert>
 

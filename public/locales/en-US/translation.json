@@ -1,4 +1,17 @@
 {
+  "title": {
+    "Passive Voice": "Passive Voice",
+    "Simple Present": "Simple Present",
+    "Present Continuous": "Present Continuous",
+    "Present Perfect": "Present Perfect",
+    "Present Perfect Continuous": "Present Perfect Continuous",
+    "Simple Past": "Simple Past",
+    "Past Continuous": "Past Continuous",
+    "Past Perfect": "Past Perfect",
+    "Simple Future": "Simple Future",
+    "Future Continuous": "Future Continuous",
+    "Future Perfect": "Future Perfect"
+  },
   "There's nothing here!": "There's nothing here!",
   "Privacy Policy": "Privacy Policy",
   "Navigates": "Navigates",
@@ -24,5 +37,9 @@
   "Knight": "Knight",
   "Structure": "Structure",
   "Examples": "Examples",
-  "Result Clause": "Result Clause"
+  "Result Clause": "Result Clause",
+  "Active": "Active",
+  "Passive": "Passive",
+  "Note": "Note",
+  "Tense": "Tense"
 }

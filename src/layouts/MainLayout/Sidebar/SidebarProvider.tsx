@@ -19,6 +19,7 @@ import ParkIcon from "@mui/icons-material/Park";
 import PetsIcon from "@mui/icons-material/Pets";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import { SwipeableDrawerProps, useTheme } from "@mui/material";
+import i18next from "i18next";
 import { ProviderProps, useContext, useEffect, useState } from "react";
 import SidebarContext, { SidebarContextType, SidebarState } from "./SidebarContext";
 import { SidebarTab } from "./SidebarItem";
@@ -70,7 +71,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/present-perfect-continuous",
     },
     {
-      title: "Passive Voice",
+      title: i18next.t("title.Passive Voice"),
       to: "/passive-voice",
     },
     {

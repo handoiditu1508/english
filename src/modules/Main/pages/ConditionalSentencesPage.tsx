@@ -160,7 +160,7 @@ function ConditionalSentencesPage() {
       </ContentBox>
 
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
-        <AlertTitle>Note</AlertTitle>
+        <AlertTitle>{t("Note")}</AlertTitle>
         "If not" = "Unless"
       </Alert>
 
