@@ -1,6 +1,7 @@
 {
   "title": {
     "Passive Voice": "Câu Bị Động",
+    "Reported Speech": "Câu Tường Thuật",
     "Simple Present": "Hiện Tại Đơn",
     "Present Continuous": "Hiện Tại Tiếp Diễn",
     "Present Perfect": "Hiện Tại Hoàn Thành",
@@ -41,5 +42,6 @@
   "Active": "Chủ Động",
   "Passive": "Bị Động",
   "Note": "Ghi chú",
-  "Tense": "Thì"
+  "Tense": "Thì",
+  "Concept": "Khái niệm"
 }

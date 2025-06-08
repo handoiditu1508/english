@@ -75,7 +75,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/passive-voice",
     },
     {
-      title: "Reported Speech",
+      title: i18next.t("title.Reported Speech"),
       to: "/reported-speech",
     },
     {

@@ -1,4 +1,5 @@
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { ReportedSpeechConversion } from "./models";
 
 type ConversionTableProps = {
@@ -7,6 +8,7 @@ type ConversionTableProps = {
 
 function ConversionTable({ conversions }: ConversionTableProps) {
   const theme = useTheme();
+  const { t: tPage } = useTranslation("ReportedSpeechPage");
 
   return (
     <TableContainer>
@@ -20,8 +22,8 @@ function ConversionTable({ conversions }: ConversionTableProps) {
         }}>
         <TableHead>
           <TableRow>
-            <TableCell align="center">Direct Speech</TableCell>
-            <TableCell align="center">Indirect Speech</TableCell>
+            <TableCell align="center">{tPage("Direct Speech")}</TableCell>
+            <TableCell align="center">{tPage("Indirect Speech")}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

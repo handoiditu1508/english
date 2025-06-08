@@ -1,6 +1,7 @@
 {
   "title": {
     "Passive Voice": "Passive Voice",
+    "Reported Speech": "Reported Speech",
     "Simple Present": "Simple Present",
     "Present Continuous": "Present Continuous",
     "Present Perfect": "Present Perfect",
@@ -41,5 +42,6 @@
   "Active": "Active",
   "Passive": "Passive",
   "Note": "Note",
-  "Tense": "Tense"
+  "Tense": "Tense",
+  "Concept": "Concept"
 }

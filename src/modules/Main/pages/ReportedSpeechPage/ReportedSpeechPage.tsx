@@ -9,31 +9,32 @@ import ConversionTable from "./ConversionTable";
 
 function ReportedSpeechPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("ReportedSpeechPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Reported Speech</Title>
+      <Title>{t("title.Reported Speech")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <p>Reported speech (also called indirect speech) is used when you tell someone what another person said - without quoting them word-for-word.</p>
+      <p>{tPage("concept-details")}</p>
 
-      <SubTitle2>Step 1: Convert introductory verb</SubTitle2>
+      <SubTitle2>{tPage("step-1")}</SubTitle2>
       <ConversionTable conversions={introductoryVerbConversions} />
 
-      <SubTitle2>Step 2: Convert pronoun</SubTitle2>
+      <SubTitle2>{tPage("step-2")}</SubTitle2>
       <ConversionTable conversions={pronounConversions} />
 
-      <SubTitle2>Step 3: Back the tense</SubTitle2>
+      <SubTitle2>{tPage("step-3")}</SubTitle2>
       <ConversionTable conversions={tenseConversions} />
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
         <AlertTitle>{t("Note")}</AlertTitle>
-        Do not back the tense when introductory verb is at the present (say).
+        {tPage("back-tense-note")}
       </Alert>
 
-      <SubTitle2>Step 4: Other conversions</SubTitle2>
+      <SubTitle2>{tPage("step-4")}</SubTitle2>
       <ConversionTable conversions={otherConversions} />
 
-      <SubTitle>Command examples</SubTitle>
+      <SubTitle>{tPage("Command examples")}</SubTitle>
       <ol>
         <li>
           The teacher said, "Keep quiet, please".
@@ -49,7 +50,7 @@ function ReportedSpeechPage() {
         </li>
       </ol>
 
-      <SubTitle>Statement examples</SubTitle>
+      <SubTitle>{tPage("Statement examples")}</SubTitle>
       <ol>
         <li>
           They said, "We are studying English now".
@@ -91,7 +92,7 @@ function ReportedSpeechPage() {
         </li>
       </ol>
 
-      <SubTitle>Question examples</SubTitle>
+      <SubTitle>{tPage("Question examples")}</SubTitle>
       <ol>
         <li>
           She said to me, "Are you a student?".
