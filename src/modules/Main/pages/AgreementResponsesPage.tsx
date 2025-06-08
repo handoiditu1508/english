@@ -1,13 +1,17 @@
 import { Box } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
 function AgreementResponsesPage() {
+  const { t } = useTranslation();
+  const { t: tPage } = useTranslation("AgreementResponsesPage");
+
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Agreement Responses</Title>
+      <Title>{t("title.Agreement Responses")}</Title>
 
-      <SubTitle>Agreeing with Positive Statements</SubTitle>
+      <SubTitle>{tPage("Agreeing with positive statements")}</SubTitle>
       <p>A: I like swimming.</p>
       <p>B:</p>
       <ul>
@@ -16,7 +20,7 @@ function AgreementResponsesPage() {
         <li>I do, too.</li>
       </ul>
 
-      <SubTitle>Agreeing with Negative Statements</SubTitle>
+      <SubTitle>{tPage("Agreeing with negative statements")}</SubTitle>
       <p>A: I don't like swimming.</p>
       <p>B:</p>
       <ul>

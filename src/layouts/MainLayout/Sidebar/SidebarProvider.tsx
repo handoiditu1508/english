@@ -147,7 +147,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/pronunciation",
     },
     {
-      title: "Agreement Responses",
+      title: i18next.t("title.Agreement Responses"),
       to: "/agreement-responses",
     },
     {
