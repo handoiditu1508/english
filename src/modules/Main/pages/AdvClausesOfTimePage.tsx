@@ -7,12 +7,13 @@ import Title from "../components/Title";
 
 function AdvClausesOfTimePage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("AdvClausesOfTimePage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Adverbial Clauses of Time</Title>
+      <Title>{t("title.Adverbial Clauses of Time")}</Title>
 
-      <SubTitle>Adverbs</SubTitle>
+      <SubTitle>{tPage("Adverbs")}</SubTitle>
       <ContentBox>
         <Box sx={{ paddingX: 2 }}>
           when, while, since, after, before, until, by the time, as soon as, etc.

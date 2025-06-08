@@ -91,7 +91,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/modal-verbs",
     },
     {
-      title: "Adverbial Clauses of Time",
+      title: i18next.t("title.Adverbial Clauses of Time"),
       to: "/adv-clauses-of-time",
     },
     {
