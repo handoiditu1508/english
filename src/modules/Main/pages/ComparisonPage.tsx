@@ -9,21 +9,22 @@ import Title from "../components/Title";
 
 function ComparisonPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("ComparisonPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Comparison</Title>
+      <Title>{t("title.Comparison")}</Title>
 
-      <SubTitle>Short adjectives</SubTitle>
+      <SubTitle>{tPage("Short adjectives")}</SubTitle>
       <ul>
-        <li>tall, short, small, big, ... (monosyllabic).</li>
-        <li>happy, clever, noble, narrow, quiet, ... (disyllabic, ending with: y, er, e, ow, or et).</li>
+        <li>tall, short, small, big, ... ({tPage("monosyllabic")}).</li>
+        <li>happy, clever, noble, narrow, quiet, ... ({tPage("disyllabic")}, {tPage("ending with")}: y, er, e, ow, or et).</li>
       </ul>
 
-      <SubTitle>Long adjectives</SubTitle>
+      <SubTitle>{tPage("Long adjectives")}</SubTitle>
       <p>beautiful, wonderful, comfortable, careful, expensive, intelligent, ...</p>
 
-      <SubTitle>1. Comparison of equality</SubTitle>
+      <SubTitle>1. {tPage("Comparison of equality")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>S<sub>1</sub> + V + ... + as + [Adj/Adv] + as [S<sub>2</sub>/O] (+ auxiliary)</ContentBox>
@@ -34,7 +35,7 @@ function ComparisonPage() {
         <li>He sings as well as Lan does.</li>
       </ul>
 
-      <SubTitle>2. Comparative</SubTitle>
+      <SubTitle>2. {tPage("Comparative")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
@@ -49,7 +50,7 @@ function ComparisonPage() {
         <li>Tom is more careful than his brother.</li>
       </ul>
 
-      <SubTitle>3. Superlative</SubTitle>
+      <SubTitle>3. {tPage("Superlative")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
@@ -70,12 +71,12 @@ function ComparisonPage() {
           <li>bad/badly - worse - worst</li>
           <li>many/much - more - most</li>
           <li>little - less - least</li>
-          <li>far - farther - farthest (distance)</li>
-          <li>far - further - furthest (more)</li>
+          <li>far - farther - farthest ({tPage("distance")})</li>
+          <li>far - further - furthest ({tPage("more")})</li>
         </ul>
       </Alert>
 
-      <SubTitle>{"Comparative <=> unequal comparison"}</SubTitle>
+      <SubTitle>{tPage("Comparative")} {"<=>"} {tPage("Unequal comparison")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
@@ -101,7 +102,7 @@ function ComparisonPage() {
         </li>
       </ol>
 
-      <SubTitle>{"Superlative <=> equal comparison"}</SubTitle>
+      <SubTitle>{tPage("Superlative")} {"<=>"} {tPage("Equal comparison")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>

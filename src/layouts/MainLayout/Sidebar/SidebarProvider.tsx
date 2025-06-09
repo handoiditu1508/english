@@ -139,7 +139,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/it-not-until",
     },
     {
-      title: "Comparison",
+      title: i18next.t("title.Comparison"),
       to: "/comparison",
     },
     {
