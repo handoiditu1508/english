@@ -123,7 +123,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/transformation",
     },
     {
-      title: "Because / Although Clauses",
+      title: i18next.t("title.BecauseAlthough"),
       to: "/because-although",
     },
     {

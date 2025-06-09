@@ -7,10 +7,11 @@ import Title from "../components/Title";
 
 function BecauseAlthoughPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("BecauseAlthoughPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Because / Although Clauses</Title>
+      <Title>{t("title.BecauseAlthough")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -20,7 +21,7 @@ function BecauseAlthoughPage() {
         <p>[Because / Although] + S + V<sub>conjugated</sub> + Adv</p>
         <p>[Because / Although] + S + V<sub>conjugated</sub> + Adj</p>
         <Divider />
-        <p>[Because of / In spite of / Despite] + V<sub>ing</sub> (both phrases have the same subject)</p>
+        <p>[Because of / In spite of / Despite] + V<sub>ing</sub> ({tPage("both phrases have the same subject")})</p>
         <p>[Because of / In spite of / Despite] + [the / his / her] + Adj + N</p>
       </ContentBox>
 
