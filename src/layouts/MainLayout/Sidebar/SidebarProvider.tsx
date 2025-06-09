@@ -59,7 +59,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/simple-future",
     },
     {
-      title: "Future Continuous",
+      title: i18next.t("title.Future Continuous"),
       to: "/future-continuous",
     },
     {

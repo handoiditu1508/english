@@ -10,15 +10,16 @@ import Title from "../components/Title";
 
 function FutureContinuousPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("FutureContinuousPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Future Continuous Tense</Title>
+      <Title>{tPage("Future Continuous Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The future continuous tense describes:</Typography>
+      <Typography>{tPage("The future continuous tense describes")}:</Typography>
       <ul>
-        <li>An action that will be in progress at a specific time in the future.</li>
+        <li>{tPage("concept-content")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
