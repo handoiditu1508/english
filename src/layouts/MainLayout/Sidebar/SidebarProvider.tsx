@@ -79,7 +79,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/reported-speech",
     },
     {
-      title: "Conditional Sentences",
+      title: i18next.t("title.Conditional Sentences"),
       to: "/conditional-sentences",
     },
     {

@@ -9,10 +9,11 @@ import Title from "../components/Title";
 function ConditionalSentencesPage() {
   const theme = useTheme();
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("ConditionalSentencesPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Conditional Sentences</Title>
+      <Title>{t("title.Conditional Sentences")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <TableContainer>
@@ -31,15 +32,18 @@ function ConditionalSentencesPage() {
           <TableHead>
             <TableRow>
               <TableCell />
-              <TableCell align="center">If Clause</TableCell>
-              <TableCell align="center">Main Clause</TableCell>
-              <TableCell align="center">Example</TableCell>
+              <TableCell align="center">{tPage("If Clause")}</TableCell>
+              <TableCell align="center">{tPage("Main Clause")}</TableCell>
+              <TableCell align="center">{t("Example")}</TableCell>
               <TableCell align="center">Advs</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             <TableRow>
-              <TableCell component="th" scope="row">Present/future real condition</TableCell>
+              <TableCell component="th" scope="row">
+                {tPage("Present future real condition")}
+                <br />(Conditional type 1)
+              </TableCell>
               <TableCell>
                 Simple present
                 <br />(S + V<sub>s/es</sub>)
@@ -65,7 +69,10 @@ function ConditionalSentencesPage() {
               </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell component="th" scope="row">Present unreal present</TableCell>
+              <TableCell component="th" scope="row">
+                {tPage("Present unreal condition")}
+                <br />(Conditional type 2)
+              </TableCell>
               <TableCell>
                 Simple past
                 <br />(S + V<sub>2/ed</sub>)
@@ -83,7 +90,10 @@ function ConditionalSentencesPage() {
               </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell component="th" scope="row">Past unreal condition</TableCell>
+              <TableCell component="th" scope="row">
+                {tPage("Past unreal condition")}
+                <br />(Conditional type 3)
+              </TableCell>
               <TableCell>
                 Past perfect
                 <br />(S + had + V<sub>3/ed</sub>)
@@ -101,7 +111,7 @@ function ConditionalSentencesPage() {
               </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell component="th" scope="row" rowSpan={2}>Mixed</TableCell>
+              <TableCell component="th" scope="row" rowSpan={2}>{tPage("Mixed")}</TableCell>
               <TableCell>
                 S + V<sub>2/ed</sub>
                 <br />{"(Present => Past)"}
@@ -131,7 +141,7 @@ function ConditionalSentencesPage() {
         </Table>
       </TableContainer>
 
-      <SubTitle>Special cases</SubTitle>
+      <SubTitle>{tPage("Special cases")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ol>
           <li>
@@ -164,7 +174,7 @@ function ConditionalSentencesPage() {
         "If not" = "Unless"
       </Alert>
 
-      <SubTitle>Transform to if sentence</SubTitle>
+      <SubTitle>{tPage("Transform to if sentence")}</SubTitle>
       <ol>
         <li>Choose the clause after <HighlightSpan>because</HighlightSpan>
           , or before <HighlightSpan>so</HighlightSpan> or <HighlightSpan>this is why</HighlightSpan>, to be <HighlightSpan>the if clause</HighlightSpan>.
