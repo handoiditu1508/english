@@ -63,7 +63,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/future-continuous",
     },
     {
-      title: "Future Perfect",
+      title: i18next.t("Future Perfect"),
       to: "/future-perfect",
     },
     {

@@ -10,16 +10,17 @@ import Title from "../components/Title";
 
 function FuturePerfectPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("FuturePerfectPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Future Perfect Tense</Title>
+      <Title>{tPage("Future Perfect Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The future perfect tense describes:</Typography>
+      <Typography>{tPage("The future perfect tense describes")}:</Typography>
       <ul>
-        <li>An action that will be completed before a specific time in the future.</li>
-        <li>An action that will be completed before another action in the future.</li>
+        <li>{tPage("concept-content-1")}</li>
+        <li>{tPage("concept-content-2")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
