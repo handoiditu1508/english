@@ -131,7 +131,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/purpose",
     },
     {
-      title: "Articles",
+      title: i18next.t("title.Articles"),
       to: "/articles",
     },
     {
