@@ -10,16 +10,17 @@ import Title from "../components/Title";
 
 function PresentPerfectContinuousPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PresentPerfectContinuousPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Present Perfect Continuous Tense</Title>
+      <Title>{tPage("Present Perfect Continuous Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>Present perfect continuous describes:</Typography>
+      <Typography>{tPage("Present perfect continuous describes")}:</Typography>
       <ul>
-        <li>An action that started in the past and is still continuing.</li>
-        <li>An action that started in the past and has just finished.</li>
+        <li>{tPage("concept-content-1")}</li>
+        <li>{tPage("concept-content-2")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>

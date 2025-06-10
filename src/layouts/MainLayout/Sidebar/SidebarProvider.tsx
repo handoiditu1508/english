@@ -67,7 +67,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/future-perfect",
     },
     {
-      title: "Present Perfect Continuous",
+      title: i18next.t("title.Present Perfect Continuous"),
       to: "/present-perfect-continuous",
     },
     {
