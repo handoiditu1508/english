@@ -143,7 +143,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/comparison",
     },
     {
-      title: "Pronunciation",
+      title: i18next.t("title.Pronunciation"),
       to: "/pronunciation",
     },
     {

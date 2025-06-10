@@ -1,15 +1,18 @@
 import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 
 function PronunciationPage() {
   const theme = useTheme();
+  const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PronunciationPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Pronunciation</Title>
+      <Title>{t("title.Pronunciation")}</Title>
 
-      <SubTitle>Pronunciation of -s / -es</SubTitle>
+      <SubTitle>{tPage("Pronunciation of")} -s / -es</SubTitle>
       <TableContainer>
         <Table
           size="small"
@@ -24,9 +27,9 @@ function PronunciationPage() {
           }}>
           <TableHead>
             <TableRow>
-              <TableCell align="center">Word ends with...</TableCell>
-              <TableCell align="center">Sound</TableCell>
-              <TableCell align="center">Examples</TableCell>
+              <TableCell align="center">{tPage("Word ends with")}</TableCell>
+              <TableCell align="center">{tPage("Sound")}</TableCell>
+              <TableCell align="center">{t("Examples")}</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -49,7 +52,7 @@ function PronunciationPage() {
         </Table>
       </TableContainer>
 
-      <SubTitle>Pronunciation of -ed</SubTitle>
+      <SubTitle>{tPage("Pronunciation of")} -ed</SubTitle>
       <TableContainer>
         <Table
           size="small"
@@ -64,9 +67,9 @@ function PronunciationPage() {
           }}>
           <TableHead>
             <TableRow>
-              <TableCell align="center">Word ends in...</TableCell>
-              <TableCell align="center">Sound</TableCell>
-              <TableCell align="center">Examples</TableCell>
+              <TableCell align="center">{tPage("Word ends with")}</TableCell>
+              <TableCell align="center">{tPage("Sound")}</TableCell>
+              <TableCell align="center">{t("Examples")}</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
