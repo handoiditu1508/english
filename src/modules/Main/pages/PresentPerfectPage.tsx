@@ -10,17 +10,18 @@ import Title from "../components/Title";
 
 function PresentPerfectPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PresentPerfectPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Present Perfect Tense</Title>
+      <Title>{tPage("Present Perfect Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The present perfect tense describes:</Typography>
+      <Typography>{tPage("The present perfect tense describes")}:</Typography>
       <ul>
-        <li>An action that started in the past and continues to the present.</li>
-        <li>An action that happened at an unspecified time in the past.</li>
-        <li>An action that has just happened.</li>
+        <li>{tPage("concept-content-1")}</li>
+        <li>{tPage("concept-content-2")}</li>
+        <li>{tPage("concept-content-3")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
