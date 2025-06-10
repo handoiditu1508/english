@@ -7,10 +7,11 @@ import Title from "../components/Title";
 
 function ModalVerbsPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("ModalVerbsPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Modal Verbs</Title>
+      <Title>{t("title.Modal Verbs")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -25,21 +26,21 @@ function ModalVerbsPage() {
       </ContentBox>
 
       <ContentBox boxMargin>
-        <p>Inference</p>
+        <p>{tPage("Inference")}</p>
         <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>
             <li>
-              Present
-              <p>Example: Mary is absent today.</p>
+              {tPage("Present")}
+              <p>{t("Example")}: Mary is absent today.</p>
               <ul>
                 <li>(50%) She can be ill.</li>
                 <li>(90%) She must have gone to the beach.</li>
               </ul>
             </li>
             <li>
-              Past
-              <p>Example: Mary was absent yesterday.</p>
+              {tPage("Past")}
+              <p>{t("Example")}: Mary was absent yesterday.</p>
               <ul>
                 <li>(50%) She could have been ill.</li>
                 <li>(90%) She must have gone to the beach.</li>
@@ -50,17 +51,17 @@ function ModalVerbsPage() {
       </ContentBox>
 
       <ContentBox boxMargin>
-        <p>Advice</p>
+        <p>{tPage("Advice")}</p>
         <Divider />
         <Box sx={{ textAlign: "initial" }}>
           <ol>
             <li>
-              Present
-              <p>Example: You should study hard for the next exam.</p>
+              {tPage("Present")}
+              <p>{t("Example")}: You should study hard for the next exam.</p>
             </li>
             <li>
-              Past (didn't happen)
-              <p>Example: You should have studied hard for the midterm test.</p>
+              {tPage("Past")} ({tPage("didnt happen")})
+              <p>{t("Example")}: You should have studied hard for the midterm test.</p>
             </li>
           </ol>
         </Box>

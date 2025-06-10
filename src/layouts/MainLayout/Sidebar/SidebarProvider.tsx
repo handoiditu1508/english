@@ -87,7 +87,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/relative-clauses",
     },
     {
-      title: "Modal Verbs",
+      title: i18next.t("title.Modal Verbs"),
       to: "/modal-verbs",
     },
     {
