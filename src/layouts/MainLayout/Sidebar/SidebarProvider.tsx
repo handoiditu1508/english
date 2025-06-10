@@ -47,7 +47,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/simple-present",
     },
     {
-      title: "Present Continuous",
+      title: i18next.t("title.Present Continuous"),
       to: "/present-continuous",
     },
     {

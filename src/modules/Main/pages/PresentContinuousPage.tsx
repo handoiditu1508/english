@@ -11,18 +11,19 @@ import Title from "../components/Title";
 
 function PresentContinuousPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PresentContinuousPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Present Continuous Tense</Title>
+      <Title>{tPage("Present Continuous Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The present continuous tense describes:</Typography>
+      <Typography>{tPage("The present continuous tense describes")}:</Typography>
       <ol>
-        <li>An action that is happening at the moment of speaking.</li>
-        <li>A plan that is certain to happen in the future.</li>
-        <li>An action that is repeated many times, causing discomfort to the speaker.</li>
-        <li>An action that is happening in the present but is not permanent.</li>
+        <li>{tPage("concept-content-1")}.</li>
+        <li>{tPage("concept-content-2")}.</li>
+        <li>{tPage("concept-content-3")}.</li>
+        <li>{tPage("concept-content-4")}.</li>
       </ol>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -91,7 +92,7 @@ function PresentContinuousPage() {
         </Box>
       </ContentBox>
 
-      <SubTitle>1. An action that is happening at the moment of speaking</SubTitle>
+      <SubTitle>1. {tPage("concept-content-1")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -113,7 +114,7 @@ function PresentContinuousPage() {
         <li>Be quiet! The baby <HighlightSpan>is sleeping</HighlightSpan> in the room.</li>
       </ol>
 
-      <SubTitle>2. A plan that is certain to happen in the future</SubTitle>
+      <SubTitle>2. {tPage("concept-content-2")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -131,7 +132,7 @@ function PresentContinuousPage() {
         <li>She <HighlightSpan>is going</HighlightSpan> to Spain next week.</li>
       </ol>
 
-      <SubTitle>3. An action that is repeated many times, causing discomfort to the speaker</SubTitle>
+      <SubTitle>3. {tPage("concept-content-3")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -148,7 +149,7 @@ function PresentContinuousPage() {
         <li>You <HighlightSpan>are talking</HighlightSpan> in class all the time.</li>
       </ol>
 
-      <SubTitle>4. An action that is happening in the present but is not permanent</SubTitle>
+      <SubTitle>4. {tPage("concept-content-4")}</SubTitle>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
       <ol>
