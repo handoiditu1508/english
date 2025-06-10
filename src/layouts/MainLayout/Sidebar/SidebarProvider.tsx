@@ -127,7 +127,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/because-although",
     },
     {
-      title: "Purpose Clauses",
+      title: i18next.t("title.Purpose Clauses"),
       to: "/purpose",
     },
     {

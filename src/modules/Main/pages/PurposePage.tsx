@@ -7,10 +7,11 @@ import Title from "../components/Title";
 
 function PurposePage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PurposePage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Clauses and Phrases of Purpose</Title>
+      <Title>{tPage("Clauses of Purpose")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
 
