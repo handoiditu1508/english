@@ -99,7 +99,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/subjunctive-mood",
     },
     {
-      title: "Making Questions",
+      title: i18next.t("title.Making Questions"),
       to: "/making-questions",
     },
     {

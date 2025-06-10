@@ -9,20 +9,21 @@ import Title from "../components/Title";
 
 function MakingQuestionsPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("MakingQuestionsPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Making Questions</Title>
+      <Title>{t("title.Making Questions")}</Title>
 
-      <SubTitle>Yes/No questions</SubTitle>
+      <SubTitle>{tPage("Yes No questions")}</SubTitle>
 
-      <SubTitle2>Auxiliary verbs:</SubTitle2>
+      <SubTitle2>{tPage("Auxiliary verbs")}:</SubTitle2>
       <ul>
         <li><HighlightSpan>To be</HighlightSpan>: am, is, are, was, were</li>
-        <li><HighlightSpan>Modal verbs</HighlightSpan>: can, could, shall, should, will, would, may, must, might</li>
-        <li><HighlightSpan>Simple Present</HighlightSpan>: do, does</li>
-        <li><HighlightSpan>Simple Past</HighlightSpan>: did</li>
-        <li><HighlightSpan>Perfect tenses</HighlightSpan>: have, has, had</li>
+        <li><HighlightSpan>{tPage("Modal verbs")}</HighlightSpan>: can, could, shall, should, will, would, may, must, might</li>
+        <li><HighlightSpan>{t("title.Simple Present")}</HighlightSpan>: do, does</li>
+        <li><HighlightSpan>{t("title.Simple Past")}</HighlightSpan>: did</li>
+        <li><HighlightSpan>{tPage("Perfect tenses")}</HighlightSpan>: have, has, had</li>
       </ul>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
@@ -70,9 +71,9 @@ function MakingQuestionsPage() {
         </li>
       </ol>
 
-      <SubTitle>WH_ questions</SubTitle>
+      <SubTitle>{tPage("WH_ questions")}</SubTitle>
 
-      <SubTitle2>Question words</SubTitle2>
+      <SubTitle2>{tPage("Question words")}</SubTitle2>
       <ul>
         <li><HighlightSpan>Who + S/Whom + O</HighlightSpan> (ai)</li>
         <li><HighlightSpan>What/Which</HighlightSpan> (cái gì, cái nào)</li>
@@ -90,11 +91,11 @@ function MakingQuestionsPage() {
         <li><HighlightSpan>How often</HighlightSpan> (bao lâu 1 lần)</li>
       </ul>
 
-      <SubTitle2>For subject</SubTitle2>
+      <SubTitle2>{tPage("For subject")}</SubTitle2>
 
       <SubTitle3>{t("Structure")}</SubTitle3>
       <ContentBox>
-        Question word + V<sub>1/2/3/ed/s/es</sub> + ... ?
+        {tPage("Question word")} + V<sub>1/2/3/ed/s/es</sub> + ... ?
       </ContentBox>
 
       <SubTitle3>{t("Examples")}</SubTitle3>
@@ -119,11 +120,11 @@ function MakingQuestionsPage() {
         </li>
       </ol>
 
-      <SubTitle2>For predicate</SubTitle2>
+      <SubTitle2>{tPage("For predicate")}</SubTitle2>
 
       <SubTitle3>{t("Structure")}</SubTitle3>
       <ContentBox>
-        Question word + Aux + S + V<sub>1/2/3/ed/s/es</sub> + ... ?
+        {tPage("Question word")} + Aux + S + V<sub>1/2/3/ed/s/es</sub> + ... ?
       </ContentBox>
 
       <SubTitle3>{t("Examples")}</SubTitle3>
