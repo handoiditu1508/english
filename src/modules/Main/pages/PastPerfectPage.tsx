@@ -10,19 +10,20 @@ import Title from "../components/Title";
 
 function PastPerfectPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PastPerfectPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Past Perfect Tense</Title>
+      <Title>{tPage("Past Perfect Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The past perfect tense describes:</Typography>
+      <Typography>{tPage("The past perfect tense describes")}:</Typography>
       <ul>
-        <li>An action that was completed before another action in the past.</li>
-        <li>An action that was completed before a specific time in the past.</li>
-        <li>An action that was completed before a specific event in the past.</li>
+        <li>{tPage("concept-content-1")}</li>
+        <li>{tPage("concept-content-2")}</li>
+        <li>{tPage("concept-content-3")}</li>
       </ul>
-      <p>The prior action uses <HighlightSpan>had + V3</HighlightSpan>; the latter action uses <HighlightSpan>V<sub>2</sub> (Simple Past)</HighlightSpan>.</p>
+      <p>{tPage("The prior action uses")} <HighlightSpan>had + V3</HighlightSpan>; {tPage("the latter action uses")} <HighlightSpan>V<sub>2</sub> ({t("title.Simple Past")})</HighlightSpan>.</p>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -102,36 +103,36 @@ function PastPerfectPage() {
         <li>By the time she called, I <HighlightSpan>had</HighlightSpan> already <HighlightSpan>eaten</HighlightSpan> dinner.</li>
       </ol>
 
-      <SubTitle>Notes</SubTitle>
+      <SubTitle>{t("Notes")}</SubTitle>
 
       <ContentBox boxMargin>when + [Simple Past], [Simple Past]</ContentBox>
       <p>When two actions happen one after another, or one action leads to another.</p>
-      <p>Example:</p>
+      <p>{t("Example")}:</p>
       <ul>
         <li>When he <HighlightSpan>opened</HighlightSpan> the window, the bird <HighlightSpan>flew</HighlightSpan> out.</li>
       </ul>
 
       <ContentBox boxMargin>[when / as soon as / once] + [Past Perfect], [Simple Past]</ContentBox>
       <p>When the first action ends, the second action begins.</p>
-      <p>Example:</p>
+      <p>{t("Example")}:</p>
       <ul>
         <li>When he <HighlightSpan>had finished</HighlightSpan> his homework, he <HighlightSpan>went</HighlightSpan> out.</li>
       </ul>
 
       <ContentBox boxMargin>[Past Perfect] before [Simple Past]</ContentBox>
-      <p>Example:</p>
+      <p>{t("Example")}:</p>
       <ul>
         <li>They <HighlightSpan>had been</HighlightSpan> rich before they <HighlightSpan>came</HighlightSpan> here.</li>
       </ul>
 
       <ContentBox boxMargin>[Simple Past] after [Past Perfect]</ContentBox>
-      <p>Example:</p>
+      <p>{t("Example")}:</p>
       <ul>
         <li>They <HighlightSpan>came</HighlightSpan> here after they <HighlightSpan>had been</HighlightSpan> rich.</li>
       </ul>
 
       <ContentBox boxMargin>by the time + [Simple Past], [Past Perfect]</ContentBox>
-      <p>Example:</p>
+      <p>{t("Example")}:</p>
       <ul>
         <li>By the time we <HighlightSpan>got</HighlightSpan> there, the film <HighlightSpan>had started</HighlightSpan>.</li>
       </ul>
