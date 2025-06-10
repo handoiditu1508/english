@@ -135,7 +135,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/articles",
     },
     {
-      title: "It ... Not Until",
+      title: i18next.t("title.It Not Until"),
       to: "/it-not-until",
     },
     {
