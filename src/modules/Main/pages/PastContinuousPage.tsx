@@ -10,17 +10,18 @@ import Title from "../components/Title";
 
 function PastContinuousPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("PastContinuousPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Past Continuous Tense</Title>
+      <Title>{tPage("Past Continuous Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The past continuous tense describes:</Typography>
+      <Typography>{tPage("The past continuous tense describes")}:</Typography>
       <ul>
-        <li>An action that was in progress at a specific time in the past.</li>
-        <li>An action that was interrupted by another action in the past.</li>
-        <li>An action that was happening when another action happened.</li>
+        <li>{tPage("concept-content-1")}</li>
+        <li>{tPage("concept-content-2")}</li>
+        <li>{tPage("concept-content-3")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>

@@ -35,7 +35,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/simple-past",
     },
     {
-      title: "Past Continuous",
+      title: i18next.t("title.Past Continuous"),
       to: "/past-continuous",
     },
     {
