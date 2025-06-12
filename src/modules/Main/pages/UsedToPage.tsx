@@ -11,18 +11,19 @@ import Title from "../components/Title";
 
 function UsedToPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("UsedToPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Use / Used To / Be Used To</Title>
+      <Title>{t("title.Use Used To Be Used To")}</Title>
 
-      <SubTitle>Use</SubTitle>
+      <SubTitle>{tPage("Use")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
         <Box sx={{ textAlign: "initial", display: "inline-block" }}>
-          <p><HighlightSpan>Active</HighlightSpan>: S + use + N + to V</p>
-          <p><HighlightSpan>Passive</HighlightSpan>:</p>
+          <p><HighlightSpan>{t("Active")}</HighlightSpan>: S + use + N + to V</p>
+          <p><HighlightSpan>{t("Passive")}</HighlightSpan>:</p>
           <ul>
             <li>S + be used + to V</li>
             <li>S + be used + for V<sub>ing</sub></li>
@@ -41,7 +42,7 @@ function UsedToPage() {
         </li>
       </ol>
 
-      <SubTitle>Used to</SubTitle>
+      <SubTitle>{tPage("Used to")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>
@@ -115,7 +116,7 @@ function UsedToPage() {
         <li>I didn't <HighlightSpan>use to</HighlightSpan> get up early last year.</li>
       </ol>
 
-      <SubTitle>Be used to</SubTitle>
+      <SubTitle>{tPage("Be used to")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox>

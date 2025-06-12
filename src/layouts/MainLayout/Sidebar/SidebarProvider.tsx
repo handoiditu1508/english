@@ -111,7 +111,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/the-adj",
     },
     {
-      title: "Used To",
+      title: i18next.t("title.Use Used To Be Used To"),
       to: "/used-to",
     },
     {
