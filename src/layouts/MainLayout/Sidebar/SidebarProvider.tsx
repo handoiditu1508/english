@@ -27,7 +27,7 @@ import { SidebarTab } from "./SidebarItem";
 const sidebarTabs: SidebarTab[][] = [
   [
     {
-      title: "Result Clause",
+      title: i18next.t("title.Result Clause"),
       to: "/result-clause",
     },
     {

@@ -10,7 +10,7 @@ function ResultClausePage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("Result Clause")}</Title>
+      <Title>{t("title.Result Clause")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
