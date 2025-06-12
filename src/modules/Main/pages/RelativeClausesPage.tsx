@@ -9,42 +9,43 @@ import Title from "../components/Title";
 
 function RelativeClausesPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("RelativeClausesPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Relative Clauses</Title>
+      <Title>{t("title.Relative Clauses")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
-        <p>Who + V (as the subject of a verb)</p>
-        <p>(Can be used in place of whom)</p>
+        <p>Who + V ({tPage("as the subject of a verb")})</p>
+        <p>({tPage("Can be used in place of whom")})</p>
         <Divider />
-        Whom + S (as the object of a verb)
+        Whom + S ({tPage("as the object of a verb")})
         <Divider />
-        Which (for things)
+        Which ({tPage("for things")})
         <Divider />
-        <p>That (for people and things)</p>
-        <p>(Can be used in place of who, whom, which)</p>
+        <p>That ({tPage("for people and things")})</p>
+        <p>({tPage("Can be used in place of who whom which")})</p>
         <Divider />
-        Whose + N (possessive form)
+        Whose + N ({tPage("possessive form")})
         <Divider />
-        Where (for places)
+        Where ({tPage("for places")})
         <Divider />
-        When (for time)
+        When ({tPage("for time")})
         <Divider />
-        Why (for reasons)
+        Why ({tPage("for reasons")})
       </ContentBox>
 
-      <SubTitle>Must use that:</SubTitle>
+      <SubTitle>{tPage("Must use that")}:</SubTitle>
       <ol>
         <li>
-          Noun referring to both person and thing
+          {tPage("Noun referring to both person and thing")}
           <ul>
             <li>I saw <HighlightSpan>a man</HighlightSpan> and <HighlightSpan>a dog</HighlightSpan> <HighlightCode>that</HighlightCode> walked along the road.</li>
           </ul>
         </li>
         <li>
-          Superlatives
+          {tPage("Superlatives")}
           <ul>
             <li>She is <HighlightSpan>the most beautiful girl</HighlightSpan> <HighlightCode>that</HighlightCode> I have ever met.</li>
           </ul>
@@ -70,22 +71,22 @@ function RelativeClausesPage() {
         </li>
       </ol>
 
-      <SubTitle>Can not use that:</SubTitle>
+      <SubTitle>{tPage("Can not use that")}:</SubTitle>
       <ol>
         <li>
-          After a comma
+          {tPage("After a comma")}
           <ul>
             <li>The girl on the street<HighlightSpan>,</HighlightSpan> <HighlightCode>who</HighlightCode> dresses in black, looks menacing.</li>
           </ul>
         </li>
         <li>
-          Proper nouns
+          {tPage("Proper nouns")}
           <ul>
             <li><HighlightSpan>Mary</HighlightSpan>, <HighlightCode>who</HighlightCode> is intelligent, comes from America.</li>
           </ul>
         </li>
         <li>
-          Possessive adjectives
+          {tPage("Possessive adjectives")}
           <ul>
             <li>The woman is <HighlightSpan>my aunt</HighlightSpan>, <HighlightCode>whom</HighlightCode> you saw yesterday.</li>
           </ul>
@@ -97,20 +98,17 @@ function RelativeClausesPage() {
           </ul>
         </li>
         <li>
-          clause, which
+          {tPage("clause which")}
           <ul>
             <li><HighlightSpan>The neighborhood is very noisy</HighlightSpan>, <HighlightCode>which</HighlightCode> makes me feel tired.</li>
           </ul>
         </li>
       </ol>
 
-      <SubTitle>Reduced relative clauses</SubTitle>
+      <SubTitle>{tPage("Reduced relative clauses")}</SubTitle>
 
-      <SubTitle2>Reducing active relative clauses</SubTitle2>
-      <p>
-        Can be used to reduce <HighlightSpan>Present Continuous</HighlightSpan>, <HighlightSpan>Past Continuous</HighlightSpan>
-        , <HighlightSpan>Present Perfect</HighlightSpan>, <HighlightSpan>Past Perfect</HighlightSpan> relative clauses.
-      </p>
+      <SubTitle2>{tPage("Reducing active relative clauses")}</SubTitle2>
+      <p>{tPage("reducing-active-relative-clauses-description")}</p>
       <ol>
         <li>
           Present/Past Continuous:
@@ -128,7 +126,7 @@ function RelativeClausesPage() {
         </li>
       </ol>
 
-      <SubTitle2>Reducing passive relative clauses</SubTitle2>
+      <SubTitle2>{tPage("Reducing passive relative clauses")}</SubTitle2>
       <ol>
         <li>
           The book <HighlightSpan>which was written by Shakespeare</HighlightSpan> is very good.
@@ -138,8 +136,8 @@ function RelativeClausesPage() {
         </li>
       </ol>
 
-      <SubTitle2>Infinitive reductions</SubTitle2>
-      <p>Sometimes, clauses with <HighlightSpan>the first/the only/the best + noun</HighlightSpan> are reduced with <HighlightSpan>to-infinitives</HighlightSpan>.</p>
+      <SubTitle2>{tPage("Infinitive reductions")}</SubTitle2>
+      <p>{tPage("infinitive-reductions-description")}</p>
       <ol>
         <li>
           She was the first person <HighlightSpan>who entered</HighlightSpan> the room.

@@ -83,7 +83,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/conditional-sentences",
     },
     {
-      title: "Relative Clauses",
+      title: i18next.t("title.Relative Clauses"),
       to: "/relative-clauses",
     },
     {
