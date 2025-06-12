@@ -95,7 +95,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/adv-clauses-of-time",
     },
     {
-      title: "Subjunctive Mood",
+      title: i18next.t("title.Subjunctive Mood"),
       to: "/subjunctive-mood",
     },
     {

@@ -7,18 +7,19 @@ import Title from "../components/Title";
 
 function SubjunctiveMoodPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("SubjunctiveMoodPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Subjunctive Mood</Title>
+      <Title>{t("title.Subjunctive Mood")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <p>This is a special sentence structure used to express:</p>
+      <p>{tPage("This is a special sentence structure used to express")}:</p>
       <ul>
-        <li>Necessity</li>
-        <li>Urgency</li>
-        <li>Importance</li>
-        <li>Suggestions</li>
+        <li>{tPage("Necessity")}</li>
+        <li>{tPage("Urgency")}</li>
+        <li>{tPage("Importance")}</li>
+        <li>{tPage("Suggestions")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
