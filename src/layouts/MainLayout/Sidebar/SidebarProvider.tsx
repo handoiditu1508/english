@@ -31,7 +31,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/result-clause",
     },
     {
-      title: "Simple Past",
+      title: i18next.t("title.Simple Past"),
       to: "/simple-past",
     },
     {

@@ -11,17 +11,18 @@ import Title from "../components/Title";
 
 function SimplePastPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("SimplePastPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Simple Past Tense</Title>
+      <Title>{tPage("Simple Past Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The simple past tense describes:</Typography>
+      <Typography>{tPage("The simple past tense describes")}:</Typography>
       <ul>
-        <li>An action that started and finished in the past.</li>
-        <li>A series of completed actions in the past.</li>
-        <li>An action that happened regularly in the past.</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
+        <li>{tPage("concept-description-3")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
