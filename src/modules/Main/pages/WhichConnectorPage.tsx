@@ -6,14 +6,15 @@ import Title from "../components/Title";
 
 function WhichConnectorPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("WhichConnectorPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>"Which" as a Connector</Title>
+      <Title>{t("title.Which as a Connector")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <p><HighlightSpan>Which</HighlightSpan> can be used as a sentence connector with a meaning that replaces the whole clause that comes before it.</p>
-      <p><HighlightSpan>Which</HighlightSpan> is placed after a comma.</p>
+      <p>{tPage("concept-description-1")}</p>
+      <p>{tPage("concept-description-2")}</p>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>

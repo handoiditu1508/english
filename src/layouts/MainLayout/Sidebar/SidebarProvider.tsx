@@ -63,7 +63,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/future-continuous",
     },
     {
-      title: i18next.t("Future Perfect"),
+      title: i18next.t("title.Future Perfect"),
       to: "/future-perfect",
     },
     {
@@ -115,7 +115,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/used-to",
     },
     {
-      title: "\"Which\" as a Connector",
+      title: i18next.t("title.Which as a Connector"),
       to: "/which-connector",
     },
     {
