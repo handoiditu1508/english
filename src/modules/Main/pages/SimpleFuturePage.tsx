@@ -10,17 +10,18 @@ import Title from "../components/Title";
 
 function SimpleFuturePage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("SimpleFuturePage");
   const theme = useTheme();
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Simple Future Tense</Title>
+      <Title>{tPage("Simple Future Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The simple future tense describes:</Typography>
+      <Typography>{tPage("The simple future tense describes")}:</Typography>
       <ul>
-        <li>An action that will happen in the future.</li>
-        <li>An instant decision.</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -100,7 +101,7 @@ function SimpleFuturePage() {
         <li><HighlightSpan>Will</HighlightSpan> I go to the beach tomorrow?</li>
       </ol>
 
-      <SubTitle>These tenses can be used to describe the future</SubTitle>
+      <SubTitle>{tPage("These tenses can be used to describe the future")}</SubTitle>
       <TableContainer>
         <Table
           size="small"
@@ -129,13 +130,13 @@ function SimpleFuturePage() {
             <TableCell>
               That boat isn't strong. It will sink if there is a storm.
               <ul>
-                <li>Subjective prediction.</li>
+                <li>{tPage("tense-description-0-0")}</li>
               </ul>
             </TableCell>
             <TableCell>
               The explosion has made a hole in the bottom of the boat. It is going to sink.
               <ul>
-                <li>Prediction based on evidence that can be seen or heard clearly.</li>
+                <li>{tPage("tense-description-0-1")}</li>
               </ul>
             </TableCell>
             <TableCell />
@@ -145,13 +146,13 @@ function SimpleFuturePage() {
             <TableCell>
               I will go to the cinema next week.
               <ul>
-                <li>Action decided at the moment of speaking.</li>
+                <li>{tPage("tense-description-1-0")}</li>
               </ul>
             </TableCell>
             <TableCell>
               I am going to go to the cinema next week.
               <ul>
-                <li>Action planned before the moment of speaking.</li>
+                <li>{tPage("tense-description-1-1")}</li>
               </ul>
             </TableCell>
             <TableCell />
@@ -162,13 +163,13 @@ function SimpleFuturePage() {
             <TableCell>
               It is going to rain tomorrow.
               <ul>
-                <li>Talk about natural events (humans can not control).</li>
+                <li>{tPage("tense-description-2-1")}</li>
               </ul>
             </TableCell>
             <TableCell>
               I am having a party tonight.
               <ul>
-                <li>Action planned before the moment of speaking (human can control).</li>
+                <li>{tPage("tense-description-2-2")}</li>
               </ul>
             </TableCell>
             <TableCell />
@@ -180,7 +181,7 @@ function SimpleFuturePage() {
             <TableCell>
               The train leaves at 10pm tomorrow. We land at midnight.
               <ul>
-                <li>Future scheduled events such as timetables, TV shows, etc.</li>
+                <li>{tPage("tense-description-3-3")}</li>
               </ul>
             </TableCell>
           </TableRow>

@@ -55,7 +55,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/past-perfect",
     },
     {
-      title: "Simple Future",
+      title: i18next.t("title.Simple Future"),
       to: "/simple-future",
     },
     {
