@@ -43,7 +43,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/present-perfect",
     },
     {
-      title: "Simple Present",
+      title: i18next.t("title.Simple Present"),
       to: "/simple-present",
     },
     {

@@ -12,17 +12,18 @@ import Title from "../components/Title";
 
 function SimplePresentPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("SimplePresentPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Simple Present Tense</Title>
+      <Title>{tPage("Simple Present Tense")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
-      <Typography>The simple present tense describes:</Typography>
+      <Typography>{tPage("The simple present tense describes")}:</Typography>
       <ul>
-        <li>An action that happens regularly.</li>
-        <li>A general truth.</li>
-        <li>An event that is part of a timetable or schedule.</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
+        <li>{tPage("concept-description-3")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -159,8 +160,8 @@ function SimplePresentPage() {
         </Box>
       </ContentBox>
 
-      <SubTitle>When to use s or es</SubTitle>
-      <p>Use <HighlightSpan>es</HighlightSpan> when the verb end with these characters:</p>
+      <SubTitle>{tPage("When to use s or es")}</SubTitle>
+      <p>{tPage("use-es-when")}:</p>
       <ul>
         <li><HighlightSpan>o</HighlightSpan>: {"do => does, go => goes"}</li>
         <li><HighlightSpan>s</HighlightSpan>: {"miss => misses"}</li>
@@ -168,10 +169,10 @@ function SimplePresentPage() {
         <li><HighlightSpan>x</HighlightSpan>: {"fix => fixes"}</li>
         <li><HighlightSpan>sh</HighlightSpan>: {"wash => washes"}</li>
       </ul>
-      <p>Use <HighlightSpan>s</HighlightSpan> when the verb does not end with the characters above.</p>
+      <p>{tPage("use-s-when")}</p>
 
       <SubTitle>{t("Signs to recognize")}</SubTitle>
-      <p>Adverbs of frequency:</p>
+      <p>{tPage("Adverbs of frequency")}:</p>
       <ul>
         <li>always</li>
         <li>often = usually = frequently</li>
@@ -184,8 +185,8 @@ function SimplePresentPage() {
         <AlertTitle>{t("Note")}</AlertTitle>
         Sometime ≠ Sometimes
         <ul>
-          <li>Sometime = one time, an unspecified point in time</li>
-          <li>Sometimes = occasionally; at some times</li>
+          <li>Sometime = {tPage("sometime-description")}</li>
+          <li>Sometimes = {tPage("sometimes-description")}</li>
         </ul>
       </Alert>
 
