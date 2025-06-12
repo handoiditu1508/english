@@ -119,7 +119,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/which-connector",
     },
     {
-      title: "Transformation",
+      title: i18next.t("title.Transformation"),
       to: "/transformation",
     },
     {

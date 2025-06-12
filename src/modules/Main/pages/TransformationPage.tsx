@@ -9,12 +9,13 @@ import Title from "../components/Title";
 
 function TransformationPage() {
   const { t } = useTranslation();
+  const { t: tPage } = useTranslation("TransformationPage");
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>Transformation</Title>
+      <Title>{t("title.Transformation")}</Title>
 
-      <SubTitle>How long</SubTitle>
+      <SubTitle>{tPage("How long")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -46,7 +47,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Start doing something</SubTitle>
+      <SubTitle>{tPage("Start doing something")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -75,7 +76,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Time spend doing something</SubTitle>
+      <SubTitle>{tPage("Time spend doing something")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -101,7 +102,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Suggestion</SubTitle>
+      <SubTitle>{tPage("Suggestion")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -134,7 +135,7 @@ function TransformationPage() {
         Let's = Let us
       </Alert>
 
-      <SubTitle>Advice</SubTitle>
+      <SubTitle>{tPage("Advice")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -154,7 +155,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Purpose</SubTitle>
+      <SubTitle>{tPage("Purpose")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -171,7 +172,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Regret</SubTitle>
+      <SubTitle>{tPage("Regret")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -197,7 +198,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Prefer</SubTitle>
+      <SubTitle>{tPage("Prefer")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -227,7 +228,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Used to</SubTitle>
+      <SubTitle>{tPage("Used to")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
@@ -247,7 +248,7 @@ function TransformationPage() {
         </li>
       </ol>
 
-      <SubTitle>Be used to</SubTitle>
+      <SubTitle>{tPage("Be used to")}</SubTitle>
 
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
