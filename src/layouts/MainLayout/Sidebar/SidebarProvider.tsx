@@ -103,7 +103,7 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/making-questions",
     },
     {
-      title: "Verb Forms",
+      title: i18next.t("title.Verb Forms"),
       to: "/verb-forms",
     },
     {
