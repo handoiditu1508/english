@@ -1,23 +1,5 @@
-import FaSvgIcon from "@/components/FaSvgIcon";
-import MdiSvgIcon from "@/components/MdiSvgIcon";
 import { BreakpointsContext } from "@/contexts/breakpoints";
 import { InfoContext } from "@/contexts/info";
-import { faHandFist } from "@fortawesome/free-solid-svg-icons/faHandFist";
-import { faSkull } from "@fortawesome/free-solid-svg-icons/faSkull";
-import { mdiShieldSword } from "@mdi/js";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
-import AirIcon from "@mui/icons-material/Air";
-import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
-import FlareIcon from "@mui/icons-material/Flare";
-import ForestIcon from "@mui/icons-material/Forest";
-import GrassIcon from "@mui/icons-material/Grass";
-import LandscapeIcon from "@mui/icons-material/Landscape";
-import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
-import ParkIcon from "@mui/icons-material/Park";
-import PetsIcon from "@mui/icons-material/Pets";
-import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import { SwipeableDrawerProps, useTheme } from "@mui/material";
 import { ProviderProps, useContext, useEffect, useState } from "react";
 import SidebarContext, { SidebarContextType, SidebarState } from "./SidebarContext";
@@ -148,100 +130,6 @@ const sidebarTabs: SidebarTab[][] = [
     {
       title: "Agreement Responses",
       to: "/agreement-responses",
-    },
-    {
-      title: "Nature",
-      to: "/nature",
-      icon: <GrassIcon />,
-      children: [
-        {
-          title: "Lone Ranger",
-          to: "/nature/solo",
-          icon: <ParkIcon />,
-        },
-        {
-          title: "Guild",
-          to: "/nature/guild",
-          icon: <ForestIcon />,
-        },
-        {
-          title: "Wild",
-          to: "/wild",
-          icon: <PetsIcon />,
-        },
-      ],
-    },
-    {
-      title: "Fire",
-      to: "/fire",
-      icon: <LocalFireDepartmentIcon />,
-    },
-    {
-      title: "Water",
-      to: "/water",
-      icon: <WaterDropIcon />,
-      children: [
-        {
-          title: "Ice",
-          to: "/ice",
-          icon: <AcUnitIcon />,
-        },
-      ],
-    },
-    {
-      title: "Electricity",
-      to: "/electricity",
-      icon: <ElectricBoltIcon />,
-    },
-    {
-      title: "Air",
-      to: "/air",
-      icon: <AirIcon />,
-    },
-    {
-      title: "Earth",
-      to: "/earth",
-      icon: <LandscapeIcon />,
-    },
-    {
-      title: "Light",
-      to: "/light",
-      icon: <FlareIcon />,
-    },
-    {
-      title: "Shadow",
-      to: "/shadow",
-      icon: <DarkModeIcon />,
-    },
-    {
-      title: "Magic",
-      to: "/magic",
-      icon: <AutoFixHighIcon />,
-      children: [
-        {
-          title: "Necromancy",
-          to: "/magic/necromancy",
-          icon: <FaSvgIcon icon={faSkull} />,
-        },
-      ],
-    },
-    {
-      title: "Physical",
-      to: "/physical",
-      icon: <FaSvgIcon icon={faHandFist} />,
-      children: [
-        {
-          title: "Knight",
-          to: "/physics/knight",
-          icon: <MdiSvgIcon path={mdiShieldSword} />,
-        },
-      ],
-    },
-  ],
-  [
-    {
-      title: "Privacy Policy",
-      to: "/privacy-policy",
     },
   ],
 ];

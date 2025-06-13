@@ -10,60 +10,128 @@ import { useTranslation } from "react-i18next";
 
 const navigatesList: { text: string; link: string; }[] = [
   {
-    text: "Nature",
-    link: "/nature",
+    text: "Result Clause",
+    link: "/result-clause",
   },
   {
-    text: "Wild",
-    link: "/wild",
+    text: "Simple Past",
+    link: "/simple-past",
   },
   {
-    text: "Fire",
-    link: "/fire",
+    text: "Past Continuous",
+    link: "/past-continuous",
   },
   {
-    text: "Water",
-    link: "/water",
+    text: "Present Perfect",
+    link: "/present-perfect",
   },
   {
-    text: "Ice",
-    link: "/ice",
+    text: "Simple Present",
+    link: "/simple-present",
   },
   {
-    text: "Electricity",
-    link: "/electricity",
+    text: "Present Continuous",
+    link: "/present-continuous",
   },
   {
-    text: "Air",
-    link: "/air",
+    text: "Past Perfect",
+    link: "/past-perfect",
   },
   {
-    text: "Earth",
-    link: "/earth",
+    text: "Simple Future",
+    link: "/simple-future",
   },
   {
-    text: "Light",
-    link: "/light",
+    text: "Future Continuous",
+    link: "/future-continuous",
   },
   {
-    text: "Shadow",
-    link: "/shadow",
+    text: "Future Perfect",
+    link: "/future-perfect",
   },
   {
-    text: "Magic",
-    link: "/magic",
+    text: "Present Perfect Continuous",
+    link: "/present-perfect-continuous",
   },
   {
-    text: "Necromancy",
-    link: "/magic/necromancy",
+    text: "Passive Voice",
+    link: "/passive-voice",
   },
   {
-    text: "Physical",
-    link: "/physical",
+    text: "Reported Speech",
+    link: "/reported-speech",
   },
   {
-    text: "Knight",
-    link: "/physics/knight",
+    text: "Conditional Sentences",
+    link: "/conditional-sentences",
+  },
+  {
+    text: "Relative Clauses",
+    link: "/relative-clauses",
+  },
+  {
+    text: "Modal Verbs",
+    link: "/modal-verbs",
+  },
+  {
+    text: "Adverbial Clauses of Time",
+    link: "/adv-clauses-of-time",
+  },
+  {
+    text: "Subjunctive Mood",
+    link: "/subjunctive-mood",
+  },
+  {
+    text: "Making Questions",
+    link: "/making-questions",
+  },
+  {
+    text: "Verb Forms",
+    link: "/verb-forms",
+  },
+  {
+    text: "The + Adj",
+    link: "/the-adj",
+  },
+  {
+    text: "Use Used To Be Used To",
+    link: "/used-to",
+  },
+  {
+    text: "Which as a Connector",
+    link: "/which-connector",
+  },
+  {
+    text: "Transformation",
+    link: "/transformation",
+  },
+  {
+    text: "Because Although Clauses",
+    link: "/because-although",
+  },
+  {
+    text: "Purpose Clauses",
+    link: "/purpose",
+  },
+  {
+    text: "Articles",
+    link: "/articles",
+  },
+  {
+    text: "It Not Until",
+    link: "/it-not-until",
+  },
+  {
+    text: "Comparison",
+    link: "/comparison",
+  },
+  {
+    text: "Pronunciation",
+    link: "/pronunciation",
+  },
+  {
+    text: "Agreement Responses",
+    link: "/agreement-responses",
   },
 ];
 

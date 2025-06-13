@@ -1,4 +1,1 @@
 todo: reorder pages
-todo: remove template sidebar items
-todo: remove translations for template sidebar items
-todo: change tab should scroll the page to top
