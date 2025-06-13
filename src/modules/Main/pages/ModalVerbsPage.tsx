@@ -11,7 +11,7 @@ function ModalVerbsPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Modal Verbs")}</Title>
+      <Title>{t("Modal Verbs")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>

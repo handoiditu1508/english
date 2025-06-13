@@ -1,5 +1,4 @@
-todo: check globalization
 todo: reorder pages
-todo: preview each page in browser
 todo: remove template sidebar items
 todo: remove translations for template sidebar items
+todo: change tab should scroll the page to top

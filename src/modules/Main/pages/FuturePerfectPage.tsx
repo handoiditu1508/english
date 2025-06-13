@@ -19,8 +19,8 @@ function FuturePerfectPage() {
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>{tPage("The future perfect tense describes")}:</Typography>
       <ul>
-        <li>{tPage("concept-content-1")}</li>
-        <li>{tPage("concept-content-2")}</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>

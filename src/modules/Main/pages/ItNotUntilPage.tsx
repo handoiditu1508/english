@@ -9,7 +9,7 @@ function ItNotUntilPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.It Not Until")}</Title>
+      <Title>{t("It Not Until")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>

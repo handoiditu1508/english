@@ -192,6 +192,10 @@ function SimplePastPage() {
             <li><HighlightSpan>Did</HighlightSpan> they visit their grandparents last summer?</li>
           </ul>
         </li>
+        <li>
+          I <HighlightSpan>woke</HighlightSpan> up early, <HighlightSpan>brushed</HighlightSpan> my teeth,&nbsp;
+          <HighlightSpan>ate</HighlightSpan> breakfast, and <HighlightSpan>left</HighlightSpan> for work.
+        </li>
       </ol>
     </Box>
   );

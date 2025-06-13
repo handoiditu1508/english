@@ -6,5 +6,12 @@
   "Past unreal condition": "Điều kiện không có thật ở quá khứ",
   "Mixed": "Hỗn hợp",
   "Special cases": "Trường hợp đặc biệt",
-  "Transform to if sentence": "Biến đổi thành câu điều kiện"
+  "Transform to if sentence": "Biến đổi thành câu điều kiện",
+  "transform-description-1": "Chon mệnh đề phía sau \"because\", hoặc trước \"so\" hoặc \"this is why\", để làm mệnh đề if.",
+  "transform-description-2": "Chọn loại câu điều kiện",
+  "transform-description-2-1": "Mệnh đề if là một điều kiện thực tế ở hiện tại hoặc một điều kiện có thể xảy ra ở tương lai",
+  "transform-description-2-2": "Mệnh đề if là một điều kiện không có thật ở hiện tại",
+  "transform-description-2-3": "Mệnh đề if là một điều kiện không có thật trong quá khứ",
+  "transform-description-3": "Viết câu trái ngược với câu đã cho (khẳng định <=> phủ định).",
+  "conditional type": "điều kiện loại {{typeNumber}}"
 }

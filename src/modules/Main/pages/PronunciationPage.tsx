@@ -10,7 +10,7 @@ function PronunciationPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Pronunciation")}</Title>
+      <Title>{t("Pronunciation")}</Title>
 
       <SubTitle>{tPage("Pronunciation of")} -s / -es</SubTitle>
       <TableContainer>
@@ -39,12 +39,12 @@ function PronunciationPage() {
               <TableCell>watches, wishes, boxes</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Voiceless sounds: -p, -t, -k, -f</TableCell>
+              <TableCell>{tPage("Voiceless sounds")}: -p, -t, -k, -f</TableCell>
               <TableCell>/s/</TableCell>
               <TableCell>cups, hits, books, roofs</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Voiced sounds (all other endings)</TableCell>
+              <TableCell>{tPage("Voiced sounds")} ({tPage("all other endings")})</TableCell>
               <TableCell>/z/</TableCell>
               <TableCell>dogs, plays, pens, loves</TableCell>
             </TableRow>
@@ -79,12 +79,12 @@ function PronunciationPage() {
               <TableCell>wanted, needed</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Voiceless sounds: -p, -k, -f, -s, -sh, -ch, -x</TableCell>
+              <TableCell>{tPage("Voiceless sounds")}: -p, -k, -f, -s, -sh, -ch, -x</TableCell>
               <TableCell>/t/</TableCell>
               <TableCell>kissed, washed, laughed, fixed</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Voiced sounds (the rest)</TableCell>
+              <TableCell>{tPage("Voiced sounds")} ({tPage("the rest")})</TableCell>
               <TableCell>/d/</TableCell>
               <TableCell>played, opened, cleaned</TableCell>
             </TableRow>

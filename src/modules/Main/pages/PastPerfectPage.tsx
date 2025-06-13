@@ -19,11 +19,11 @@ function PastPerfectPage() {
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>{tPage("The past perfect tense describes")}:</Typography>
       <ul>
-        <li>{tPage("concept-content-1")}</li>
-        <li>{tPage("concept-content-2")}</li>
-        <li>{tPage("concept-content-3")}</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
+        <li>{tPage("concept-description-3")}</li>
       </ul>
-      <p>{tPage("The prior action uses")} <HighlightSpan>had + V3</HighlightSpan>; {tPage("the latter action uses")} <HighlightSpan>V<sub>2</sub> ({t("title.Simple Past")})</HighlightSpan>.</p>
+      <p>{tPage("The prior action uses")} <HighlightSpan>had + V3</HighlightSpan>; {tPage("the latter action uses")} <HighlightSpan>V<sub>2</sub> ({t("Simple Past")})</HighlightSpan>.</p>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
@@ -106,14 +106,14 @@ function PastPerfectPage() {
       <SubTitle>{t("Notes")}</SubTitle>
 
       <ContentBox boxMargin>when + [Simple Past], [Simple Past]</ContentBox>
-      <p>When two actions happen one after another, or one action leads to another.</p>
+      <p>{tPage("note-1")}</p>
       <p>{t("Example")}:</p>
       <ul>
         <li>When he <HighlightSpan>opened</HighlightSpan> the window, the bird <HighlightSpan>flew</HighlightSpan> out.</li>
       </ul>
 
       <ContentBox boxMargin>[when / as soon as / once] + [Past Perfect], [Simple Past]</ContentBox>
-      <p>When the first action ends, the second action begins.</p>
+      <p>{tPage("note-2")}</p>
       <p>{t("Example")}:</p>
       <ul>
         <li>When he <HighlightSpan>had finished</HighlightSpan> his homework, he <HighlightSpan>went</HighlightSpan> out.</li>

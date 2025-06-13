@@ -13,7 +13,7 @@ function TransformationPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Transformation")}</Title>
+      <Title>{t("Transformation")}</Title>
 
       <SubTitle>{tPage("How long")}</SubTitle>
 
@@ -107,10 +107,10 @@ function TransformationPage() {
       <SubTitle2>{t("Structure")}</SubTitle2>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
-          <li>Let's + V<sub>bare</sub> (both speaker and listener perform)</li>
-          <li>Why don't you + V<sub>bare</sub> (only listener perform)</li>
-          <li>S + suggest + V<sub>ing</sub> (both speaker and listener perform)</li>
-          <li>S + suggest (+ that) + S (+ should) + V<sub>bare</sub> (only listener perform)</li>
+          <li>Let's + V<sub>bare</sub> ({tPage("both speaker and listener perform")})</li>
+          <li>Why don't you + V<sub>bare</sub> ({tPage("only listener perform")})</li>
+          <li>S + suggest + V<sub>ing</sub> ({tPage("both speaker and listener perform")})</li>
+          <li>S + suggest (+ that) + S (+ should) + V<sub>bare</sub> ({tPage("only listener perform")})</li>
         </ul>
       </ContentBox>
 
@@ -209,7 +209,7 @@ function TransformationPage() {
       </ContentBox>
       <Alert severity="info" variant="outlined" icon={<TipsAndUpdatesIcon fontSize="inherit" />} sx={{ marginTop: 2 }}>
         <AlertTitle>{t("Note")}</AlertTitle>
-        Sometimes V<sub>ing</sub> is a noun phrase.
+        {tPage("Sometimes")} V<sub>ing</sub> {tPage("is a noun phrase")}.
       </Alert>
 
       <SubTitle2>{t("Examples")}</SubTitle2>

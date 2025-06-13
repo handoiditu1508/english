@@ -1,9 +1,11 @@
 {
   "Past Perfect Tense": "Thì Quá Khứ Hoàn Thành",
   "The past perfect tense describes": "Thì quá khứ hoàn thành mô tả",
-  "concept-content-1": "Một hành động đã hoàn thành trước một hành động khác trong quá khứ.",
-  "concept-content-2": "Một hành động đã hoàn tất trước một thời điểm cụ thể trong quá khứ.",
-  "concept-content-3": "Một hành động đã hoàn thành trước một sự kiện cụ thể trong quá khứ.",
+  "concept-description-1": "Một hành động đã hoàn thành trước một hành động khác trong quá khứ.",
+  "concept-description-2": "Một hành động đã hoàn tất trước một thời điểm cụ thể trong quá khứ.",
+  "concept-description-3": "Một hành động đã hoàn thành trước một sự kiện cụ thể trong quá khứ.",
   "The prior action uses": "Hành động trước đó sử dụng",
-  "the latter action uses": "hành động sau sử dụng"
+  "the latter action uses": "hành động sau sử dụng",
+  "note-1": "Khi hai hành động xảy ra liên tiếp hoặc một hành động dẫn đến một hành động khác.",
+  "note-2": "Khi hành động đầu tiên kết thúc, hành động thứ hai bắt đầu."
 }

@@ -15,7 +15,7 @@ function UsedToPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Use Used To Be Used To")}</Title>
+      <Title>{t("Use Used To Be Used To")}</Title>
 
       <SubTitle>{tPage("Use")}</SubTitle>
 

@@ -11,7 +11,7 @@ function BecauseAlthoughPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.BecauseAlthough")}</Title>
+      <Title>{t("Because Although Clauses")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>

@@ -13,7 +13,7 @@ function ConditionalSentencesPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Conditional Sentences")}</Title>
+      <Title>{t("Conditional Sentences")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <TableContainer>
@@ -42,7 +42,7 @@ function ConditionalSentencesPage() {
             <TableRow>
               <TableCell component="th" scope="row">
                 {tPage("Present future real condition")}
-                <br />(Conditional type 1)
+                <br />({tPage("conditional type", { typeNumber: 1 })})
               </TableCell>
               <TableCell>
                 Simple present
@@ -71,7 +71,7 @@ function ConditionalSentencesPage() {
             <TableRow>
               <TableCell component="th" scope="row">
                 {tPage("Present unreal condition")}
-                <br />(Conditional type 2)
+                <br />({tPage("conditional type", { typeNumber: 2 })})
               </TableCell>
               <TableCell>
                 Simple past
@@ -92,7 +92,7 @@ function ConditionalSentencesPage() {
             <TableRow>
               <TableCell component="th" scope="row">
                 {tPage("Past unreal condition")}
-                <br />(Conditional type 3)
+                <br />({tPage("conditional type", { typeNumber: 3 })})
               </TableCell>
               <TableCell>
                 Past perfect
@@ -176,18 +176,16 @@ function ConditionalSentencesPage() {
 
       <SubTitle>{tPage("Transform to if sentence")}</SubTitle>
       <ol>
-        <li>Choose the clause after <HighlightSpan>because</HighlightSpan>
-          , or before <HighlightSpan>so</HighlightSpan> or <HighlightSpan>this is why</HighlightSpan>, to be <HighlightSpan>the if clause</HighlightSpan>.
-        </li>
+        <li>{tPage("transform-description-1")}</li>
         <li>
-          Choose conditional sentence type
+          {tPage("transform-description-2")}
           <ul>
-            <li><HighlightSpan>The if clause</HighlightSpan> is a real condition in the present or a possible condition in the future: <HighlightSpan>conditional type 1</HighlightSpan>.</li>
-            <li><HighlightSpan>The if clause</HighlightSpan> is an unreal condition in the present: <HighlightSpan>conditional type 2</HighlightSpan>.</li>
-            <li><HighlightSpan>The if clause</HighlightSpan> is an unreal condition in the past: <HighlightSpan>conditional type 3</HighlightSpan>.</li>
+            <li>{tPage("transform-description-2-1")}: <HighlightSpan>{tPage("conditional type", { typeNumber: 1 })}</HighlightSpan>.</li>
+            <li>{tPage("transform-description-2-2")}: <HighlightSpan>{tPage("conditional type", { typeNumber: 2 })}</HighlightSpan>.</li>
+            <li>{tPage("transform-description-2-3")}: <HighlightSpan>{tPage("conditional type", { typeNumber: 3 })}</HighlightSpan>.</li>
           </ul>
         </li>
-        <li>{"Write the sentence opposite to the given sentence (affirmative <=> negative)."}</li>
+        <li>{tPage("transform-description-3")}</li>
       </ol>
 
       <SubTitle>{t("Examples")}</SubTitle>

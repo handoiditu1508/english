@@ -10,7 +10,7 @@ function VerbFormsPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Verb Forms")}</Title>
+      <Title>{t("Verb Forms")}</Title>
 
       <SubTitle>{t("Structure")} 1</SubTitle>
       <ContentBox boxMargin><HighlightSpan>V</HighlightSpan> (+ O) + V<sub>bare</sub></ContentBox>

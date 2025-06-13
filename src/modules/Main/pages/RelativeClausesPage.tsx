@@ -13,7 +13,7 @@ function RelativeClausesPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Relative Clauses")}</Title>
+      <Title>{t("Relative Clauses")}</Title>
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>

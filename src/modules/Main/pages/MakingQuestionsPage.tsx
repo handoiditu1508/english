@@ -13,7 +13,7 @@ function MakingQuestionsPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Making Questions")}</Title>
+      <Title>{t("Making Questions")}</Title>
 
       <SubTitle>{tPage("Yes No questions")}</SubTitle>
 
@@ -21,8 +21,8 @@ function MakingQuestionsPage() {
       <ul>
         <li><HighlightSpan>To be</HighlightSpan>: am, is, are, was, were</li>
         <li><HighlightSpan>{tPage("Modal verbs")}</HighlightSpan>: can, could, shall, should, will, would, may, must, might</li>
-        <li><HighlightSpan>{t("title.Simple Present")}</HighlightSpan>: do, does</li>
-        <li><HighlightSpan>{t("title.Simple Past")}</HighlightSpan>: did</li>
+        <li><HighlightSpan>{t("Simple Present")}</HighlightSpan>: do, does</li>
+        <li><HighlightSpan>{t("Simple Past")}</HighlightSpan>: did</li>
         <li><HighlightSpan>{tPage("Perfect tenses")}</HighlightSpan>: have, has, had</li>
       </ul>
 

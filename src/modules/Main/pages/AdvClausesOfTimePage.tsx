@@ -11,7 +11,7 @@ function AdvClausesOfTimePage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Adverbial Clauses of Time")}</Title>
+      <Title>{t("Adverbial Clauses of Time")}</Title>
 
       <SubTitle>{tPage("Adverbs")}</SubTitle>
       <ContentBox>

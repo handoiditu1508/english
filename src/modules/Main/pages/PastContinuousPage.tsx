@@ -19,9 +19,9 @@ function PastContinuousPage() {
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>{tPage("The past continuous tense describes")}:</Typography>
       <ul>
-        <li>{tPage("concept-content-1")}</li>
-        <li>{tPage("concept-content-2")}</li>
-        <li>{tPage("concept-content-3")}</li>
+        <li>{tPage("concept-description-1")}</li>
+        <li>{tPage("concept-description-2")}</li>
+        <li>{tPage("concept-description-3")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>

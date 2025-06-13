@@ -14,7 +14,7 @@ function ArticlesPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Articles")}</Title>
+      <Title>{t("Articles")}</Title>
 
       <SubTitle>{tPage("Indefinite articles")}</SubTitle>
 

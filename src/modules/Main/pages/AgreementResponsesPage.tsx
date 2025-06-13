@@ -9,7 +9,7 @@ function AgreementResponsesPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Agreement Responses")}</Title>
+      <Title>{t("Agreement Responses")}</Title>
 
       <SubTitle>{tPage("Agreeing with positive statements")}</SubTitle>
       <p>A: I like swimming.</p>

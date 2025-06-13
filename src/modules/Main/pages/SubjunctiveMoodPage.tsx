@@ -11,7 +11,7 @@ function SubjunctiveMoodPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Subjunctive Mood")}</Title>
+      <Title>{t("Subjunctive Mood")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
       <p>{tPage("This is a special sentence structure used to express")}:</p>

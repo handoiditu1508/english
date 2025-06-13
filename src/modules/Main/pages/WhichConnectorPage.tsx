@@ -10,7 +10,7 @@ function WhichConnectorPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Which as a Connector")}</Title>
+      <Title>{t("Which as a Connector")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
       <p>{tPage("concept-description-1")}</p>

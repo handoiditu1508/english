@@ -6,5 +6,12 @@
   "Past unreal condition": "Past unreal condition",
   "Mixed": "Mixed",
   "Special cases": "Special cases",
-  "Transform to if sentence": "Transform to if sentence"
+  "Transform to if sentence": "Transform to if sentence",
+  "transform-description-1": "Choose the clause after \"because\", or before \"so\" or \"this is why\", to be the if clause.",
+  "transform-description-2": "Choose conditional sentence type",
+  "transform-description-2-1": "The if clause is a real condition in the present or a possible condition in the future",
+  "transform-description-2-2": "The if clause is an unreal condition in the present",
+  "transform-description-2-3": "The if clause is an unreal condition in the past",
+  "transform-description-3": "Write the sentence opposite to the given sentence (affirmative <=> negative).",
+  "conditional type": "conditional type {{typeNumber}}"
 }

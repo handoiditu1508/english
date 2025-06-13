@@ -20,10 +20,10 @@ function PresentContinuousPage() {
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>{tPage("The present continuous tense describes")}:</Typography>
       <ol>
-        <li>{tPage("concept-content-1")}.</li>
-        <li>{tPage("concept-content-2")}.</li>
-        <li>{tPage("concept-content-3")}.</li>
-        <li>{tPage("concept-content-4")}.</li>
+        <li>{tPage("concept-description-1")}.</li>
+        <li>{tPage("concept-description-2")}.</li>
+        <li>{tPage("concept-description-3")}.</li>
+        <li>{tPage("concept-description-4")}.</li>
       </ol>
 
       <SubTitle>{t("Structure")}</SubTitle>
@@ -92,7 +92,7 @@ function PresentContinuousPage() {
         </Box>
       </ContentBox>
 
-      <SubTitle>1. {tPage("concept-content-1")}</SubTitle>
+      <SubTitle>1. {tPage("concept-description-1")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -114,7 +114,7 @@ function PresentContinuousPage() {
         <li>Be quiet! The baby <HighlightSpan>is sleeping</HighlightSpan> in the room.</li>
       </ol>
 
-      <SubTitle>2. {tPage("concept-content-2")}</SubTitle>
+      <SubTitle>2. {tPage("concept-description-2")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -132,7 +132,7 @@ function PresentContinuousPage() {
         <li>She <HighlightSpan>is going</HighlightSpan> to Spain next week.</li>
       </ol>
 
-      <SubTitle>3. {tPage("concept-content-3")}</SubTitle>
+      <SubTitle>3. {tPage("concept-description-3")}</SubTitle>
 
       <SubTitle2>{t("Signs to recognize")}</SubTitle2>
       <ul>
@@ -149,7 +149,7 @@ function PresentContinuousPage() {
         <li>You <HighlightSpan>are talking</HighlightSpan> in class all the time.</li>
       </ol>
 
-      <SubTitle>4. {tPage("concept-content-4")}</SubTitle>
+      <SubTitle>4. {tPage("concept-description-4")}</SubTitle>
 
       <SubTitle2>{t("Examples")}</SubTitle2>
       <ol>

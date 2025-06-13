@@ -19,7 +19,7 @@ function FutureContinuousPage() {
       <SubTitle>{t("Concept")}</SubTitle>
       <Typography>{tPage("The future continuous tense describes")}:</Typography>
       <ul>
-        <li>{tPage("concept-content")}</li>
+        <li>{tPage("concept-description")}</li>
       </ul>
 
       <SubTitle>{t("Structure")}</SubTitle>

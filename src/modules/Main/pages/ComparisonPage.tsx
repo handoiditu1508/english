@@ -13,7 +13,7 @@ function ComparisonPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Comparison")}</Title>
+      <Title>{t("Comparison")}</Title>
 
       <SubTitle>{tPage("Short adjectives")}</SubTitle>
       <ul>

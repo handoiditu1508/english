@@ -13,7 +13,7 @@ function ReportedSpeechPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{t("title.Reported Speech")}</Title>
+      <Title>{t("Reported Speech")}</Title>
 
       <SubTitle>{t("Concept")}</SubTitle>
       <p>{tPage("concept-details")}</p>
