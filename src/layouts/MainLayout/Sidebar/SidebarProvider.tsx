@@ -19,7 +19,6 @@ import ParkIcon from "@mui/icons-material/Park";
 import PetsIcon from "@mui/icons-material/Pets";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import { SwipeableDrawerProps, useTheme } from "@mui/material";
-import i18next from "i18next";
 import { ProviderProps, useContext, useEffect, useState } from "react";
 import SidebarContext, { SidebarContextType, SidebarState } from "./SidebarContext";
 import { SidebarTab } from "./SidebarItem";
@@ -27,83 +26,83 @@ import { SidebarTab } from "./SidebarItem";
 const sidebarTabs: SidebarTab[][] = [
   [
     {
-      title: i18next.t("title.Result Clause"),
+      title: "Result Clause",
       to: "/result-clause",
     },
     {
-      title: i18next.t("title.Simple Past"),
+      title: "Simple Past",
       to: "/simple-past",
     },
     {
-      title: i18next.t("title.Past Continuous"),
+      title: "Past Continuous",
       to: "/past-continuous",
     },
     {
-      title: i18next.t("title.Present Perfect"),
+      title: "Present Perfect",
       to: "/present-perfect",
     },
     {
-      title: i18next.t("title.Simple Present"),
+      title: "Simple Present",
       to: "/simple-present",
     },
     {
-      title: i18next.t("title.Present Continuous"),
+      title: "Present Continuous",
       to: "/present-continuous",
     },
     {
-      title: i18next.t("title.Past Perfect"),
+      title: "Past Perfect",
       to: "/past-perfect",
     },
     {
-      title: i18next.t("title.Simple Future"),
+      title: "Simple Future",
       to: "/simple-future",
     },
     {
-      title: i18next.t("title.Future Continuous"),
+      title: "Future Continuous",
       to: "/future-continuous",
     },
     {
-      title: i18next.t("title.Future Perfect"),
+      title: "Future Perfect",
       to: "/future-perfect",
     },
     {
-      title: i18next.t("title.Present Perfect Continuous"),
+      title: "Present Perfect Continuous",
       to: "/present-perfect-continuous",
     },
     {
-      title: i18next.t("title.Passive Voice"),
+      title: "Passive Voice",
       to: "/passive-voice",
     },
     {
-      title: i18next.t("title.Reported Speech"),
+      title: "Reported Speech",
       to: "/reported-speech",
     },
     {
-      title: i18next.t("title.Conditional Sentences"),
+      title: "Conditional Sentences",
       to: "/conditional-sentences",
     },
     {
-      title: i18next.t("title.Relative Clauses"),
+      title: "Relative Clauses",
       to: "/relative-clauses",
     },
     {
-      title: i18next.t("title.Modal Verbs"),
+      title: "Modal Verbs",
       to: "/modal-verbs",
     },
     {
-      title: i18next.t("title.Adverbial Clauses of Time"),
+      title: "Adverbial Clauses of Time",
       to: "/adv-clauses-of-time",
     },
     {
-      title: i18next.t("title.Subjunctive Mood"),
+      title: "Subjunctive Mood",
       to: "/subjunctive-mood",
     },
     {
-      title: i18next.t("title.Making Questions"),
+      title: "Making Questions",
       to: "/making-questions",
     },
     {
-      title: i18next.t("title.Verb Forms"),
+      title: "Verb Forms",
       to: "/verb-forms",
     },
     {
@@ -111,43 +110,43 @@ const sidebarTabs: SidebarTab[][] = [
       to: "/the-adj",
     },
     {
-      title: i18next.t("title.Use Used To Be Used To"),
+      title: "Use Used To Be Used To",
       to: "/used-to",
     },
     {
-      title: i18next.t("title.Which as a Connector"),
+      title: "Which as a Connector",
       to: "/which-connector",
     },
     {
-      title: i18next.t("title.Transformation"),
+      title: "Transformation",
       to: "/transformation",
     },
     {
-      title: i18next.t("title.BecauseAlthough"),
+      title: "Because Although Clauses",
       to: "/because-although",
     },
     {
-      title: i18next.t("title.Purpose Clauses"),
+      title: "Purpose Clauses",
       to: "/purpose",
     },
     {
-      title: i18next.t("title.Articles"),
+      title: "Articles",
       to: "/articles",
     },
     {
-      title: i18next.t("title.It Not Until"),
+      title: "It Not Until",
       to: "/it-not-until",
     },
     {
-      title: i18next.t("title.Comparison"),
+      title: "Comparison",
       to: "/comparison",
     },
     {
-      title: i18next.t("title.Pronunciation"),
+      title: "Pronunciation",
       to: "/pronunciation",
     },
     {
-      title: i18next.t("title.Agreement Responses"),
+      title: "Agreement Responses",
       to: "/agreement-responses",
     },
     {
