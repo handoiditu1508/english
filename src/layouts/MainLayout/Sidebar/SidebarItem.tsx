@@ -1,6 +1,6 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Collapse, List, ListItem, ListItemButton, ListItemIcon, ListItemText, useTheme } from "@mui/material";
-import { JSX, useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, To } from "react-router-dom";
 import SidebarContext from "./SidebarContext";
@@ -8,7 +8,7 @@ import SidebarContext from "./SidebarContext";
 export type SidebarTab = {
   title: string;
   to?: To;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
   children?: SidebarTab[];
   hashPath: string;
 };
@@ -50,7 +50,9 @@ export default function SidebarItem({ sidebarTab, level = 0, hideChilds }: Sideb
           selected={!!partialMatch}
           style={{ paddingLeft: leftPadding + (level * theme.constants.scalingFactor) }}
           onClick={handleClickItem}>
-          {sidebarTab.icon && <ListItemIcon>
+          {sidebarTab.icon && <ListItemIcon sx={{
+            minWidth: theme.spacing(3),
+          }}>
             {sidebarTab.icon}
           </ListItemIcon>}
           <ListItemText primary={t(sidebarTab.title)} />

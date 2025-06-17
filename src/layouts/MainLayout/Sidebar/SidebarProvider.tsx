@@ -29,128 +29,165 @@ function convertTemporaryToSidebarTab(temporary: TemporarySidebarTab, index: num
 const temporarySidebarTabs: TemporarySidebarTab[][] = [
   [
     {
-      title: "Result Clause",
-      to: "/result-clause",
+      title: "Articles",
+      to: "/articles",
+      icon: "A",
     },
     {
-      title: "Simple Past",
-      to: "/simple-past",
-    },
-    {
-      title: "Past Continuous",
-      to: "/past-continuous",
-    },
-    {
-      title: "Present Perfect",
-      to: "/present-perfect",
-    },
-    {
-      title: "Simple Present",
-      to: "/simple-present",
-    },
-    {
-      title: "Present Continuous",
-      to: "/present-continuous",
-    },
-    {
-      title: "Past Perfect",
-      to: "/past-perfect",
-    },
-    {
-      title: "Simple Future",
-      to: "/simple-future",
-    },
-    {
-      title: "Future Continuous",
-      to: "/future-continuous",
-    },
-    {
-      title: "Future Perfect",
-      to: "/future-perfect",
-    },
-    {
-      title: "Present Perfect Continuous",
-      to: "/present-perfect-continuous",
+      title: "Tenses",
+      icon: "T",
+      children: [
+        {
+          title: "Simple Present",
+          to: "/simple-present",
+          icon: "S",
+        },
+        {
+          title: "Simple Past",
+          to: "/simple-past",
+          icon: "S",
+        },
+        {
+          title: "Simple Future",
+          to: "/simple-future",
+          icon: "S",
+        },
+        {
+          title: "Present Continuous",
+          to: "/present-continuous",
+          icon: "P",
+        },
+        {
+          title: "Past Continuous",
+          to: "/past-continuous",
+          icon: "P",
+        },
+        {
+          title: "Future Continuous",
+          to: "/future-continuous",
+          icon: "F",
+        },
+        {
+          title: "Present Perfect",
+          to: "/present-perfect",
+          icon: "P",
+        },
+        {
+          title: "Past Perfect",
+          to: "/past-perfect",
+          icon: "P",
+        },
+        {
+          title: "Future Perfect",
+          to: "/future-perfect",
+          icon: "F",
+        },
+        {
+          title: "Present Perfect Continuous",
+          to: "/present-perfect-continuous",
+          icon: "P",
+        },
+      ],
     },
     {
       title: "Passive Voice",
       to: "/passive-voice",
+      icon: "P",
     },
     {
       title: "Reported Speech",
       to: "/reported-speech",
-    },
-    {
-      title: "Conditional Sentences",
-      to: "/conditional-sentences",
+      icon: "R",
     },
     {
       title: "Relative Clauses",
       to: "/relative-clauses",
+      icon: "R",
     },
     {
-      title: "Modal Verbs",
-      to: "/modal-verbs",
-    },
-    {
-      title: "Adverbial Clauses of Time",
-      to: "/adv-clauses-of-time",
-    },
-    {
-      title: "Subjunctive Mood",
-      to: "/subjunctive-mood",
-    },
-    {
-      title: "Making Questions",
-      to: "/making-questions",
-    },
-    {
-      title: "Verb Forms",
-      to: "/verb-forms",
-    },
-    {
-      title: "The + Adj",
-      to: "/the-adj",
-    },
-    {
-      title: "Use Used To Be Used To",
-      to: "/used-to",
-    },
-    {
-      title: "Which as a Connector",
-      to: "/which-connector",
-    },
-    {
-      title: "Transformation",
-      to: "/transformation",
+      title: "Conditional Sentences",
+      to: "/conditional-sentences",
+      icon: "C",
     },
     {
       title: "Because Although Clauses",
       to: "/because-although",
-    },
-    {
-      title: "Purpose Clauses",
-      to: "/purpose",
-    },
-    {
-      title: "Articles",
-      to: "/articles",
-    },
-    {
-      title: "It Not Until",
-      to: "/it-not-until",
+      icon: "B",
     },
     {
       title: "Comparison",
       to: "/comparison",
+      icon: "C",
+    },
+    {
+      title: "Use Used To Be Used To",
+      to: "/used-to",
+      icon: "U",
+    },
+    {
+      title: "Making Questions",
+      to: "/making-questions",
+      icon: "M",
+    },
+    {
+      title: "Purpose Clauses",
+      to: "/purpose",
+      icon: "P",
+    },
+    {
+      title: "Result Clause",
+      to: "/result-clause",
+      icon: "R",
+    },
+    {
+      title: "Modal Verbs",
+      to: "/modal-verbs",
+      icon: "M",
+    },
+    {
+      title: "Adverbial Clauses of Time",
+      to: "/adv-clauses-of-time",
+      icon: "A",
+    },
+    {
+      title: "Subjunctive Mood",
+      to: "/subjunctive-mood",
+      icon: "S",
+    },
+    {
+      title: "It Not Until",
+      to: "/it-not-until",
+      icon: "I",
+    },
+    {
+      title: "Verb Forms",
+      to: "/verb-forms",
+      icon: "V",
+    },
+    {
+      title: "The + Adj",
+      to: "/the-adj",
+      icon: "T",
+    },
+    {
+      title: "Which as a Connector",
+      to: "/which-connector",
+      icon: "W",
+    },
+    {
+      title: "Transformation",
+      to: "/transformation",
+      icon: "T",
     },
     {
       title: "Pronunciation",
       to: "/pronunciation",
+      icon: "P",
     },
     {
       title: "Agreement Responses",
       to: "/agreement-responses",
+      icon: "A",
     },
   ],
 ];
