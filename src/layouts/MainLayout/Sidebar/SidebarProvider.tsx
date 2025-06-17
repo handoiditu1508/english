@@ -2,10 +2,31 @@ import { BreakpointsContext } from "@/contexts/breakpoints";
 import { InfoContext } from "@/contexts/info";
 import { SwipeableDrawerProps, useTheme } from "@mui/material";
 import { ProviderProps, useContext, useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import SidebarContext, { SidebarContextType, SidebarState } from "./SidebarContext";
 import { SidebarTab } from "./SidebarItem";
 
-const sidebarTabs: SidebarTab[][] = [
+type TemporarySidebarTab = Pick<SidebarTab, "title" | "to" | "icon"> & {
+  children?: TemporarySidebarTab[];
+};
+
+const flatSidebarTabs: SidebarTab[] = [];
+
+function convertTemporaryToSidebarTab(temporary: TemporarySidebarTab, index: number = 0, parentHashPath: string = ""): SidebarTab {
+  const hashPath = parentHashPath ? `${parentHashPath}/${index}` : index.toString();
+
+  const sidebarTab: SidebarTab = {
+    ...temporary,
+    children: temporary.children ? temporary.children.map((t, i) => convertTemporaryToSidebarTab(t, i + 1, hashPath)) : [],
+    hashPath,
+  };
+
+  flatSidebarTabs.push(sidebarTab);
+
+  return sidebarTab;
+}
+
+const temporarySidebarTabs: TemporarySidebarTab[][] = [
   [
     {
       title: "Result Clause",
@@ -134,10 +155,13 @@ const sidebarTabs: SidebarTab[][] = [
   ],
 ];
 
+const sidebarTabs: SidebarTab[][] = temporarySidebarTabs.map((tempArr, Arrindex) => tempArr.map((value, index) => convertTemporaryToSidebarTab(value, index, Arrindex.toString())));
+
 type SidebarProviderProps = Omit<ProviderProps<SidebarContextType>, "value">;
 
 function SidebarProvider(props: SidebarProviderProps) {
   const theme = useTheme();
+  const location = useLocation();
   const [sidebarWidth] = useState<number>(theme.constants.sidebarWidth);
   const { lgAndUp } = useContext(BreakpointsContext);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -156,6 +180,7 @@ function SidebarProvider(props: SidebarProviderProps) {
     ? (sidebarPinned ? sidebarWidth : miniSidebarWidth)
     : 0;
   document.body.style.setProperty("--sidebar-current-width", `${sidebarCurrentWidth}px`);
+  const [currentSidebarTab, setCurrentSidebarTab] = useState<SidebarTab | undefined | null>(undefined);
 
   const setSidebarOpenWrapper = (value: boolean) => {
     // can not close sidebar on lgAndUp breakpoint
@@ -171,6 +196,11 @@ function SidebarProvider(props: SidebarProviderProps) {
     const variant: SwipeableDrawerProps["variant"] = displayAsDesktop ? "permanent" : "temporary";
     setSidebarVariant(variant);
   }, [displayAsDesktop]);
+
+  useEffect(() => {
+    const sidebarTab = flatSidebarTabs.find((sidebarTab) => sidebarTab.to === location.pathname);
+    setCurrentSidebarTab(sidebarTab);
+  }, [location]);
 
   const miniSidebarTransition = (...props: string[]) => theme.transitions.create(props, {
     easing: theme.transitions.easing.sharp,
@@ -198,6 +228,7 @@ function SidebarProvider(props: SidebarProviderProps) {
         sidebarHovered,
         setSidebarHovered,
         sidebarTabs,
+        currentSidebarTab,
       }}
       {...props}
     />
