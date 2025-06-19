@@ -14,7 +14,7 @@ function ResultClausePage() {
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
-        <p>S + V + <HighlightSpan>so + Adj + that</HighlightSpan> + S + V</p>
+        <p>S + V + <HighlightSpan>so + [Adj/Adv] + that</HighlightSpan> + S + V</p>
         <Divider />
         <p>S + V + <HighlightSpan>such (a/an) + Adj + N + that</HighlightSpan> + S + V</p>
       </ContentBox>

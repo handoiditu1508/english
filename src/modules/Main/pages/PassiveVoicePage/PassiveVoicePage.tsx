@@ -7,6 +7,7 @@ import ContentBox from "../../components/ContentBox";
 import HighlightCode from "../../components/HighlightCode";
 import HighlightSpan from "../../components/HighlightSpan";
 import SubTitle from "../../components/SubTitle";
+import SubTitle2 from "../../components/SubTitle2";
 import Title from "../../components/Title";
 import { otherExamples, tenseExamples } from "./constants";
 
@@ -160,6 +161,130 @@ function PassiveVoicePage() {
           <li><HighlightSpan>{t("Passive")}</HighlightSpan>: O + <HighlightCode>has/have/had/ought</HighlightCode> to be V<sub>3/ed</sub> (by S)</li>
         </ul>
       </ContentBox>
+
+      <SubTitle2>{t("Examples")}</SubTitle2>
+      <ol>
+        <li>
+          They can't make tea with cold water.
+          <ul>
+            <li>Tea can't be made with cold water.</li>
+          </ul>
+        </li>
+        <li>
+          They will hold the meeting before May Day.
+          <ul>
+            <li>The meeting will be held before May Day.</li>
+          </ul>
+        </li>
+        <li>
+          They have to repair the engine of the car.
+          <ul>
+            <li>The engine of the car has to be repaired.</li>
+          </ul>
+        </li>
+        <li>
+          They may use this room for the classroom.
+          <ul>
+            <li>The room may be used for the classroom.</li>
+          </ul>
+        </li>
+        <li>
+          You must clean the wall before you paint it.
+          <ul>
+            <li>The wall must be cleaned before you paint it.</li>
+          </ul>
+        </li>
+        <li>
+          Will you invite her to your wedding party?
+          <ul>
+            <li>Will she be invited to your wedding party?</li>
+          </ul>
+        </li>
+        <li>
+          Is she going to write a poem?
+          <ul>
+            <li>Is a poem going to be written?</li>
+          </ul>
+        </li>
+        <li>
+          Must we finish the test before ten?
+          <ul>
+            <li>Must the test be finished before ten?</li>
+          </ul>
+        </li>
+        <li>
+          How can they open this safe?
+          <ul>
+            <li>How can this safe be opened?</li>
+          </ul>
+        </li>
+        <li>
+          Someone will tell him that news.
+          <ul>
+            <li>That news will be told to him.</li>
+          </ul>
+        </li>
+        <li>
+          My friend can answer this question.
+          <ul>
+            <li>This question can be answered by my friend.</li>
+          </ul>
+        </li>
+        <li>
+          The manager should sign these contracts today.
+          <ul>
+            <li>These contracts should be signed by the manager today.</li>
+          </ul>
+        </li>
+        <li>
+          My parents are going to buy a car tomorrow.
+          <ul>
+            <li>A car is going to be bought by my parents tomorrow.</li>
+          </ul>
+        </li>
+        <li>
+          The teacher is going to tell a story.
+          <ul>
+            <li>A story is going to be told by the teacher.</li>
+          </ul>
+        </li>
+        <li>
+          We must take good care of books borrowed from the library.
+          <ul>
+            <li>Books borrowed from the library must be taken good care of.</li>
+          </ul>
+        </li>
+        <li>
+          We can never find him at home for he is always on the move.
+          <ul>
+            <li>He can never be found at home for he is always on the move.</li>
+          </ul>
+        </li>
+        <li>
+          They have to do this job at once.
+          <ul>
+            <li>This job has to be done at once.</li>
+          </ul>
+        </li>
+        <li>
+          French doctors are going to perform the operation.
+          <ul>
+            <li>The operation is going to be performed by French doctors.</li>
+          </ul>
+        </li>
+        <li>
+          Someone must have stolen the jewelry while she was out.
+          <ul>
+            <li>The jewelry must have been stolen while she was out.</li>
+          </ul>
+        </li>
+        <li>
+          You must wash this dress in cold water.
+          <ul>
+            <li>This dress must be washed in cold water.</li>
+          </ul>
+        </li>
+      </ol>
 
       <SubTitle>{tPage("Causative form")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
