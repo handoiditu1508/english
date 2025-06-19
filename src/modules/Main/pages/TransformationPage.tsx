@@ -65,7 +65,7 @@ function TransformationPage() {
         <li>
           You started learning English 4 years ago.
           <ul>
-            <li>You have learnt English for 13 years.</li>
+            <li>You have learnt English for 4 years.</li>
           </ul>
         </li>
         <li>
@@ -98,6 +98,67 @@ function TransformationPage() {
           He spent 5 years learning Chinese.
           <ul>
             <li>It took him 5 years to learn Chinese.</li>
+          </ul>
+        </li>
+        <li>
+          The ferry crossing to the island takes two hours.
+          <ul>
+            <li><HighlightSpan>It is</HighlightSpan> a two-hour ferry crossing to the island.</li>
+            <li><HighlightSpan>It is</HighlightSpan> the two-hour ferry crossing to the island.</li>
+          </ul>
+        </li>
+        <li>
+          This contract is for two years.
+          <ul>
+            <li><HighlightSpan>This is</HighlightSpan> a two-year contract</li>
+          </ul>
+        </li>
+        <li>
+          It is a twenty-day coach tour.
+          <ul>
+            <li><HighlightSpan>The</HighlightSpan> coach tour takes twenty days.</li>
+          </ul>
+        </li>
+        <li>
+          The translation course takes two years.
+          <ul>
+            <li><HighlightSpan>It is a</HighlightSpan> two-year translation course.</li>
+          </ul>
+        </li>
+        <li>
+          Victor started collecting postage stamps twenty years ago.
+          <ul>
+            <li><HighlightSpan>Victor</HighlightSpan> has been collecting postage stamps for twenty years.</li>
+          </ul>
+        </li>
+        <li>
+          He learned to drive when he was eight.
+          <ul>
+            <li><HighlightSpan>He has</HighlightSpan> learned to drive since he was eight.</li>
+          </ul>
+        </li>
+        <li>
+          The flight to Moscow lasted three and a half hours.
+          <ul>
+            <li><HighlightSpan>It took</HighlightSpan> three and a half hours to fly to Moscow.</li>
+          </ul>
+        </li>
+        <li>
+          We started investigating the case a week ago.
+          <ul>
+            <li><HighlightSpan>We</HighlightSpan> have been investigating the case for a week.</li>
+          </ul>
+        </li>
+        <li>
+          It is a six-hour drive from London to Edinburgh.
+          <ul>
+            <li><HighlightSpan>It takes</HighlightSpan> six hours to drive from London to Edinburgh.</li>
+          </ul>
+        </li>
+        <li>
+          He spends two hours a week sorting out stamps.
+          <ul>
+            <li><HighlightSpan>Sorting out</HighlightSpan> stamps takes him two hours a week.</li>
           </ul>
         </li>
       </ol>
