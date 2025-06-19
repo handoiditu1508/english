@@ -33,7 +33,7 @@ function WhichConnectorPage() {
         <li>
           You always come late. I don't like it.
           <ul>
-            <li><HighlightSpan>You always come late</HighlightSpan>, <HighlightSpan>which</HighlightSpan> I don't like it.</li>
+            <li><HighlightSpan>You always come late</HighlightSpan>, <HighlightSpan>which</HighlightSpan> I don't like.</li>
           </ul>
         </li>
       </ol>
