@@ -144,6 +144,100 @@ function PassiveVoicePage() {
           )}
       </Box>
 
+      <SubTitle2>{t("Examples")}</SubTitle2>
+      <ol>
+        <li>
+          We clean the garages every day.
+          <ul>
+            <li>The garages are cleaned every day.</li>
+          </ul>
+        </li>
+        <li>
+          Someone has given him a lot of money.
+          <ul>
+            <li>A lot of money has been given to him.</li>
+          </ul>
+        </li>
+        <li>
+          The police arrested two hundred people.
+          <ul>
+            <li>Two hundred people were arrested by the police.</li>
+          </ul>
+        </li>
+        <li>
+          We check every car engine thoroughly.
+          <ul>
+            <li>Every car engine is checked thoroughly.</li>
+          </ul>
+        </li>
+        <li>
+          We export this computer to seventy different countries.
+          <ul>
+            <li>This computer is exported to seventy different countries.</li>
+          </ul>
+        </li>
+        <li>
+          They have cancelled the meeting.
+          <ul>
+            <li>The meeting has been cancelled.</li>
+          </ul>
+        </li>
+        <li>
+          We opened the factory at 9 o'clock.
+          <ul>
+            <li>The factory was opened at 9 o'clock.</li>
+          </ul>
+        </li>
+        <li>
+          They send two million books to America every year.
+          <ul>
+            <li>Two million books are sent to America every year.</li>
+          </ul>
+        </li>
+        <li>
+          We have invited all the students in the school.
+          <ul>
+            <li>All the students in the school have been invited.</li>
+          </ul>
+        </li>
+        <li>
+          We have told him not to be late again.
+          <ul>
+            <li>He has been told not to be late again.</li>
+          </ul>
+        </li>
+        <li>
+          They posted all the letters yesterday.
+          <ul>
+            <li>All the letters were posted yesterday.</li>
+          </ul>
+        </li>
+        <li>
+          The machine wraps the bread automatically.
+          <ul>
+            <li>The bread is wrapped by the machine automatically.</li>
+          </ul>
+        </li>
+        <li>
+          They paid me a lot of money to do the job.
+          <ul>
+            <li>I was paid a lot of money to do the job.</li>
+          </ul>
+        </li>
+        <li>
+          Fortunately, they didn't damage the machinery.
+          <ul>
+            <li>Fortunately, the machinery wasn't damaged.</li>
+          </ul>
+        </li>
+        <li>
+          We send the newspapers to Scotland by train.
+          <ul>
+            <li>The newspapers are sent to Scotland by train.</li>
+          </ul>
+        </li>
+      </ol>
+
       <SubTitle>{tPage("Modal verbs in passive voice")}</SubTitle>
       <ContentBox sx={{ textAlign: "initial" }}>
         <ul>
