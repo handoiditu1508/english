@@ -11,7 +11,7 @@ function OtherFormulasPage() {
 
   return (
     <Box sx={{ padding: 1 }}>
-      <Title>{tPage("Other Formulas")}</Title>
+      <Title>{t("Other Formulas")}</Title>
 
       <SubTitle>{tPage("Formula")} 1</SubTitle>
       <ContentBox>
