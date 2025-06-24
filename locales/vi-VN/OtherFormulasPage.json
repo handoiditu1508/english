@@ -1,0 +1,13 @@
+{
+  "Formula": "Công thức",
+  "plural": "số nhiều",
+  "singular": "số ít",
+  "reading fractions": "đọc phân số",
+  "numerator": "tử số",
+  "denominator": "mẫu số",
+  "cardinal numbers": "số đếm",
+  "ordinal numbers": "số thứ tự",
+  "fraction-description-1": "tử số lớn hơn 1 => mẫu số được chia số nhiều",
+  "uncountable": "không đếm được",
+  "countable": "đếm được"
+}

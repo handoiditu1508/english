@@ -1,0 +1,1 @@
+import{s,j as a,Y as i}from"./index-CP00uKV8.js";import{d as n}from"./dividerClasses-CJQ-9nWD.js";const t=s(o=>a.jsx(i,{...o}),{shouldForwardProp:o=>o!=="boxMargin"})(({theme:o,boxMargin:r})=>({padding:o.spacing(2),textAlign:"center",border:o.shape.largeBorder,[`.${n.root}`]:{margin:o.spacing(2,-2)},...r&&{marginTop:o.spacing(2),marginBottom:o.spacing(1)}}));export{t as C};

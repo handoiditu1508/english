@@ -1,0 +1,13 @@
+{
+  "Formula": "Formula",
+  "plural": "plural",
+  "singular": "singular",
+  "reading fractions": "reading fractions",
+  "numerator": "numerator",
+  "denominator": "denominator",
+  "cardinal numbers": "cardinal numbers",
+  "ordinal numbers": "ordinal numbers",
+  "fraction-description-1": "numerator greater than 1 => denominator is pluralized",
+  "uncountable": "uncountable",
+  "countable": "countable"
+}
