@@ -1,1 +1,0 @@
-import{s as o}from"./index-CP00uKV8.js";const t=o("code")(({theme:a})=>({color:a.palette.primary.main,backgroundColor:`rgba(${a.palette.primary.contrastTextChannel} / 0.5)`,paddingLeft:"0.2em",paddingRight:"0.2em",borderRadius:"0.2em",...a.applyStyles("light",{boxShadow:a.shadows[1]})}));export{t as H};

@@ -1,1 +1,0 @@
-import{s,j as o,y as t}from"./index-CP00uKV8.js";const i=s(a=>o.jsx(t,{variant:"h2",...a}))(({theme:a})=>({marginTop:a.spacing(2),marginBottom:a.spacing(1)})),n=s(a=>o.jsx(t,{variant:"h1",...a}))(({theme:a})=>({marginBottom:a.spacing(2),borderBottom:a.shape.mediumBorder}));export{i as S,n as T};
