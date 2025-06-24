@@ -39,6 +39,10 @@ export default function SidebarItem({ sidebarTab, level = 0, hideChilds }: Sideb
     setOpen(!open);
   };
 
+  if (partialMatch) {
+    console.log(currentSidebarTab.hashPath, sidebarTab.hashPath);
+  }
+
   return (
     <>
       <ListItem>

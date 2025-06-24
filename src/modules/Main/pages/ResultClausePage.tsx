@@ -15,6 +15,8 @@ function ResultClausePage() {
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
         <p>S + V + <HighlightSpan>so + [Adj/Adv] + that</HighlightSpan> + S + V</p>
+        <p>S + be + <HighlightSpan>so + Adj + that</HighlightSpan></p>
+        <p>= So + Adj + be + S + that</p>
         <Divider />
         <p>S + V + <HighlightSpan>such (a/an) + Adj + N + that</HighlightSpan> + S + V</p>
       </ContentBox>
@@ -25,6 +27,7 @@ function ResultClausePage() {
           The ice was thick. There was no danger of the skater falling through.
           <ul>
             <li>The ice was <HighlightSpan>so thick that</HighlightSpan> there was no danger of the skater falling through.</li>
+            <li>So thick was the ice that there was no danger of the skater falling through.</li>
             <li>It was <HighlightSpan>such thick ice that</HighlightSpan> there was no danger of the skater falling through.</li>
           </ul>
         </li>
@@ -39,6 +42,7 @@ function ResultClausePage() {
           The bath was relaxing. He went to sleep in it.
           <ul>
             <li>The bath was <HighlightSpan>so relaxing that</HighlightSpan> he went to sleep in it.</li>
+            <li>So relaxing was the bath that he went to sleep in it.</li>
             <li>It was <HighlightSpan>such a relaxing bath that</HighlightSpan> he went to sleep in it.</li>
           </ul>
         </li>
@@ -46,6 +50,7 @@ function ResultClausePage() {
           They were surprised. They could hardly speak.
           <ul>
             <li>They were <HighlightSpan>so surprised that</HighlightSpan> they could hardly speak.</li>
+            <li>So surprised were they that they could hardly speak.</li>
             <li>It was <HighlightSpan>such a surprise that</HighlightSpan> they could hardly speak.</li>
           </ul>
         </li>
@@ -61,6 +66,7 @@ function ResultClausePage() {
           <ul>
             <li>I was <HighlightSpan>so excited about going away that</HighlightSpan> I couldn't sleep.</li>
             <li>Going away is <HighlightSpan>so exciting that</HighlightSpan> I couldn't sleep</li>
+            <li>So excited was me that I couldn't sleep.</li>
             <li>It was <HighlightSpan>such an exciting thought about going away that</HighlightSpan> I couldn't sleep.</li>
           </ul>
         </li>
@@ -68,6 +74,7 @@ function ResultClausePage() {
           The water was very dirty. We decided not to go swimming.
           <ul>
             <li>The water was <HighlightSpan>so dirty that</HighlightSpan> we decided not to go swimming.</li>
+            <li>So dirty was the water that we decided not to go swimming.</li>
             <li>It was <HighlightSpan>such dirty water that</HighlightSpan> we decided not to go swimming.</li>
           </ul>
         </li>
@@ -83,12 +90,14 @@ function ResultClausePage() {
           The road is <HighlightSpan>so narrow that</HighlightSpan> it's difficult for two cars to pass each other.
           <ul>
             <li>It is <HighlightSpan>such a narrow road that</HighlightSpan> it's difficult for two cars to pass each other.</li>
+            <li>So narrow is the road that it's difficult for two cars to pass each other.</li>
           </ul>
         </li>
         <li>
           The weather was <HighlightSpan>so warm that</HighlightSpan> I didn't need a coat.
           <ul>
             <li>It was <HighlightSpan>such warm weather that</HighlightSpan> I didn't need a coat.</li>
+            <li>So warm was the weather that I didn't need a coat.</li>
           </ul>
         </li>
       </ol>

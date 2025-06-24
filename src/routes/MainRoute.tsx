@@ -34,6 +34,8 @@ const ItNotUntilPage = React.lazy(() => import("@/modules/Main/pages/ItNotUntilP
 const ComparisonPage = React.lazy(() => import("@/modules/Main/pages/ComparisonPage"));
 const PronunciationPage = React.lazy(() => import("@/modules/Main/pages/PronunciationPage"));
 const AgreementResponsesPage = React.lazy(() => import("@/modules/Main/pages/AgreementResponsesPage"));
+const WishClausesPage = React.lazy(() => import("@/modules/Main/pages/WishClausesPage"));
+const OtherFormulasPage = React.lazy(() => import("@/modules/Main/pages/OtherFormulasPage"));
 
 const MainRoute = (
   <Route element={<MainModule />}>
@@ -69,6 +71,8 @@ const MainRoute = (
     <Route path="comparison" element={<ComparisonPage />} />
     <Route path="pronunciation" element={<PronunciationPage />} />
     <Route path="agreement-responses" element={<AgreementResponsesPage />} />
+    <Route path="wish-clauses" element={<WishClausesPage />} />
+    <Route path="other-formulas" element={<OtherFormulasPage />} />
   </Route>
 );
 

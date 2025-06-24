@@ -189,6 +189,16 @@ const temporarySidebarTabs: TemporarySidebarTab[][] = [
       to: "/agreement-responses",
       icon: "A",
     },
+    {
+      title: "Wish Clauses",
+      to: "/wish-clauses",
+      icon: "W",
+    },
+    {
+      title: "Other Formulas",
+      to: "/other-formulas",
+      icon: "O",
+    },
   ],
 ];
 

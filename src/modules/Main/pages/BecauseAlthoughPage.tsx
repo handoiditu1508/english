@@ -18,8 +18,9 @@ function BecauseAlthoughPage() {
         <p>Because / Because of - bởi vì</p>
         <p>Although / In spite of / Despite - mặc dù</p>
         <Divider />
-        <p>[Because / Although] + S + V<sub>conjugated</sub> + Adv</p>
-        <p>[Because / Although] + S + V<sub>conjugated</sub> + Adj</p>
+        <p>[Because / Although] + S + V<sub>conjugated</sub> + [Adj/Adv]</p>
+        <p>Although + S + V<sub>conjugated</sub> + [Adj/Adv]</p>
+        <p>= [Adj/Adv] + [as / though] + S + V<sub>conjugated</sub></p>
         <Divider />
         <p>[Because of / In spite of / Despite] + V<sub>ing</sub> ({tPage("both phrases have the same subject")})</p>
         <p>[Because of / In spite of / Despite] + [the / his / her] + Adj + N</p>
@@ -38,6 +39,7 @@ function BecauseAlthoughPage() {
           <ul>
             <li>Mr. Pike doesn't wear glasses <HighlightSpan>[in spite of / despite]</HighlightSpan> his age.</li>
             <li>Mr. Pike doesn't wear glasses <HighlightSpan>[in spite of / despite]</HighlightSpan> being old.</li>
+            <li>Old <HighlightSpan>[as / though]</HighlightSpan> he is, Mr. Pike doesn't wear glasses.</li>
           </ul>
         </li>
         <li>
@@ -49,7 +51,7 @@ function BecauseAlthoughPage() {
         <li>
           We did the test well <HighlightSpan>despite</HighlightSpan> its difficulty.
           <ul>
-            <li>We did the test well <HighlightSpan>although</HighlightSpan> it difficult.</li>
+            <li>We did the test well <HighlightSpan>although</HighlightSpan> it was difficult.</li>
           </ul>
         </li>
       </ol>

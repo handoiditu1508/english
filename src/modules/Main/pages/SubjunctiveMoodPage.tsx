@@ -24,12 +24,12 @@ function SubjunctiveMoodPage() {
 
       <SubTitle>{t("Structure")}</SubTitle>
       <ContentBox>
-        It is + <HighlightSpan>essential / vital / important / crucial / imperative / suggested</HighlightSpan> (+ that) + S (+ should) + V<sub>bare</sub>
+        It + be + <HighlightSpan>essential / vital / important / crucial / imperative / suggested</HighlightSpan> (+ that) + S (+ should) + V<sub>bare</sub>
       </ContentBox>
 
       <SubTitle>{t("Examples")}</SubTitle>
       <ol>
-        <li>It is <HighlightSpan>important</HighlightSpan> (that) she (should) be here on time.</li>
+        <li>It was <HighlightSpan>important</HighlightSpan> (that) they (should) arrive before the curtain went up last night.</li>
         <li>It is <HighlightSpan>crucial</HighlightSpan> (that) he (should) follow the rules.</li>
         <li>It is <HighlightSpan>suggested</HighlightSpan> (that) we (should) take a break.</li>
         <li>It is <HighlightSpan>imperative</HighlightSpan> (that) the form (should) be filled out.</li>
