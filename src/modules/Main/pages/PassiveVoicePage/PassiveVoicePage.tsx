@@ -15,7 +15,7 @@ function PassiveVoicePage() {
   const theme = useTheme();
   const { t } = useTranslation();
   const { t: tPage } = useTranslation("PassiveVoicePage");
-  const { xs } = useContext(BreakpointsContext);
+  const { xsAndDown } = useContext(BreakpointsContext);
 
   return (
     <Box sx={{ padding: 1 }}>
@@ -95,7 +95,7 @@ function PassiveVoicePage() {
 
       <SubTitle>{tPage("Passive voice for each tense")}</SubTitle>
       <Box sx={{ marginBottom: 2 }}>
-        {xs
+        {xsAndDown
           ? (
             <Stack spacing={1}>
               {tenseExamples.map((example, index) => (
