@@ -1,7 +1,9 @@
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-import { Box, Divider, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import Typography from "@mui/material/Typography";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";

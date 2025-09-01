@@ -1,5 +1,8 @@
 import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
-import { Alert, AlertTitle, Box, Divider } from "@mui/material";
+import Alert from "@mui/material/Alert";
+import AlertTitle from "@mui/material/AlertTitle";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";

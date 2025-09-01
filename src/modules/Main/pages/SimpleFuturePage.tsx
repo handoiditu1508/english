@@ -1,7 +1,15 @@
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-import { Box, Divider, Table, TableCell, TableContainer, TableHead, TableRow, Typography, useTheme } from "@mui/material";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import { useTheme } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Typography from "@mui/material/Typography";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../components/ContentBox";
 import HighlightSpan from "../components/HighlightSpan";
@@ -108,13 +116,13 @@ function SimpleFuturePage() {
           sx={{
             minWidth: 700,
             th: {
-              color: theme.palette.primary.main,
+              color: theme.vars.palette.primary.main,
             },
             td: {
               verticalAlign: "top",
             },
             "td:not(:last-child), th:not(:last-child)": {
-              borderRight: theme.shape.smallBorder,
+              borderRight: theme.vars.shape.smallBorder,
             },
           }}
         >

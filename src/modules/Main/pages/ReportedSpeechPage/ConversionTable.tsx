@@ -1,4 +1,10 @@
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
 import { useTranslation } from "react-i18next";
 import { ReportedSpeechConversion } from "./models";
 
@@ -17,7 +23,7 @@ function ConversionTable({ conversions }: ConversionTableProps) {
         sx={{
           minWidth: 600,
           th: {
-            color: theme.palette.primary.main,
+            color: theme.vars.palette.primary.main,
           },
         }}>
         <TableHead>
@@ -32,7 +38,7 @@ function ConversionTable({ conversions }: ConversionTableProps) {
               key={index}
               sx={{
                 "&:nth-of-type(odd)": {
-                  backgroundColor: theme.palette.action.hover,
+                  backgroundColor: theme.vars.palette.action.hover,
                 },
                 "&:last-child td, &:last-child th": {
                   border: "none",
