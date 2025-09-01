@@ -1,4 +1,6 @@
-import { Box, BoxProps, dividerClasses, styled } from "@mui/material";
+import Box, { BoxProps } from "@mui/material/Box";
+import { dividerClasses } from "@mui/material/Divider";
+import { styled } from "@mui/material/styles";
 
 export type ContentBoxProps = BoxProps & {
   boxMargin?: boolean;
@@ -9,7 +11,7 @@ const ContentBox = styled((props: ContentBoxProps) => <Box {...props} />, {
 })(({ theme, boxMargin }) => ({
   padding: theme.spacing(2),
   textAlign: "center",
-  border: theme.shape.largeBorder,
+  border: theme.vars.shape.largeBorder,
   [`.${dividerClasses.root}`]: {
     margin: theme.spacing(2, -2),
   },

@@ -1,6 +1,18 @@
 import { BreakpointsContext } from "@/contexts/breakpoints";
 import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
-import { Alert, AlertTitle, Box, Divider, Grid2, Stack, Table, TableBody, TableCell, TableHead, TableRow, Typography, useTheme } from "@mui/material";
+import Alert from "@mui/material/Alert";
+import AlertTitle from "@mui/material/AlertTitle";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import Grid from "@mui/material/Grid";
+import Stack from "@mui/material/Stack";
+import { useTheme } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Typography from "@mui/material/Typography";
 import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import ContentBox from "../../components/ContentBox";
@@ -102,16 +114,16 @@ function PassiveVoicePage() {
                 <ContentBox key={index} sx={{ paddingBottom: 0 }}>
                   <Typography color="primary" fontWeight={500}>{t(example.tense)}</Typography>
                   <Divider variant="fullWidth" sx={{ marginTop: 2 }} />
-                  <Table size="small" sx={{ th: { color: theme.palette.primary.main } }}>
+                  <Table size="small" sx={{ th: { color: theme.vars.palette.primary.main } }}>
                     <TableBody>
                       <TableRow>
-                        <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder, fontWeight: 500 }}>
+                        <TableCell component="th" scope="row" sx={{ borderRight: theme.vars.shape.smallBorder, fontWeight: 500 }}>
                           {tPage("Active Voice")}
                         </TableCell>
                         <TableCell align="center">{example.activeForm}</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder, borderBottom: "none", fontWeight: 500 }}>
+                        <TableCell component="th" scope="row" sx={{ borderRight: theme.vars.shape.smallBorder, borderBottom: "none", fontWeight: 500 }}>
                           {t("Passive Voice")}
                         </TableCell>
                         <TableCell align="center" sx={{ borderBottom: "none" }}>{example.passiveForm}</TableCell>
@@ -123,10 +135,10 @@ function PassiveVoicePage() {
             </Stack>
           )
           : (
-            <Table aria-label="tense example" size="small" sx={{ th: { color: theme.palette.primary.main } }}>
+            <Table aria-label="tense example" size="small" sx={{ th: { color: theme.vars.palette.primary.main } }}>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ borderRight: theme.shape.smallBorder }}>{t("Tense")}</TableCell>
+                  <TableCell sx={{ borderRight: theme.vars.shape.smallBorder }}>{t("Tense")}</TableCell>
                   <TableCell align="center">{tPage("Active Voice")}</TableCell>
                   <TableCell align="center">{t("Passive Voice")}</TableCell>
                 </TableRow>
@@ -134,7 +146,7 @@ function PassiveVoicePage() {
               <TableBody>
                 {tenseExamples.map((example, index) => (
                   <TableRow key={index}>
-                    <TableCell component="th" scope="row" sx={{ borderRight: theme.shape.smallBorder }}>{t(example.tense)}</TableCell>
+                    <TableCell component="th" scope="row" sx={{ borderRight: theme.vars.shape.smallBorder }}>{t(example.tense)}</TableCell>
                     <TableCell align="center">{example.activeForm}</TableCell>
                     <TableCell align="center">{example.passiveForm}</TableCell>
                   </TableRow>
@@ -398,9 +410,9 @@ function PassiveVoicePage() {
       </ContentBox>
 
       <SubTitle>{tPage("Other examples")}</SubTitle>
-      <Grid2 container spacing={1}>
+      <Grid container spacing={1}>
         {otherExamples.map((example, index) => (
-          <Grid2
+          <Grid
             key={index}
             size={{
               xs: 12,
@@ -416,9 +428,9 @@ function PassiveVoicePage() {
                 ))}
               </Box>
             </ContentBox>
-          </Grid2>
+          </Grid>
         ))}
-      </Grid2>
+      </Grid>
     </Box>
   );
 }

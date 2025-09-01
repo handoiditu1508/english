@@ -1,4 +1,10 @@
-import { Box, Table, TableBody, TableCell, TableContainer, TableRow, useTheme } from "@mui/material";
+import Box from "@mui/material/Box";
+import { useTheme } from "@mui/material/styles";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableRow from "@mui/material/TableRow";
 import { useTranslation } from "react-i18next";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
@@ -19,10 +25,10 @@ function WishClausesPage() {
           sx={{
             minWidth: 1000,
             th: {
-              color: theme.palette.primary.main,
+              color: theme.vars.palette.primary.main,
             },
             "td:not(:last-child), th:not(:last-child)": {
-              borderRight: theme.shape.smallBorder,
+              borderRight: theme.vars.shape.smallBorder,
             },
           }}
         >
