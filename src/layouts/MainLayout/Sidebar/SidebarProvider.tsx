@@ -1,6 +1,7 @@
 import { BreakpointsContext } from "@/contexts/breakpoints";
 import { InfoContext } from "@/contexts/info";
-import { SwipeableDrawerProps, useTheme } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import { SwipeableDrawerProps } from "@mui/material/SwipeableDrawer";
 import { ProviderProps, useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import SidebarContext, { SidebarContextType, SidebarState } from "./SidebarContext";

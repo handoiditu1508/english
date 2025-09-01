@@ -1,6 +1,12 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Collapse, List, ListItem, ListItemButton, ListItemIcon, ListItemText, useTheme } from "@mui/material";
-import React, { useContext, useState } from "react";
+import Collapse from "@mui/material/Collapse";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import { useTheme } from "@mui/material/styles";
+import { useContext, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, To } from "react-router-dom";
 import SidebarContext from "./SidebarContext";
@@ -64,7 +70,7 @@ export default function SidebarItem({ sidebarTab, level = 0, hideChilds }: Sideb
                 easing: theme.transitions.easing.sharp,
               }),
               "&:hover": {
-                color: theme.palette.primary.main,
+                color: theme.vars.palette.primary.main,
               },
             }}
             onClick={handleClickExpandIcon}
